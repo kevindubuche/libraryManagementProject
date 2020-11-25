@@ -35,7 +35,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
     <div class="login-logo">
-        <a href="{{ url('/home') }}"><b>InfyOm </b>Generator</a>
+        <a href="{{ url('/home') }}"><b>Biblio </b>Tech</a>
     </div>
 
     <!-- /.login-logo -->
@@ -46,7 +46,7 @@
             @csrf
 
             <div class="form-group has-feedback {{ $errors->has('email') ? ' has-error' : '' }}">
-                <input type="email" class="form-control" name="email" value="{{ old('email') }}" placeholder="@lang('auth.email')">
+                <input type="email" class="form-control" name="email" value="{{ old('email') }}" placeholder="@lang('auth.email')" required>
                 <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
                 @if ($errors->has('email'))
                     <span class="help-block">
@@ -56,7 +56,7 @@
             </div>
 
             <div class="form-group has-feedback{{ $errors->has('password') ? ' has-error' : '' }}">
-                <input type="password" class="form-control" placeholder="@lang('auth.password')" name="password">
+                <input type="password" class="form-control" placeholder="@lang('auth.password')" name="password" required>
                 <span class="glyphicon glyphicon-lock form-control-feedback"></span>
                 @if ($errors->has('password'))
                     <span class="help-block">
@@ -82,7 +82,7 @@
         </form>
 
         <a href="{{ url('/password/reset') }}">@lang('auth.login.forgot_password')</a><br>
-        <a href="{{ url('/register') }}" class="text-center">@lang('auth.login.register_membership')</a>
+        {{-- <a href="{{ url('/register') }}" class="text-center">@lang('auth.login.register_membership')</a> --}}
 
     </div>
     <!-- /.login-box-body -->
