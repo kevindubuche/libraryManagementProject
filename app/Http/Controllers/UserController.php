@@ -9,6 +9,7 @@ use App\Http\Controllers\AppBaseController;
 use Illuminate\Http\Request;
 use Flash;
 use Response;
+use Illuminate\Support\Facades\Hash;
 
 class UserController extends AppBaseController
 {
@@ -50,12 +51,13 @@ class UserController extends AppBaseController
      *
      * @param CreateUserRequest $request
      *
-     * @return Response
+     * @return Response 
      */
     public function store(CreateUserRequest $request)
     {
         $input = $request->all();
-
+        //ligne suivante ajoutee pou ne pas save les password en plain text
+        $input['password'] = Hash::make( $request->password);
         $user = $this->userRepository->create($input);
 
         Flash::success('User saved successfully.');
