@@ -31,13 +31,14 @@ manage the AdminLTE template via:
 http://www.infyom.com/open-source/laravelgenerator/docs/8.0/installation#installing-via-boilerplate-fresh-laravel-projects
 
 
-use thinker:
+utilisation de thinker:
 php artisan tinker
 $user = new App\Models\User();
 $user->password = Hash::make('password');
 $user->email = 'kevindubuche@gmail.com';
 $user->nom = 'Dubuche';
 $user->prenom = 'Kevin';
+$user->role = 1;
 $user->save();
 
 
