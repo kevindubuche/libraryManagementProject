@@ -29,10 +29,10 @@
 </div>
 
 
-<!-- Remenber Token Field -->
+<!-- Remember Token Field -->
 {{-- <div class="form-group col-sm-6">
-    {!! Form::label('remenber_token', 'Remenber Token:') !!}
-    {!! Form::text('remenber_token', null, ['class' => 'form-control','maxlength' => 45,'maxlength' => 45]) !!}
+    {!! Form::label('remember_token', 'Remember Token:') !!}
+    {!! Form::text('remember_token', null, ['class' => 'form-control','maxlength' => 45,'maxlength' => 45]) !!}
 </div> --}}
 
 <!-- Role Field -->

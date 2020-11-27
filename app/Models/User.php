@@ -18,7 +18,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
  * @property string $email
  * @property string $password
  * @property boolean $is_paye
- * @property string $remenber_token
+ * @property string $remember_token
  * @property integer $role
  * @property string $statut_matrimonial
  * @property string $telephone
@@ -83,7 +83,7 @@ class User extends Authenticatable
         'email' => 'nullable|string|max:45',
         'password' => 'required|string|max:255',
         'is_paye' => 'required|boolean',
-        'remenber_token' => 'nullable|string|max:45',
+        'remember_token' => 'nullable|string|max:45',
         'role' => 'required|integer',
         'statut_matrimonial' => 'nullable|string|max:45',
         'telephone' => 'nullable|string|max:45',

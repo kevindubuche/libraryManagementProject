@@ -33,6 +33,7 @@ http://www.infyom.com/open-source/laravelgenerator/docs/8.0/installation#install
 
 utilisation de thinker:
 php artisan tinker
+
 $user = new App\Models\User();
 $user->password = Hash::make('password');
 $user->email = 'kevindubuche@gmail.com';
@@ -41,7 +42,18 @@ $user->prenom = 'Kevin';
 $user->role = 1;
 $user->save();
 
+User Barbara
+$user = new App\Models\User();
+$user->password = Hash::make('sudo');
+$user->email = 'bgtheodore18@gmail.com';
+$user->nom = 'Theodore';
+$user->prenom = 'Barbara';
+$user->role = 0;
+$user->save();
 
 php artisan infyom:scaffold User --fromTable --tableName=users
+  - Ce code permet de generer le modele MVC de facon automatique
+
+
 After Coding :
 --------------

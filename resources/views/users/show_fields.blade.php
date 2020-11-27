@@ -16,28 +16,58 @@
     <p>{{ $user->email }}</p>
 </div>
 
-<!-- Password Field -->
+{{-- <!-- Password Field -->
 <div class="form-group">
     {!! Form::label('password', 'Password:') !!}
     <p>{{ $user->password }}</p>
-</div>
+</div> --}}
 
 <!-- Is Paye Field -->
 <div class="form-group">
     {!! Form::label('is_paye', 'Is Paye:') !!}
-    <p>{{ $user->is_paye }}</p>
+    <p>
+        @switch($user->is_paye)
+            @case(1)
+                {{ 'Oui' }}
+                @break
+            @default
+                {{ 'Non' }}
+
+        @endswitch
+    </p>
 </div>
 
-<!-- Remenber Token Field -->
+{{-- <!-- Remember Token Field -->
 <div class="form-group">
-    {!! Form::label('remenber_token', 'Remenber Token:') !!}
+    {!! Form::label('remember_token', 'Remember Token:') !!}
     <p>{{ $user->remenber_token }}</p>
-</div>
+</div> --}}
 
 <!-- Role Field -->
 <div class="form-group">
     {!! Form::label('role', 'Role:') !!}
-    <p>{{ $user->role }}</p>
+    <p>
+        @switch($user->role)
+            @case(0)
+                {{ 'Gestionnaire' }}
+                @break
+            @case(1)
+                {{ 'Bibliothecaire' }}
+                @break
+            @case(2)
+                {{ 'Professeur' }}
+                @break
+            @case(3)
+                {{ 'Abonne interne' }}
+                @break
+            @case(4)
+                {{ 'Abonne externe' }}
+                @break
+            @default
+                {{ 'Indetermine' }}
+                
+        @endswitch    
+    </p>
 </div>
 
 <!-- Statut Matrimonial Field -->
