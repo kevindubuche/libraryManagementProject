@@ -19,14 +19,14 @@
 <!-- Password Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('password', 'Password*:') !!}
-    {!! Form::password('password', ['class' => 'form-control','maxlength' => 255,'maxlength' => 255, 'required']) !!}
+    {!! Form::password('password', ['class' => 'form-control', 'id' => 'password','maxlength' => 255,'maxlength' => 255, 'required']) !!}
 </div>
 
 <!-- Confirmation password Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('confirmation_password', 'Confirmation Password*:') !!}
-    {!! Form::password('confirmation_password', ['class' => 'form-control','maxlength' => 255,'maxlength' => 255, 'required']) !!}
-    <p id="passmatch"> The passwords don't match </p>
+    {!! Form::password('confirmation_password', ['class' => 'form-control', 'id' => 'confirmation_password', 'maxlength' => 255,'maxlength' => 255, 'required']) !!}
+    <p id="passmatch"> This password should match the first one ! </p>
 </div>
 
 <!-- Role Field -->
@@ -57,7 +57,7 @@
 <!-- Telephone Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('telephone', 'Telephone:') !!}
-    {!! Form::text('telephone', null, ['class' => 'form-control','maxlength' => 45,'maxlength' => 45]) !!}
+    {!! Form::text('telephone', null, ['class' => 'form-control', 'maxlength' => 45,'maxlength' => 45]) !!}
 </div>
 
 <!-- Sexe Field -->
@@ -99,9 +99,9 @@
     // }
     $(document).ready(function () {
        
-   $("confirmation_password").on('keyup', function(){
-    var password = $("password").val();
-    var confirmation_password = $("confirmation_password").val();
+   $("#confirmation_password").on('keyup', function(){
+    var password = $("#password").val();
+    var confirmation_password = $("#confirmation_password").val();
     if (password != confirmation_password)
         $("#passmatch").html("Password does not match !").css("color","red");
     else
