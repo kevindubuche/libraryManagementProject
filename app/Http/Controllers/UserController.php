@@ -58,11 +58,20 @@ class UserController extends AppBaseController
         $input = $request->all();
         //ligne suivante ajoutee pou ne pas save les password en plain text
         $input['password'] = Hash::make( $request->password);
-        $user = $this->userRepository->create($input);
+        $input['confirmation_password'] = Hash::make($request->confirmation_password);
+        if ($request->password == $request->confirmation_password)
+        {
+            $user = $this->userRepository->create($input); 
+           Flash::success('User saved successfully.');
+           return redirect(route('users.index'));
+        }
+        else
+        {
+            Flash::error('Your passwords don\'t match');
+            return redirect()->back()->withInput();
+        }
 
-        Flash::success('User saved successfully.');
-
-        return redirect(route('users.index'));
+        
     }
 
     /**
@@ -90,7 +99,7 @@ class UserController extends AppBaseController
      *
      * @param int $id
      *
-     * @return Response
+     * @return Responseroute('users.index')
      */
     public function edit($id)
     {
@@ -123,7 +132,9 @@ class UserController extends AppBaseController
             return redirect(route('users.index'));
         }
 
-        $user = $this->userRepository->update($request->all(), $id);
+        $input = $request->all();
+        $input['password'] = Hash::make( $request->password);
+        $user = $this->userRepository->update($input, $id);
 
         Flash::success('User updated successfully.');
 

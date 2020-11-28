@@ -26,14 +26,8 @@
 <div class="form-group col-sm-6">
     {!! Form::label('confirmation_password', 'Confirmation Password*:') !!}
     {!! Form::password('confirmation_password', ['class' => 'form-control','maxlength' => 255,'maxlength' => 255, 'required']) !!}
+    <p id="passmatch"> The passwords don't match </p>
 </div>
-
-
-<!-- Remenber Token Field -->
-{{-- <div class="form-group col-sm-6">
-    {!! Form::label('remenber_token', 'Remenber Token:') !!}
-    {!! Form::text('remenber_token', null, ['class' => 'form-control','maxlength' => 45,'maxlength' => 45]) !!}
-</div> --}}
 
 <!-- Role Field -->
 <div class="form-group col-sm-6">
@@ -79,10 +73,10 @@
 <!-- Is Paye Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('is_paye', 'Is Paye:') !!}
-    <label class="checkbox-inline">
-        {!! Form::hidden('is_paye', 0) !!}
-        {!! Form::checkbox('is_paye', '1', null) !!}
-    </label>
+    <input type="hidden" value="0" name="is_paye" checked data-toggle="toggle" data-on="Paye" data-off="Non paye" data-onstyle="success" data-offstyle="danger">
+
+    <input type="checkbox" value="1" name="is_paye" checked data-toggle="toggle" data-on="Paye" data-off="Non paye" data-onstyle="success" data-offstyle="danger">
+
 </div>
 
 <!-- Submit Field -->
@@ -90,3 +84,29 @@
     {!! Form::submit('Enregistrer', ['class' => 'btn btn-primary']) !!}
     <a href="{{ route('users.index') }}" class="btn btn-default">Annuler</a>
 </div>
+
+@push('scripts')
+<script>
+    // jQuery('.validatedForm').validate({
+    // rules : {
+    //     password : {
+    //         minlength : 5
+    //     },
+    //     password_confirm : {
+    //         minlength : 5,
+    //         equalTo : "#password"
+    //     }
+    // }
+    $(document).ready(function () {
+       
+   $("confirmation_password").on('keyup', function(){
+    var password = $("password").val();
+    var confirmation_password = $("confirmation_password").val();
+    if (password != confirmation_password)
+        $("#passmatch").html("Password does not match !").css("color","red");
+    else
+        $("#passmatch").html("Password match !").css("color","green");
+   });
+});
+    </script>
+@endpush

@@ -7,7 +7,7 @@
         <th>Email</th>
         <th>Password</th>
         <th>Is Paye</th>
-        <th>Remenber Token</th>
+        <th>Remember Token</th>
         <th>Role</th>
         <th>Statut Matrimonial</th>
         <th>Telephone</th>
