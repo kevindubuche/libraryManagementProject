@@ -16,32 +16,20 @@
     <p>{{ $user->email }}</p>
 </div>
 
-{{-- <!-- Password Field -->
-<div class="form-group">
-    {!! Form::label('password', 'Password:') !!}
-    <p>{{ $user->password }}</p>
-</div> --}}
-
 <!-- Is Paye Field -->
 <div class="form-group">
-    {!! Form::label('is_paye', 'Is Paye:') !!}
+    {!! Form::label('is_paye', 'Frais Inscription:') !!}
     <p>
         @switch($user->is_paye)
             @case(1)
-                {{ 'Oui' }}
+                {{ 'Paye' }}
                 @break
             @default
-                {{ 'Non' }}
+                {{ 'Non paye' }}
 
         @endswitch
     </p>
 </div>
-
-{{-- <!-- Remember Token Field -->
-<div class="form-group">
-    {!! Form::label('remember_token', 'Remember Token:') !!}
-    <p>{{ $user->remenber_token }}</p>
-</div> --}}
 
 <!-- Role Field -->
 <div class="form-group">
