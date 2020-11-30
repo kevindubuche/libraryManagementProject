@@ -54,6 +54,18 @@ $user->save();
 php artisan infyom:scaffold User --fromTable --tableName=users
   - Ce code permet de generer le modele MVC de facon automatique
 
+php artisan infyom:scaffold Livre --fromTable --tableName=livres
+php artisan tinker
+$livre = new App\Models\Livre();
+$livre->position_dans_la_bibliotheque = 'E4C5L9';
+$livre->titre = 'Python for dummies';
+$livre->auteur = 'Stef Maruch';
+$livre->statut = 'Disponible';
+$livre->etat = 4;
+$livre->save();
+
+
+
 
 After Coding :
 --------------
