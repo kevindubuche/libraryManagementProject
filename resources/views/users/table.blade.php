@@ -5,8 +5,8 @@
                 <th>Nom</th>
         <th>Prenom</th>
         <th>Email</th>
-        <th>Password</th>
-        <th>Is Paye</th>
+        <th>Mot de passe</th>
+        <th>Frais d'inscription</th>
         <th>Remember Token</th>
         <th>Role</th>
         <th>Statut Matrimonial</th>

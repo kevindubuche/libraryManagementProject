@@ -18,15 +18,15 @@
 
 <!-- Password Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('password', 'Password*:') !!}
+    {!! Form::label('password', 'Mot de passe*:') !!}
     {!! Form::password('password', ['class' => 'form-control', 'id' => 'password','maxlength' => 255,'maxlength' => 255, 'required']) !!}
 </div>
 
 <!-- Confirmation password Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('confirmation_password', 'Confirmation Password*:') !!}
+    {!! Form::label('confirmation_password', 'Confirmation du mot de passe*:') !!}
     {!! Form::password('confirmation_password', ['class' => 'form-control', 'id' => 'confirmation_password', 'maxlength' => 255,'maxlength' => 255, 'required']) !!}
-    <p id="passmatch"> This password should match the first one ! </p>
+    <p id="passmatch"> Les deux mots de passe doivent etre identiques ! </p>
 </div>
 
 <!-- Role Field -->
@@ -51,6 +51,7 @@
         <option value="Marié(e)">Marié(e)</option>
         <option value="Divorcé(e)">Divorcé(e)</option>
         <option value="Veuf(ve)">Veuf(ve)</option>
+        <option value="Veuf(ve)">En concubinage</option>
     </select>
 </div>
 
@@ -72,7 +73,7 @@
 
 <!-- Is Paye Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('is_paye', 'Is Paye:') !!}
+    {!! Form::label('is_paye', 'Frais Inscription*:') !!}
     <input type="hidden" value="0" name="is_paye" checked data-toggle="toggle" data-on="Paye" data-off="Non paye" data-onstyle="success" data-offstyle="danger">
 
     <input type="checkbox" value="1" name="is_paye" checked data-toggle="toggle" data-on="Paye" data-off="Non paye" data-onstyle="success" data-offstyle="danger">
@@ -87,25 +88,15 @@
 
 @push('scripts')
 <script>
-    // jQuery('.validatedForm').validate({
-    // rules : {
-    //     password : {
-    //         minlength : 5
-    //     },
-    //     password_confirm : {
-    //         minlength : 5,
-    //         equalTo : "#password"
-    //     }
-    // }
     $(document).ready(function () {
        
    $("#confirmation_password").on('keyup', function(){
     var password = $("#password").val();
     var confirmation_password = $("#confirmation_password").val();
     if (password != confirmation_password)
-        $("#passmatch").html("Password does not match !").css("color","red");
+        $("#passmatch").html("Mots de passe differents !").css("color","red");
     else
-        $("#passmatch").html("Password match !").css("color","green");
+        $("#passmatch").html("Mots de passe identiques !").css("color","green");
    });
 });
     </script>

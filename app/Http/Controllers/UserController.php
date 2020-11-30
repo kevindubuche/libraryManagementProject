@@ -127,7 +127,7 @@ class UserController extends AppBaseController
         $user = $this->userRepository->find($id);
 
         if (empty($user)) {
-            Flash::error('User not found');
+            Flash::error('Utilisateur introuvable !');
 
             return redirect(route('users.index'));
         }
@@ -136,7 +136,7 @@ class UserController extends AppBaseController
         $input['password'] = Hash::make( $request->password);
         $user = $this->userRepository->update($input, $id);
 
-        Flash::success('User updated successfully.');
+        Flash::success('Utilisateur modifie avec succes !');
 
         return redirect(route('users.index'));
     }
@@ -155,14 +155,14 @@ class UserController extends AppBaseController
         $user = $this->userRepository->find($id);
 
         if (empty($user)) {
-            Flash::error('User not found');
+            Flash::error('Utilisateur introuvable !');
 
             return redirect(route('users.index'));
         }
 
         $this->userRepository->delete($id);
 
-        Flash::success('User deleted successfully.');
+        Flash::success('Utilisateur supprime avec succes !');
 
         return redirect(route('users.index'));
     }
