@@ -2,20 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Biblio-Tech</title>
+<title>Book Store Template, Free CSS Template, CSS Website Layout</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
-<link href={{asset("templatemo_style.css")}} rel="stylesheet" type="text/css" />
+<link href="templatemo_style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <!--  Free CSS Templates from www.templatemo.com -->
 <div id="templatemo_container">
-    <div style="margin-top: 130px;
-    margin-left: 150px;
-    position: absolute;
-    "><h1 style="font-size: 50px;;">Biblio-Tech</h1>
-    <h3>La meilleure bibliotheque d'Haiti ! </h3>
-    </div>
 	<div id="templatemo_menu">
     	<ul>
             <li><a href="index.html" class="current">Home</a></li>
@@ -24,17 +18,7 @@
             <li><a href="subpage.html">New Releases</a></li>  
             <li><a href="#">Company</a></li> 
             <li><a href="#">Contact</a></li>
-            @if (Route::has('login'))
-            <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
-                @auth
-                <li><a href="{{ route('home') }}">Dashboard</a></li>
-               @else
-                <li><a href="{{ route('login') }}">Login</a></li>
-                @endauth
-            </div>
-        @endif
-        
-       </ul>
+    	</ul>
     </div> <!-- end of menu -->
     
     <div id="templatemo_header">

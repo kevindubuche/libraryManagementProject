@@ -32,7 +32,7 @@ return [
         'online' => 'Online',
         'member_since' => 'Membre depuis',
         'profile' => 'Profil',
-       
+        'search' => 'Recherche',
     ]
     
 
