@@ -33,6 +33,7 @@
                 @endauth
             </div>
         @endif
+        
        </ul>
     </div> <!-- end of menu -->
     
