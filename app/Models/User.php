@@ -93,6 +93,22 @@ class User extends Authenticatable
         'deleted_at' => 'nullable'
     ];
 
+    public static $rulesEdit = [
+        'nom' => 'required|string|max:45',
+        'prenom' => 'required|string|max:45',
+        'email' => 'nullable|string|max:45',
+        'is_paye' => 'required|boolean',
+        'remember_token' => 'nullable|string|max:45',
+        'role' => 'required|integer',
+        'statut_matrimonial' => 'nullable|string|max:45',
+        'telephone' => 'nullable|string|max:45',
+        'sexe' => 'nullable|string|max:45',
+        'created_at' => 'nullable',
+        'updated_at' => 'nullable',
+        'deleted_at' => 'nullable'
+    ];
+
+
     /**
      * @return \Illuminate\Database\Eloquent\Relations\HasMany
      **/

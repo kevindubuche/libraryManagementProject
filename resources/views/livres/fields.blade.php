@@ -34,18 +34,27 @@
 
 <!-- Statut Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('statut', 'Statut:') !!}
-    {!! Form::text('statut', null, ['class' => 'form-control','maxlength' => 45,'maxlength' => 45]) !!}
+    <label>Statut*</label>
+    <select class="form-control" name="statut" id="statut" required>
+        <option value="0">Non disponible</option>
+        <option value="1">Disponible</option>
+    </select>
 </div>
 
 <!-- Etat Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('etat', 'Etat:') !!}
-    {!! Form::number('etat', null, ['class' => 'form-control']) !!}
+    <label>Etat*</label>
+    <select class="form-control" name="etat" id="etat" required>
+        <option value="0">A jeter</option>
+        <option value="1">Grande reparation</option>
+        <option value="2">A reparer</option>
+        <option value="3">En bon etat</option>
+        <option value="4">Neuf</option>
+    </select>
 </div>
 
 <!-- Submit Field -->
 <div class="form-group col-sm-12">
-    {!! Form::submit('Save', ['class' => 'btn btn-primary']) !!}
-    <a href="{{ route('livres.index') }}" class="btn btn-default">Cancel</a>
+    {!! Form::submit('Enregistrer', ['class' => 'btn btn-primary']) !!}
+    <a href="{{ route('livres.index') }}" class="btn btn-default">Annuler</a>
 </div>

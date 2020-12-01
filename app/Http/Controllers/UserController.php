@@ -10,6 +10,7 @@ use Illuminate\Http\Request;
 use Flash;
 use Response;
 use Illuminate\Support\Facades\Hash;
+use App\Models\User;
 
 class UserController extends AppBaseController
 {
@@ -34,6 +35,13 @@ class UserController extends AppBaseController
 
         return view('users.index')
             ->with('users', $users);
+    }
+
+    public static function verifier_existence_email($email, $id)
+    {
+        $user = User::where("email",$email)->where('id','!=',$id)->count();
+
+        return $user;
     }
 
     /**
@@ -123,7 +131,7 @@ class UserController extends AppBaseController
      * @return Response
      */
     public function update($id, UpdateUserRequest $request)
-    {
+    { 
         $user = $this->userRepository->find($id);
 
         if (empty($user)) {
@@ -133,6 +141,16 @@ class UserController extends AppBaseController
         }
 
         $input = $request->all();
+       
+        if(empty($request->password))
+        {
+        $input['password'] = $user->password;
+        }
+        if ($this->verifier_existence_email($request->email, $id) != 0) 
+        {
+            Flash::error('Email existant');
+            return redirect()->back()->withInput();
+        }
         $input['password'] = Hash::make( $request->password);
         $user = $this->userRepository->update($input, $id);
 
