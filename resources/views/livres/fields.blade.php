@@ -17,9 +17,10 @@
 </div>
 
 @push('scripts')
+@push('scripts')
     <script type="text/javascript">
         $('#annee_de_parution').datetimepicker({
-            format: 'YYYY-MM-DD HH:mm:ss',
+            format: 'YYYY',
             useCurrent: true,
             sideBySide: true
         })
@@ -29,15 +30,41 @@
 <!-- Auteur Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('auteur', 'Auteur:') !!}
-    {!! Form::text('auteur', null, ['class' => 'form-control','maxlength' => 45,'maxlength' => 45]) !!}
+    {!! Form::text('auteur', null, ['class' => 'form-control','maxlength' => 45]) !!}
+</div>
+
+<!-- Summary Field -->
+<div class="form-group col-sm-6">
+    {!! Form::label('resume', 'Resume:') !!}
+    {!! Form::textarea('resume', null, ['class' => 'form-control']) !!}
+</div>
+
+<!-- ISBN Field -->
+<div class="form-group col-sm-6">
+    {!! Form::label('isbn', 'ISBN:') !!}
+    {!! Form::text('isbn', null, ['class' => 'form-control','maxlength' => 45]) !!}
+</div>
+
+<!-- Nombre de pages Field -->
+<div class="form-group col-sm-6">
+    {!! Form::label('nombre_de_pages', 'Nombre de pages:') !!}
+    {!! Form::number('nombre_de_pages', null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Statut Field -->
 <div class="form-group col-sm-6">
     <label>Statut*</label>
     <select class="form-control" name="statut" id="statut" required>
-        <option value="0">Non disponible</option>
-        <option value="1">Disponible</option>
+            <option value="0" @isset($livre->statut)
+                @if ($livre->statut==0)
+                    selected
+                @endif
+            @endisset>Non disponible</option>
+            <option value="1" @isset($livre->statut)
+                @if ($livre->statut==1)
+                    selected
+                @endif
+            @endisset>Disponible</option>
     </select>
 </div>
 
@@ -45,11 +72,31 @@
 <div class="form-group col-sm-6">
     <label>Etat*</label>
     <select class="form-control" name="etat" id="etat" required>
-        <option value="0">A jeter</option>
-        <option value="1">Grande reparation</option>
-        <option value="2">A reparer</option>
-        <option value="3">En bon etat</option>
-        <option value="4">Neuf</option>
+        <option value="0" @isset($livre->etat)
+            @if ($livre->etat==0)
+                selected
+            @endif
+        @endisset>A jeter</option>
+        <option value="1" @isset($livre->etat)
+            @if ($livre->etat==1)
+                selected
+            @endif
+        @endisset>Grande reparation</option>
+        <option value="2" @isset($livre->etat)
+            @if ($livre->etat==2)
+                selected
+            @endif
+        @endisset>A reparer</option>
+        <option value="3" @isset($livre->etat)
+            @if ($livre->etat==3)
+                selected
+            @endif
+        @endisset>En bon etat</option>
+        <option value="4"@isset($livre->etat)
+            @if ($livre->etat==4)
+                selected
+            @endif
+        @endisset>Neuf</option>
     </select>
 </div>
 
@@ -57,4 +104,5 @@
 <div class="form-group col-sm-12">
     {!! Form::submit('Enregistrer', ['class' => 'btn btn-primary']) !!}
     <a href="{{ route('livres.index') }}" class="btn btn-default">Annuler</a>
-</div>
+</div>            </div>
+

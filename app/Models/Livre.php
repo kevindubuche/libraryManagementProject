@@ -41,7 +41,10 @@ class Livre extends Model
         'annee_de_parution',
         'auteur',
         'statut',
-        'etat'
+        'etat',
+        'resume',
+        'isbn',
+        'nombre_de_pages'
     ];
 
     /**
@@ -56,7 +59,10 @@ class Livre extends Model
         'annee_de_parution' => 'date',
         'auteur' => 'string',
         'statut' => 'string',
-        'etat' => 'integer'
+        'etat' => 'integer',
+        'resume' => 'string',
+        'isbn' => 'string',
+        'nombre_de_pages' => 'integer'
     ];
 
     /**
@@ -71,9 +77,12 @@ class Livre extends Model
         'auteur' => 'nullable|string|max:45',
         'statut' => 'nullable|string|max:45',
         'etat' => 'nullable|integer',
+        'resume' => 'nullable|string',
+        'isbn' => 'nullable|string', 
+        'nombre_de_pages' => 'nullable|integer',
         'created_at' => 'nullable',
         'updated_at' => 'nullable',
-        'deleted_at' => 'nullable'
+        'deleted_at' => 'nullable',
     ];
 
     /**

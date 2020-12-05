@@ -11,6 +11,7 @@
         <th>Inscription</th>
         <th>Type d'utilisateur</th>
         <th>Telephone</th>
+        <th>Date de creation</th>
                 <th >Action</th>
             </tr>
         </thead>
@@ -56,6 +57,7 @@
             @endswitch
             </td>
             <td>{{ $user->telephone }}</td>
+            <td>{{ $user->created_at }}</td>
                 <td>
                     {!! Form::open(['route' => ['users.destroy', $user->id], 'method' => 'delete']) !!}
                     <div class='btn-group'>

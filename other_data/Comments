@@ -14,21 +14,20 @@ COMMENTAIRES SUR LE PROJET
 ==========================
 **************************
 
-1. date de parution rather be date than datetime
-2. champs obligatoires, mete * devant yo
-3. Mettre les flash messages en francais
-4. Inclure datatable dans livre
-5. Ajouter les dates de creation dans les 'show'
-6. 'Livre' annee de parution pa ka gen heure ladan l
-7. Leu wap edit yon livre, statut a toujou 'non disponible' nan front end la, men si livre la te disponible avan. jere sa.
-8. Ajouter resume dans livre et dans BD a
+#1. date de parution rather be date than datetime
+#2. champs obligatoires, mete * devant yo
+#3. Mettre les flash messages en francais
+#4. Inclure datatable dans livre
+#5. Ajouter les dates de creation dans les 'show'
+#6. 'Livre' annee de parution pa ka gen heure ladan l
+#7. Leu wap edit yon livre, statut a toujou 'non disponible' nan front end la, men si livre la te disponible avan. jere sa.
+#8. Ajouter resume dans livre et dans BD a
 9. https://templatemo.com/live/templatemo_086_book_store
-10. ajouter nombre de pages et ISBN         
-11.
+#10. ajouter nombre de pages et ISBN        
+11. Si une position est deja occupee, eviter la page d'erreur
 12.
 13.
-14.
-15.
+etat15.
 16.
 17.
 18.

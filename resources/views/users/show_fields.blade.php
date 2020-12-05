@@ -76,3 +76,8 @@
     <p>{{ $user->sexe }}</p>
 </div>
 
+<!-- Created at Field -->
+<div class="form-group">
+    {!! Form::label('created_at', 'Date de creation:') !!}
+    <p>{{ $user->created_at }}</p>
+</div>

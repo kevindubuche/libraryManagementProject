@@ -58,7 +58,7 @@ class LivreController extends AppBaseController
 
         $livre = $this->livreRepository->create($input);
 
-        Flash::success('Livre saved successfully.');
+        Flash::success('Livre enregistre avec succes !!');
 
         return redirect(route('livres.index'));
     }
@@ -75,7 +75,7 @@ class LivreController extends AppBaseController
         $livre = $this->livreRepository->find($id);
 
         if (empty($livre)) {
-            Flash::error('Livre not found');
+            Flash::error('Livre introuvable !!');
 
             return redirect(route('livres.index'));
         }
@@ -95,7 +95,7 @@ class LivreController extends AppBaseController
         $livre = $this->livreRepository->find($id);
 
         if (empty($livre)) {
-            Flash::error('Livre not found');
+            Flash::error('Livre introuvable !!');
 
             return redirect(route('livres.index'));
         }
@@ -116,14 +116,14 @@ class LivreController extends AppBaseController
         $livre = $this->livreRepository->find($id);
 
         if (empty($livre)) {
-            Flash::error('Livre not found');
+            Flash::error('Livre introuvable !!');
 
             return redirect(route('livres.index'));
         }
 
         $livre = $this->livreRepository->update($request->all(), $id);
 
-        Flash::success('Livre updated successfully.');
+        Flash::success('Livre modifie avec succes !!');
 
         return redirect(route('livres.index'));
     }
@@ -142,14 +142,14 @@ class LivreController extends AppBaseController
         $livre = $this->livreRepository->find($id);
 
         if (empty($livre)) {
-            Flash::error('Livre not found');
+            Flash::error('Livre introuvable !!');
 
             return redirect(route('livres.index'));
         }
 
         $this->livreRepository->delete($id);
 
-        Flash::success('Livre deleted successfully.');
+        Flash::success('Livre supprime avec succes !!');
 
         return redirect(route('livres.index'));
     }

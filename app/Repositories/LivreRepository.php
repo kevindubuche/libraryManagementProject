@@ -22,7 +22,10 @@ class LivreRepository extends BaseRepository
         'annee_de_parution',
         'auteur',
         'statut',
-        'etat'
+        'etat',
+        'resume',
+        'isbn',
+        'nombre_de_pages'
     ];
 
     /**
