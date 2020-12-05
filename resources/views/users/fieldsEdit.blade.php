@@ -51,7 +51,6 @@
         <option value="Marié(e)">Marié(e)</option>
         <option value="Divorcé(e)">Divorcé(e)</option>
         <option value="Veuf(ve)">Veuf(ve)</option>
-        <option value="Veuf(ve)">En concubinage</option>
     </select>
 </div>
 

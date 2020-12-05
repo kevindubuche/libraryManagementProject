@@ -44,6 +44,13 @@ class UserController extends AppBaseController
         return $user;
     }
 
+    public static function verifier_existence_email_pour_creation_user($email)
+    {
+        $user = User::where("email",$email)->count();
+
+        return $user;
+    }
+
     /**
      * Show the form for creating a new User.
      *
@@ -65,17 +72,22 @@ class UserController extends AppBaseController
     {
         $input = $request->all();
         //ligne suivante ajoutee pou ne pas save les password en plain text
+        if ($this->verifier_existence_email_pour_creation_user($request->email) != 0) 
+        {
+            Flash::error('Email existant');
+            return redirect()->back()->withInput();
+        }
         $input['password'] = Hash::make( $request->password);
         $input['confirmation_password'] = Hash::make($request->confirmation_password);
         if ($request->password == $request->confirmation_password)
         {
             $user = $this->userRepository->create($input); 
-           Flash::success('User saved successfully.');
+           Flash::success('Utilisateur enregistre avec succes !!');
            return redirect(route('users.index'));
         }
         else
         {
-            Flash::error('Your passwords don\'t match');
+            Flash::error('Les mots de passe sont differents !!');
             return redirect()->back()->withInput();
         }
 
@@ -94,7 +106,7 @@ class UserController extends AppBaseController
         $user = $this->userRepository->find($id);
 
         if (empty($user)) {
-            Flash::error('User not found');
+            Flash::error('Utilisateur non trouve !');
 
             return redirect(route('users.index'));
         }
@@ -114,7 +126,7 @@ class UserController extends AppBaseController
         $user = $this->userRepository->find($id);
 
         if (empty($user)) {
-            Flash::error('User not found');
+            Flash::error('Utilisateur non trouve !');
 
             return redirect(route('users.index'));
         }

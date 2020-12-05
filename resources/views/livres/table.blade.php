@@ -1,5 +1,5 @@
 <div class="table-responsive">
-    <table class="table" id="livres-table">
+    <table id='myTable' class=' display   table table-bordered table-striped table-condensed'>
         <thead>
             <tr>
         <th>ID</th>
@@ -9,7 +9,8 @@
         <th>Annee De Parution</th>
         <th>Statut</th>
         <th>Etat</th>
-                <th colspan="3">Action</th>
+        <th>Date de creation</th>
+                <th >Action</th>
             </tr>
         </thead>
         <tbody>
@@ -28,7 +29,7 @@
                 @case(1)
                     <h5 style="color: green">Disponible</h5>
                    @break
-                @default
+                   Message        @default
                      <h5>Indetermine</h5>
             @endswitch
             </td>
@@ -37,6 +38,7 @@
                 <i class="fa fa-star"></i>
                 @endfor
             </td>
+            <td>{{ $livre->created_at }}</td>
                 <td>
                     {!! Form::open(['route' => ['livres.destroy', $livre->id], 'method' => 'delete']) !!}
                     <div class='btn-group'>
@@ -51,3 +53,32 @@
         </tbody>
     </table>
 </div>
+
+@push('scripts')
+<script>
+    $(document).ready(function()
+    {
+        $('#myTable').DataTable({  
+            // alert('okokok');
+            select:true,
+            "language": {
+            "lengthMenu": "Voir _MENU_ lignes par page",
+            "zeroRecords": "Aucune information",
+            "info": "_PAGE_ sur _PAGES_",
+            "infoEmpty": "Aucun résultat trouvé",
+            "infoFiltered": "(filtre de _MAX_ total résultats)",
+            "search": "Rechercher",
+            "paginate":{
+            "previous":"Précedent",
+            "next":"Suivant"
+            }
+
+
+        },
+        buttons:['selectRows']
+    }
+
+        );
+    });
+</script>
+@endpush
