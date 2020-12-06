@@ -7,7 +7,7 @@
 <!-- Titre Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('titre', 'Titre:') !!}
-    {!! Form::text('titre', null, ['class' => 'form-control','maxlength' => 45,'maxlength' => 45]) !!}
+    {!! Form::text('titre', null, ['class' => 'form-control','maxlength' => 255]) !!}
 </div>
 
 <!-- Annee De Parution Field -->

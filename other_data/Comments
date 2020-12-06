@@ -25,9 +25,10 @@ COMMENTAIRES SUR LE PROJET
 9. https://templatemo.com/live/templatemo_086_book_store
 #10. ajouter nombre de pages et ISBN        
 11. Si une position est deja occupee, eviter la page d'erreur
-12.
-13.
-etat15.
+12. Titre d'un livre varchar 255
+13. Ajouter chaps categorie
+14. 
+15.
 16.
 17.
 18.

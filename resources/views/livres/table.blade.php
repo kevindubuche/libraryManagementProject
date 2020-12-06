@@ -20,7 +20,7 @@
             <td>{{ $livre->titre }}</td>
             <td>{{ $livre->auteur }}</td>
             <td>{{ $livre->position_dans_la_bibliotheque }}</td>
-            <td>{{ $livre->annee_de_parution }}</td>
+            <td>{{ $livre->annee_de_parution->format('Y') }}</td>
             <td>
                 @switch($livre->statut)
                 @case(0)
@@ -38,7 +38,7 @@
                 <i class="fa fa-star"></i>
                 @endfor
             </td>
-            <td>{{ $livre->created_at }}</td>
+            <td>{{ $livre->created_at->format('d M Y')  }}</td>
                 <td>
                     {!! Form::open(['route' => ['livres.destroy', $livre->id], 'method' => 'delete']) !!}
                     <div class='btn-group'>

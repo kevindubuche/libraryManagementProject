@@ -2,32 +2,48 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Book Store Template, Free CSS Template, TemplateMo.com</title>
+<title>Biblio-Tech</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
-<link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+<link href={{asset("templatemo_style.css")}} rel="stylesheet" type="text/css" />
 </head>
 <body>
 <!--  Free CSS Templates from www.templatemo.com -->
 <div id="templatemo_container">
+    <div style="margin-top: 130px;
+    margin-left: 150px;
+    position: absolute;
+    "><h1 style="font-size: 52px;;">Biblio-Tech</h1>
+    <h3>La meilleure bibliotheque d'Haiti ! </h3>
+    </div>
 	<div id="templatemo_menu">
     	<ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#" class="current">Search</a></li>
-            <li><a href="index.html">Books</a></li>            
-            <li><a href="index.html">New Releases</a></li>  
+            <li><a href="index.html" class="current">Home</a></li>
+            <li><a href="subpage.html">Search</a></li>
+            <li><a href="subpage.html">Books</a></li>            
+            <li><a href="subpage.html">New Releases</a></li>  
             <li><a href="#">Company</a></li> 
             <li><a href="#">Contact</a></li>
-    	</ul>
+            @if (Route::has('login'))
+            <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+                @auth
+                <li><a href="{{ route('home') }}">Dashboard</a></li>
+               @else
+                <li><a href="{{ route('login') }}">Login</a></li>
+                @endauth
+            </div>
+        @endif
+        
+       </ul>
     </div> <!-- end of menu -->
     
     <div id="templatemo_header">
     	<div id="templatemo_special_offers">
         	<p>
                 <span>25%</span> discounts for
-        purchase over $ 40
+        purchase over $80
         	</p>
-			<a href="#" style="margin-left: 50px;">Read more...</a>
+			<a href="subpage.html" style="margin-left: 50px;">Read more...</a>
         </div>
         
         
@@ -37,18 +53,17 @@
                 <li>Maece nas metus</li>
                 <li>In sed risus ac feli</li>
             </ul>
-            <a href="#" style="margin-left: 50px;">Read more...</a>
+            <a href="subpage.html" style="margin-left: 50px;">Read more...</a>
         </div>
     </div> <!-- end of header -->
     
     <div id="templatemo_content">
-    	
         <div id="templatemo_content_left">
         	<div class="templatemo_content_left_section">
             	<h1>Categories</h1>
                 <ul>
-                    <li><a href="index.html">Donec accumsan urna</a></li>
-                    <li><a href="index.html">Proin vulputate justo</a></li>
+                    <li><a href="subpage.html">Donec accumsan urna</a></li>
+                    <li><a href="subpage.html">Proin vulputate justo</a></li>
                     <li><a href="#">In sed risus ac feli</a></li>
                     <li><a href="#">Aliquam tristique dolor</a></li>
                     <li><a href="#">Maece nas metus</a></li>
@@ -80,38 +95,40 @@
 			</div>
         </div> <!-- end of content left -->
         
-        <div id="templatemo_content_right">
-        	
-            <h1>Book Title <span>(by author name)</span></h1>
-            <div class="image_panel"><img src="images/templatemo_image_02.jpg" alt="CSS Template" width="100" height="150" /></div>
-          <h2>Read the lessons - Watch the videos - Do the exercises</h2>
-            <ul>
-	            <li>By Deke <a href="#">McClelland</a></li>
-            	<li>January 2024</li>
-                <li>Pages: 498</li>
-                <li>ISBN 10: 0-496-91612-0 | ISBN 13: 9780492518154</li>
-            </ul>
-            
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec dui. Donec nec neque ut quam sodales feugiat. Nam sodales, pede vel dapibus lobortis, ipsum diam molestie risus, a vulputate risus nisl pulvinar lacus.</p>
+        <div id="templatemo_content_right" class="container">
+            <div class="row">
 
-			<p>Donec at arcu. Nunc aliquam, dolor vitae sollicitudin lacinia, nibh orci sagittis diam, dignissim sodales dui erat nec eros. Fusce quis enim. Aenean eleifend, neque hendrerit elementum sodales, odio erat sagittis quam, sed tempor orci magna vitae tellus. Proin dui mauris, tempor eget, pulvinar sed, pretium sit amet, dui. Proin vulputate justo et quam.</p>
-
-			<p>In fermentum, eros ac tincidunt aliquam, elit velit semper nunc, a tincidunt orci lectus a arcu. Nullam commodo, arcu non facilisis imperdiet, felis lectus tempus felis, vitae volutpat augue ante quis leo. Aliquam tristique dolor ac odio. Sed consectetur, lacus et dictum tristique, odio neque elementum ante, nec eleifend leo dolor vel tortor.</p>
+                @foreach ($livres as $livre)
+                    <div class="col">
+                        <div class="templatemo_product_box">
+                            <h1>{{$livre->titre}}  <span>({{$livre->auteur}})</span></h1>
+                        <img src="images/templatemo_image_01.jpg" alt="image" />
+                            <div class="product_info">
+                                <p>{{substr($livre->resume, 0, 100)}} ...</p>
+                            <h3>$55</h3>
+                                <div class="detail_button"><a href="subpage.html">Detail</a></div>
+                            </div>
+                            <div class="cleaner">&nbsp;</div>
+                        </div>
+                    </div>
+                @endforeach
+             
             
-             <div class="cleaner_with_height">&nbsp;</div>
+     
+            <div class="cleaner_with_height">&nbsp;</div>
             
-            <a href="index.html"><img src="images/templatemo_ads.jpg" alt="css template ad" /></a>
-            
+            <a href="subpage.html"><img src="images/templatemo_ads.jpg" alt="ads" /></a>
         </div> <!-- end of content right -->
     
     	<div class="cleaner_with_height">&nbsp;</div>
     </div> <!-- end of content -->
     
     <div id="templatemo_footer">
-	       <a href="index.html">Home</a> | <a href="index.html">Search</a> | <a href="index.html">Books</a> | <a href="#">New Releases</a> | <a href="#">FAQs</a> | <a href="#">Contact Us</a><br />
+    
+	       <a href="subpage.html">Home</a> | <a href="subpage.html">Search</a> | <a href="subpage.html">Books</a> | <a href="#">New Releases</a> | <a href="#">FAQs</a> | <a href="#">Contact Us</a><br />
         Copyright © 2024 <a href="#"><strong>Your Company Name</strong></a> 
-        <!-- Credit: www.templatemo.com -->
-	</div> <!-- end of footer -->
+        <!-- Credit: www.templatemo.com -->	</div> 
+    <!-- end of footer -->
 <!--  Free CSS Template www.templatemo.com -->
 </div> <!-- end of container -->
 <!-- templatemo 086 book store -->

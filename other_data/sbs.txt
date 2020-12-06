@@ -69,3 +69,5 @@ $livre->save();
 
 After Coding :
 --------------
+to see:
+php artisan db:seed
