@@ -45,6 +45,12 @@
     {!! Form::text('isbn', null, ['class' => 'form-control','maxlength' => 45]) !!}
 </div>
 
+<!-- Categorie Field -->
+<div class="form-group col-sm-6">
+    {!! Form::label('categorie', 'Categorie:') !!}
+    {!! Form::text('titre', null, ['class' => 'form-control','maxlength' => 255]) !!}
+</div>
+
 <!-- Nombre de pages Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('nombre_de_pages', 'Nombre de pages:') !!}

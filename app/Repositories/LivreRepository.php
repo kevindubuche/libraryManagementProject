@@ -25,7 +25,8 @@ class LivreRepository extends BaseRepository
         'etat',
         'resume',
         'isbn',
-        'nombre_de_pages'
+        'nombre_de_pages',
+        'categorie'
     ];
 
     /**
