@@ -16,6 +16,12 @@
     <p>{{ $livre->annee_de_parution }}</p>
 </div>
 
+<!-- Categorie Field -->
+<div class="form-group">
+    {!! Form::label('categorie', 'Categorie:') !!}
+    <p>{{ $livre->categorie }}</p>
+</div>
+
 <!-- Auteur Field -->
 <div class="form-group">
     {!! Form::label('auteur', 'Auteur:') !!}

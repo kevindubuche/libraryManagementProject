@@ -9,6 +9,7 @@ use App\Http\Controllers\AppBaseController;
 use Illuminate\Http\Request;
 use Flash;
 use Response;
+use App\Models\Livre;
 
 class LivreController extends AppBaseController
 {
@@ -35,6 +36,14 @@ class LivreController extends AppBaseController
             ->with('livres', $livres);
     }
 
+    
+    public static function verifier_existence_position_pour_creation_livre($position_dans_la_bibliotheque)
+    {
+        $livre = Livre::where("position_dans_la_bibliotheque",$position_dans_la_bibliotheque)->count();
+
+        return $livre;
+    }
+
     /**
      * Show the form for creating a new Livre.
      *
@@ -56,6 +65,11 @@ class LivreController extends AppBaseController
     {
         $input = $request->all();
 
+        if ($this->verifier_existence_position_pour_creation_livre($request->position_dans_la_bibliotheque) != 0) 
+        {
+            Flash::error('Position existante');
+            return redirect()->back()->withInput();
+        }
         $livre = $this->livreRepository->create($input);
 
         Flash::success('Livre enregistre avec succes !!');
