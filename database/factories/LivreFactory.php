@@ -22,15 +22,18 @@ class LivreFactory extends Factory
     public function definition()
     {
         return [
-            'position_dans_la_bibliotheque' => $this->faker->word,
-        'titre' => $this->faker->word,
-        'annee_de_parution' => $this->faker->word,
-        'auteur' => $this->faker->word,
-        'statut' => $this->faker->word,
-        'etat' => $this->faker->randomDigitNotNull,
+        'position_dans_la_bibliotheque' => $this->faker->regexify('[A-Za-z0-9]' . mt_rand(4, 200).'[A-Za-z0-9]'. mt_rand(4, 200)),
+        'titre' => $this->faker->realText(25),
+        'annee_de_parution' => $this->faker->dateTimeBetween('-100 years', 'now'),
+        'auteur' => $this->faker->name,
+        'statut' => $this->faker->boolean(),
+        'resume' => $this->faker->realText(300),
+        'isbn' => $this->faker->numerify('###-###-####'),
+        'nombre_de_pages' => $this->faker->numberBetween(20,800),
+        'etat' => $this->faker->randomElement([0,1,2,3,4]),
         'created_at' => $this->faker->date('Y-m-d H:i:s'),
         'updated_at' => $this->faker->date('Y-m-d H:i:s'),
-        'deleted_at' => $this->faker->date('Y-m-d H:i:s')
+        // 'deleted_at' => $this->faker->date('Y-m-d H:i:s')
         ];
     }
 }
