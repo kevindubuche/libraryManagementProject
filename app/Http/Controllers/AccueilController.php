@@ -26,11 +26,7 @@ class AccueilController extends Controller
      */
     public function home(Request $request)
     {
-        // $livres = $this->livreRepository->all();
-
-        // return view('livres.index')
-        //     ->with('livres', $livres);
-        $livres = Livre::all()->random(4);
+        $livres = Livre::all();
         return view('welcome', compact(['livres']));
     }
 

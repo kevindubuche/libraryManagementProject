@@ -106,7 +106,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="pogoSlider-slide" style="background-image:url(img/banner-img.png);">
+                    <div class="pogoSlider-slide" style="background-image:url(https://source.unsplash.com/random);">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
@@ -140,9 +140,9 @@
 						     <p class="section_count">01</p>
 						   </div>
 						   <div class="right">
-						    <p class="small_tag">About us</p>
-                            <h2><span class="theme_color">WE CAN</span> HELP YOUR business GROW</h2>
-                            <p class="large">Get your Business in 4 easy steps</p>
+						    <p class="small_tag">A propos</p>
+                            <h2><span class="theme_color">Le rôle</span> de la bibliothèque "Bilio-Tech"</h2>
+                            <p class="large">Accompagner et de soutenir</p>
 						  </div>	
                         </div>
                     </div>
@@ -163,11 +163,12 @@
                 </div>
 
                 <div class="col-lg-6 col-md-12 white_fonts layout_padding padding_left_right">
-                    <h3 class="small_heading">EVERYTHING<br>YOU NEED IN ONE SOLUTION</h3>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
-					The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, 
-					content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as 
-					their default model..</p>
+                    <h3 class="small_heading">TOUS LES LIVRES<br>A VOTRE DISPOSITION</h3>
+                    <p>Le rôle premier des bibliothèques est d'accompagner et de soutenir les activités d'enseignement et de recherche.
+
+                        Plus importantes que jamais dans ce monde de l'information numérique, elles identifient, acquièrent et rendent accessibles les ressources documentaires indispensables aux étudiants et aux chercheurs.
+                        
+                        Elles ont également pour mission de former à l'utilisation des ressources documentaires. Gardiennes de la mémoire et du patrimoine documentaire de l'établissement, elles occupent une place centrale dans la vie sociale et culturelle d'une université : la B.U. est non seulement un lieu de travail, d'étude et de recherche, mais aussi de convivialité.</p>
                 </div>
             </div>
         </div>
@@ -309,39 +310,67 @@
 
                         <!-- The slideshow -->
                         <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="row">
-                                    <div class="col-lg-3 col-md-6 col-sm-12">
-                                        <img class="img-responsive" src="images/img1.png" alt="#" />
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-12">
-                                        <img class="img-responsive" src="images/img2.png" alt="#" />
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-12">
-                                        <img class="img-responsive" src="images/img3.png" alt="#" />
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-12">
-                                        <img class="img-responsive" src="images/img4.png" alt="#" />
+                            @foreach ($livres as $key =>  $livre)
+                            @if($key % 4 == 0)
+                                <div class="carousel-item  @if($loop->index == 0) active @endif">
+                                <div class="row ">
+                                        <div class="col-lg-3 col-md-6 col-sm-12">
+                                            <img class="img-responsive" src="images/img1.png" alt="#" />
+                                            <div class="carousel-caption">
+                                                <div  style="background-color: rgb(255, 0, 128,0.6); color:white;">
+                                                <h2>{{$livres[$key]->titre}}</h2>
+                                                <p>{{$livres[$key]->auteur}}</p>
+                                                <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </div>
+                                               
+                                              </div>
+                                        </div>
+                                        @isset($livres[$key+1])
+                                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                                <img class="img-responsive" src="images/img2.png" alt="#" />
+                                                <div class="carousel-caption">
+                                                <div  style="background-color: rgb(255, 0, 128,0.6); color:white;">
+                                                    <h2>{{$livres[$key+1]->titre}}</h2>
+                                                    <p>{{$livres[$key+1]->auteur}}</p>
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </div>
+                                                </div>
+                                            </div>
+                                        @endisset
+                                        @isset($livres[$key+2])
+                                        <div class="col-lg-3 col-md-6 col-sm-12">
+                                            <img class="img-responsive" src="images/img3.png" alt="#" />
+                                            <div class="carousel-caption">
+                                            <div  style="background-color: rgb(255, 0, 128,0.6); color:white;">
+                                                <h2>{{$livres[$key+2]->titre}}</h2>
+                                                <p>{{$livres[$key+2]->auteur}}</p>
+                                                <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                            </div>
+                                            </div>
+                                        </div>
+                                      @endisset
+                                      @isset($livres[$key+3])
+                                      <div class="col-lg-3 col-md-6 col-sm-12">
+                                          <img class="img-responsive" src="images/img4.png" alt="#" />
+                                          <div class="carousel-caption">
+                                          <div  style="background-color: rgb(255, 0, 128,0.6); color:white;">
+                                              <h2>{{$livres[$key+3]->titre}}</h2>
+                                              <p>{{$livres[$key+3]->auteur}}</p>
+                                              <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                          </div>
+                                          </div>
+                                      </div>
+                                    @endisset
+                                        
+                                       
                                     </div>
                                 </div>
+                             @endif
+                            @endforeach
+
+                           
+                  
                             </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-lg-3 col-md-6 col-sm-12">
-                                        <img class="img-responsive" src="images/img1.png" alt="#" />
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-12">
-                                        <img class="img-responsive" src="images/img2.png" alt="#" />
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-12">
-                                        <img class="img-responsive" src="images/img3.png" alt="#" />
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-12">
-                                        <img class="img-responsive" src="images/img4.png" alt="#" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
                         <!-- Left and right controls -->
                         <a class="carousel-control-prev" href="#demo" data-slide="prev">
