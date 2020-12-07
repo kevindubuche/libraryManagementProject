@@ -6,3 +6,7 @@
     <a href="{{ route('livres.index') }}"><i class="fa fa-book"></i><span>Livres</span></a>
 </li>
 
+<li class="{{ Request::is('emprunts*') ? 'active' : '' }}">
+    <a href="{{ route('emprunts.index') }}"><i class="fa fa-edit"></i><span>Emprunts</span></a>
+</li>
+
