@@ -30,7 +30,7 @@ class UserFactory extends Factory
         'is_paye' => $this->faker->boolean(),
         'remember_token' => $this->faker->word,
         'role' => $this->faker->randomElement([0,1,2,3,4]),
-        'statut_matrimonial' =>  $this->faker->randomElement(['Célibataire', 'Fiancé(e)','Marié(e)', 'Divorcé(e)','Veuf(ve)', 'En concubinage"']),
+        'statut_matrimonial' =>  $this->faker->randomElement(['Célibataire', 'Fiancé(e)','Marié(e)', 'Divorcé(e)','Veuf(ve)']),
         'telephone' => $this->faker->phoneNumber,
         'sexe' => $this->faker->randomElement(['Masculin', 'Feminin']),
         'created_at' => $this->faker->date('Y-m-d H:i:s'),
