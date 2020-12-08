@@ -11,6 +11,7 @@ use Flash;
 use Response;
 use App\Models\Emprunt;
 use App\Models\User;
+use App\Models\Livre;
 
 class EmpruntController extends AppBaseController
 {
@@ -37,19 +38,18 @@ class EmpruntController extends AppBaseController
             ->with('emprunts', $emprunts);
     }
 
-    public static function verifier_existence_utilisateur_pour_creation_emprunt($id_utilisateur)
+    public static function verifier_existence_utilisateur_pour_creation_emprunt($id)
     {
-        $emprunt = Emprunt::where("id_utilisateur",$id_utilisateur)->count();
-        //tu corriges ca
+        $user = User::where("id",$id)->count();
 
-        return $emprunt;
+        return $user;
     }
 
-    public static function verifier_existence_livre_pour_creation_emprunt($id_livre)
+    public static function verifier_existence_livre_pour_creation_emprunt($id)
     {
-        $emprunt = Emprunt::where("id_livre",$id_livre)->count();
+        $livre = Livre::where("id",$id)->count();
 
-        return $emprunt;
+        return $livre;
     }
 
     /**

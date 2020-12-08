@@ -10,8 +10,12 @@
 
 <!-- Id Livre Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('id_livre', 'Id Livre:') !!}
-    {!! Form::number('id_livre', null, ['class' => 'form-control']) !!}
+    {!! Form::label('id_livre', 'Ouvrage:') !!}
+    <select class="form-control" name="id_livre" id="id_livre" required>
+        @foreach($ouvrages as $ouvrage)
+        <option value="{{$ouvrage->id}}">{{$ouvrage->titre}}</option>
+        @endforeach
+    </select>
 </div>
 
 <!-- Date De Restitution Field -->
