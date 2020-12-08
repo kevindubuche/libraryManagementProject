@@ -60,7 +60,8 @@ class EmpruntController extends AppBaseController
     public function create()
     {
         $abonnes = User::all();
-        return view('emprunts.create', compact('abonnes'));
+        $ouvrages = Livre::all();
+        return view('emprunts.create', compact(['abonnes','ouvrages']));
     }
 
     /**
@@ -123,6 +124,8 @@ class EmpruntController extends AppBaseController
     public function edit($id)
     {
         $emprunt = $this->empruntRepository->find($id);
+        $abonnes = User::all();
+        $ouvrages = Livre::all();
 
         if (empty($emprunt)) {
             Flash::error('Emprunt non trouve !');
@@ -130,7 +133,7 @@ class EmpruntController extends AppBaseController
             return redirect(route('emprunts.index'));
         }
 
-        return view('emprunts.edit')->with('emprunt', $emprunt);
+        return view('emprunts.edit', compact(['abonnes','ouvrages','emprunt']));
     }
 
     /**

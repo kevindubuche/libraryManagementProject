@@ -27,10 +27,10 @@ COMMENTAIRES SUR LE PROJET
 #11. Si une position est deja occupee, eviter la page d'erreur
 #12. Titre d'un livre varchar 255
 #13. Ajouter chaps categorie
-Eskon va imposer une liste de categories ou le gestionnaire aura a les ajouter lui mm??
+E#skon va imposer une liste de categories ou le gestionnaire aura a les ajouter lui mm??
 14. https://www.free-css.com/assets/files/free-css-templates/preview/page254/rd-business/
 15.https://www.enseignementsup-recherche.gouv.fr/cid20545/les-bibliotheques-universitaires.html
-16. Create emprunt: faire une lite deroulante ayant les nom des user et des livres
+#16. Create emprunt: faire une lite deroulante ayant les nom des user et des livres
 17.
 18.
 19.
