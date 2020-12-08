@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', [App\Http\Controllers\AccueilController::class, 'home']);
-
+Route::get('apropos', [App\Http\Controllers\AccueilController::class, 'apropos']);
 
 Auth::routes();
 

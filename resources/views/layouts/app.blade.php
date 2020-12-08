@@ -38,7 +38,7 @@
         <header class="main-header">
 
             <!-- Logo -->
-            <a href="#" class="logo">
+            <a href="/" class="logo">
                 <b>Biblio-Tech</b>
             </a>
 
