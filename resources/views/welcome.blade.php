@@ -297,15 +297,17 @@
                                         <div class="full">
 										   <div class="full team_member_img text_align_center"> 
 										      <img src="img/img-7.png" alt="#" />							 
-										   </div>
+                                           </div>
+                                           @isset($top_3_livres_les_plus_pupulaires[0])
 										   <div class="full text_align_center">
-										     <h3>@isset($top_3_livres_les_plus_pupulaires[0])
+										     <h3>
                                               {{  $top_3_livres_les_plus_pupulaires[0]->idLivre->titre}}
-                                             @endisset</h3>
+                                             </h3>
 										   </div>
 										   <div class="full text_align_center">
 										     <p> {{  $top_3_livres_les_plus_pupulaires[0]->idLivre->auteur}}</p>
-										   </div>
+                                           </div>
+                                           @endisset
 										</div>
                                     </div>
 									
@@ -313,17 +315,19 @@
                                         <div class="full">
 										   <div class="full team_member_img text_align_center"> 
 										      <img src="img/img-8.png" alt="#" />										 
-										   </div>
+                                           </div>
+                                           @isset($top_3_livres_les_plus_pupulaires[1])
 										   <div class="full text_align_center">
 										     <h3>
-                                                 @isset($top_3_livres_les_plus_pupulaires[1])
+                                                
                                                 {{  $top_3_livres_les_plus_pupulaires[1]->idLivre->titre}}
-                                               @endisset
+                                               
                                             </h3>
 										   </div>
 										   <div class="full text_align_center">
-                                            <p> {{  $top_3_livres_les_plus_pupulaires[0]->idLivre->auteur}}</p>
+                                            <p> {{  $top_3_livres_les_plus_pupulaires[1]->idLivre->auteur}}</p>
                                          </div>
+                                         @endisset
 										</div>
                                     </div>
 									
@@ -331,15 +335,17 @@
                                         <div class="full">
 										   <div class="full team_member_img text_align_center"> 
 										      <img src="img/img-9.png" alt="#" />										 
-										   </div>
+                                           </div>
+                                           @isset($top_3_livres_les_plus_pupulaires[2]->idLivre)
 										   <div class="full text_align_center">
-										     <h3>   @isset($top_3_livres_les_plus_pupulaires[2])
+										     <h3>  
                                                 {{  $top_3_livres_les_plus_pupulaires[2]->idLivre->titre}}
-                                               @endisset</h3>
+                                              </h3>
 										   </div>
 										   <div class="full text_align_center">
-                                            <p> {{  $top_3_livres_les_plus_pupulaires[0]->idLivre->auteur}}</p>
+                                            <p> {{  $top_3_livres_les_plus_pupulaires[2]->idLivre->auteur}}</p>
                                          </div>
+                                         @endisset
 										</div>
                                     </div>
 									

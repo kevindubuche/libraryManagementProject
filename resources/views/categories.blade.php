@@ -1,7 +1,7 @@
 
 @extends('main')
 
-@section('noslivres') 
+@section('categories') 
        
         <!-- section -->
 		<div class="section layout_padding">
@@ -14,7 +14,7 @@
 								 <p class="section_count"></p>
 							   </div>
 							   <div class="right">
-								<p class="small_tag">Nos Livres</p>
+								<p class="small_tag">Nos Catégories</p>
 								<h2><span class="theme_color">Des milliers</span> de livres sont a votre disposition</h2>
 								<p class="large">Régalez-vous !</p>
 							  </div>	
@@ -35,14 +35,13 @@
                 <div class="col-sm-6 col-md-4">
                     <div class="service_blog">
                     <div class="service_icons">
-                        <img width="75" height="75" src="{{asset('img/icon-6.png')}}" alt="#">
+                        <img width="75" height="75" src="img/icon-6.png" alt="#">
                     </div>
                     <div class="full">
-                    <h4>{{$livre->titre}}</h4>
+                    <h4>
+                      <a class="nav-link" href="{{route('categorie',[$livre->categorie])}}">{{$livre->categorie}}</a>
+                    </h4>
                     </div>
-                    <div class="full">
-                        <p>{{substr($livre->resume, 0, 150)}} ...</p>
-                      </div>
                     </div>
                 </div>
            @endforeach

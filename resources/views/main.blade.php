@@ -20,15 +20,15 @@
     <link rel="apple-touch-icon" href="#" />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}" />
     <!-- Pogo Slider CSS -->
-    <link rel="stylesheet" href="css/pogo-slider.min.css" />
+    <link rel="stylesheet" href="{{asset('css/pogo-slider.min.css')}}" />
     <!-- Site CSS -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="{{asset('css/style.css')}}" />
     <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="{{asset('css/responsive.css')}}" />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="{{asset('css/custom.css')}}" />
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -42,7 +42,7 @@
     <!-- LOADER -->
     <div id="preloader">
         <div class="loader">
-            <img src="images/loader.gif" alt="#" />
+            <img src="{{asset('images/loader.gif')}}" alt="#" />
         </div>
     </div>
     <!-- end loader -->
@@ -52,7 +52,7 @@
     <header class="top-header">
         <nav class="navbar header-nav navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="logo.jpg" alt="image" width="70" height="70"></a>
+                <a class="navbar-brand" href="{{url('/')}}"><img src="{{asset('logo.jpg')}}" alt="image" width="70" height="70"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
                     <span></span>
                     <span></span>
@@ -62,8 +62,7 @@
                     <ul class="navbar-nav">
                         <li><a class="nav-link active" href="{{url('/')}}">Accueil</a></li>
                     <li><a class="nav-link" href="{{url('apropos')}}">A propos</a></li>
-                        <li><a class="nav-link" href="{{url('noslivres')}}">Nos Livres</a></li>
-                        <li><a class="nav-link" href="#">Catalogue</a></li>
+                        <li><a class="nav-link" href="{{url('categories')}}">Catégories</a></li>
                         <li><a class="nav-link" href="{{url('contact')}}">Contact</a></li>
                         @if (Route::has('login'))
                        @auth
@@ -77,7 +76,7 @@
                 <div class="search-box">
                     <input type="text" class="search-txt" placeholder="Search">
                     <a class="search-btn">
-                        <img src="images/search_icon.png" alt="#" />
+                        <img src="{{asset('images/search_icon.png')}}" alt="#" />
                     </a>
                 </div>
             </div>
@@ -87,6 +86,7 @@
 
     @yield('welcome')
     @yield('apropos')
+    @yield('categories')
     @yield('noslivres')
 
     <!-- Start Footer -->
@@ -94,7 +94,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 margin-bottom_30">
-				   <img src="logo.jpg"  width="70" height="70" alt="#" />
+				   <img src="{{asset('logo.jpg')}}"  width="70" height="70" alt="#" />
 				</div>
                <div class="col-xl-6 white_fonts">
                     <div class="row">
@@ -103,7 +103,7 @@
 					</div>
                         <div class="col-md-4">
                             <div class="full icon">
-                                <img src="images/social1.png">
+                                <img src="{{asset('images/social1.png')}}">
                             </div>
                             <div class="full white_fonts">
                                 <p>Delmas 33
@@ -112,7 +112,7 @@
                         </div>
                         <div class="col-md-5">
                             <div class="full icon">
-                                <img src="images/social2.png">
+                                <img src="{{asset('images/social2.png')}}">
                             </div>
                             <div class="full white_fonts">
                                 <p>
@@ -123,7 +123,7 @@
                         </div>
                         <div class="col-md-3">
                             <div class="full icon">
-                                <img src="images/social3.png">
+                                <img src="{{asset('images/social3.png')}}">
                             </div>
                             <div class="full white_fonts">
                                 <p>+509 43757105
@@ -183,19 +183,19 @@
     <a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
 
     <!-- ALL JS FILES -->
-    <script src="js/jquery.min.js"></script>
-	<script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="{{asset('js/jquery.min.js')}}"></script>
+	<script src="{{asset('js/popper.min.js')}}"></script>
+    <script src="{{asset('js/bootstrap.min.js')}}"></script>
     <!-- ALL PLUGINS -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.pogo-slider.min.js"></script>
-    <script src="js/slider-index.js"></script>
-    <script src="js/smoothscroll.js"></script>
-    <script src="js/form-validator.min.js"></script>
-    <script src="js/contact-form-script.js"></script>
-    <script src="js/isotope.min.js"></script>
-    <script src="js/images-loded.min.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
+    <script src="{{asset('js/jquery.pogo-slider.min.js')}}"></script>
+    <script src="{{asset('js/slider-index.js')}}"></script>
+    <script src="{{asset('js/smoothscroll.js')}}"></script>
+    <script src="{{asset('js/form-validator.min.js')}}"></script>
+    <script src="{{asset('js/contact-form-script.js')}}"></script>
+    <script src="{{asset('js/isotope.min.js')}}"></script>
+    <script src="{{asset('js/images-loded.min.js')}}"></script>
+    <script src="{{asset('js/custom.js')}}"></script>
 	<script>
 	/* counter js */
 
