@@ -190,7 +190,8 @@ class UserController extends AppBaseController
             return redirect(route('users.index'));
         }
 
-        $this->userRepository->delete($id);
+        // $this->userRepository->delete($id);
+        User::where('id', $id)->forceDelete();
 
         Flash::success('Utilisateur supprime avec succes !');
 

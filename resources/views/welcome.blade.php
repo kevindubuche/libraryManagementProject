@@ -92,115 +92,7 @@
     </div>
     <!-- end section -->
 	
-	<!-- section -->
-    <div class="section layout_padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="full">
-                        <div class="heading_main text_align_left">
-						   <div class="left">
-						     <p class="section_count">02</p>
-						   </div>
-						   <div class="right">
-						    <p class="small_tag">SERVICES</p>
-                            <h2><span class="theme_color">How to provide</span> tools that help anyone give a voice to their ideas</h2>
-                          </div>	
-                        </div>
-                    </div>
-                </div>
-            </div>
-			<div class="row margin-top_30">
-			
-			   <div class="col-sm-6 col-md-4">
-			     <div class="service_blog">
-				    <div class="service_icons">
-					   <img width="75" height="75" src="img/icon-1.png" alt="#">
-					</div>
-					<div class="full">
-					   <h4>DIGITAL marketing</h4>
-					</div>
-					<div class="full">
-					  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
-					</div>
-				 </div>
-			   </div>
-			   
-			   <div class="col-sm-6 col-md-4">
-			     <div class="service_blog">
-				    <div class="service_icons">
-					   <img width="75" height="75" src="img/icon-2.png" alt="#">
-					</div>
-					<div class="full">
-					   <h4>DIGITAL marketing</h4>
-					</div>
-					<div class="full">
-					  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
-					</div>
-				 </div>
-			   </div>
-			   
-			   <div class="col-sm-6 col-md-4">
-			     <div class="service_blog">
-				    <div class="service_icons">
-					   <img width="75" height="75" src="img/icon-3.png" alt="#">
-					</div>
-					<div class="full">
-					   <h4>DIGITAL marketing</h4>
-					</div>
-					<div class="full">
-					  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
-					</div>
-				 </div>
-			   </div>
-			   
-			   <div class="col-sm-6 col-md-4">
-			     <div class="service_blog">
-				    <div class="service_icons">
-					   <img width="75" height="75" src="img/icon-4.png" alt="#">
-					</div>
-					<div class="full">
-					   <h4>DIGITAL marketing</h4>
-					</div>
-					<div class="full">
-					  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
-					</div>
-				 </div>
-			   </div>
-			   
-			   <div class="col-sm-6 col-md-4">
-			     <div class="service_blog">
-				    <div class="service_icons">
-					   <img width="75" height="75" src="img/icon-5.png" alt="#">
-					</div>
-					<div class="full">
-					   <h4>DIGITAL marketing</h4>
-					</div>
-					<div class="full">
-					  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
-					</div>
-				 </div>
-			   </div>
-			   
-			   <div class="col-sm-6 col-md-4">
-			     <div class="service_blog">
-				    <div class="service_icons">
-					   <img width="75" height="75" src="img/icon-6.png" alt="#">
-					</div>
-					<div class="full">
-					   <h4>DIGITAL marketing</h4>
-					</div>
-					<div class="full">
-					  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
-					</div>
-				 </div>
-			   </div>
-			   
-			   
-			</div>
-        </div>
-    </div>
-	<!-- end section -->
+	
 	
 	<!-- section -->
     <div class="section layout_padding">
@@ -405,15 +297,17 @@
                                         <div class="full">
 										   <div class="full team_member_img text_align_center"> 
 										      <img src="img/img-7.png" alt="#" />							 
-										   </div>
+                                           </div>
+                                           @isset($top_3_livres_les_plus_pupulaires[0])
 										   <div class="full text_align_center">
-										     <h3>@isset($top_3_livres_les_plus_pupulaires[0])
+										     <h3>
                                               {{  $top_3_livres_les_plus_pupulaires[0]->idLivre->titre}}
-                                             @endisset</h3>
+                                             </h3>
 										   </div>
 										   <div class="full text_align_center">
 										     <p> {{  $top_3_livres_les_plus_pupulaires[0]->idLivre->auteur}}</p>
-										   </div>
+                                           </div>
+                                           @endisset
 										</div>
                                     </div>
 									
@@ -421,17 +315,19 @@
                                         <div class="full">
 										   <div class="full team_member_img text_align_center"> 
 										      <img src="img/img-8.png" alt="#" />										 
-										   </div>
+                                           </div>
+                                           @isset($top_3_livres_les_plus_pupulaires[1])
 										   <div class="full text_align_center">
 										     <h3>
-                                                 @isset($top_3_livres_les_plus_pupulaires[1])
+                                                
                                                 {{  $top_3_livres_les_plus_pupulaires[1]->idLivre->titre}}
-                                               @endisset
+                                               
                                             </h3>
 										   </div>
 										   <div class="full text_align_center">
-                                            <p> {{  $top_3_livres_les_plus_pupulaires[0]->idLivre->auteur}}</p>
+                                            <p> {{  $top_3_livres_les_plus_pupulaires[1]->idLivre->auteur}}</p>
                                          </div>
+                                         @endisset
 										</div>
                                     </div>
 									
@@ -439,15 +335,17 @@
                                         <div class="full">
 										   <div class="full team_member_img text_align_center"> 
 										      <img src="img/img-9.png" alt="#" />										 
-										   </div>
+                                           </div>
+                                           @isset($top_3_livres_les_plus_pupulaires[2]->idLivre)
 										   <div class="full text_align_center">
-										     <h3>   @isset($top_3_livres_les_plus_pupulaires[2])
+										     <h3>  
                                                 {{  $top_3_livres_les_plus_pupulaires[2]->idLivre->titre}}
-                                               @endisset</h3>
+                                              </h3>
 										   </div>
 										   <div class="full text_align_center">
-                                            <p> {{  $top_3_livres_les_plus_pupulaires[0]->idLivre->auteur}}</p>
+                                            <p> {{  $top_3_livres_les_plus_pupulaires[2]->idLivre->auteur}}</p>
                                          </div>
+                                         @endisset
 										</div>
                                     </div>
 									

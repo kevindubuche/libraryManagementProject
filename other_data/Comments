@@ -31,7 +31,8 @@ E#skon va imposer une liste de categories ou le gestionnaire aura a les ajouter 
 14. https://www.free-css.com/assets/files/free-css-templates/preview/page254/rd-business/
 15.https://www.enseignementsup-recherche.gouv.fr/cid20545/les-bibliotheques-universitaires.html
 #16. Create emprunt: faire une lite deroulante ayant les nom des user et des livres
-17.
+17.mettre "on delete cascade" sur les cles etrangere dans la table emprunt cause leum delete yon livre keu yo te prete emprunt an pa delete
+or map just fe force delete sou li.
 18.
 19.
 20.

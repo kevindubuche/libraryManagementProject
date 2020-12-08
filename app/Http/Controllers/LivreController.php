@@ -161,7 +161,8 @@ class LivreController extends AppBaseController
             return redirect(route('livres.index'));
         }
 
-        $this->livreRepository->delete($id);
+        // $this->livreRepository->delete($id);
+        Livre::where('id', $id)->forceDelete();
 
         Flash::success('Livre supprime avec succes !!');
 

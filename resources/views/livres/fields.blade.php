@@ -47,7 +47,7 @@
 <!-- Categorie Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('categorie', 'Categorie:') !!}
-    {!! Form::text('titre', null, ['class' => 'form-control','maxlength' => 255]) !!}
+    {!! Form::text('categorie', null, ['class' => 'form-control','maxlength' => 255]) !!}
 </div>
 
 <!-- Nombre de pages Field -->
