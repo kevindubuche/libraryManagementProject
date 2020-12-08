@@ -296,9 +296,9 @@
 						     <p class="section_count">03</p>
 						   </div>
 						   <div class="right">
-						    <p class="small_tag">Portfolio</p>
-                            <h2><span class="theme_color">CHOOSE A</span> PROFESSIONAL DESIGN</h2>
-							<p class="large">Websites</p>
+						    <p class="small_tag">Catalogue</p>
+                            <h2><span class="theme_color">Selectionnez</span> vos meilleurs livres ici</h2>
+							<p class="large">Tous nos livres</p>
                           </div>	
                         </div>
                     </div>
@@ -464,8 +464,8 @@
 						     <p class="section_count">05</p>
 						   </div>
 						   <div class="right">
-						    <p class="small_tag">Our Team</p>
-                            <h2><span class="theme_color">We Have a Professional</span> Team of Business Analysts.</h2>
+						    <p class="small_tag">Top</p>
+                            <h2><span class="theme_color">Les plus populaires</span> </h2>
 							</div>	
                         </div>
                     </div>

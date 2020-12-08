@@ -1,7 +1,11 @@
 <!-- Id Utilisateur Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('id_utilisateur', 'Id Utilisateur:') !!}
-    {!! Form::number('id_utilisateur', null, ['class' => 'form-control']) !!}
+    {!! Form::label('id_utilisateur', 'Abonné:') !!}
+    <select class="form-control" name="id_utilisateur" id="id_utilisateur" required>
+        @foreach($abonnes as $abonne)
+        <option value="{{$abonne->id}}">{{$abonne->nom}}</option>
+        @endforeach
+    </select>
 </div>
 
 <!-- Id Livre Field -->

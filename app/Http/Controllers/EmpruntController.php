@@ -10,6 +10,7 @@ use Illuminate\Http\Request;
 use Flash;
 use Response;
 use App\Models\Emprunt;
+use App\Models\User;
 
 class EmpruntController extends AppBaseController
 {
@@ -39,6 +40,7 @@ class EmpruntController extends AppBaseController
     public static function verifier_existence_utilisateur_pour_creation_emprunt($id_utilisateur)
     {
         $emprunt = Emprunt::where("id_utilisateur",$id_utilisateur)->count();
+        //tu corriges ca
 
         return $emprunt;
     }
@@ -57,7 +59,8 @@ class EmpruntController extends AppBaseController
      */
     public function create()
     {
-        return view('emprunts.create');
+        $abonnes = User::all();
+        return view('emprunts.create', compact('abonnes'));
     }
 
     /**
