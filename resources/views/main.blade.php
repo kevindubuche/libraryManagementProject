@@ -62,9 +62,9 @@
                     <ul class="navbar-nav">
                         <li><a class="nav-link active" href="{{url('/')}}">Accueil</a></li>
                     <li><a class="nav-link" href="{{url('apropos')}}">A propos</a></li>
-                        <li><a class="nav-link" href="services.html">Services</a></li>
-                        <li><a class="nav-link" href="#">Blog</a></li>
-                        <li><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li><a class="nav-link" href="{{url('noslivres')}}">Nos Livres</a></li>
+                        <li><a class="nav-link" href="#">Catalogue</a></li>
+                        <li><a class="nav-link" href="{{url('contact')}}">Contact</a></li>
                         @if (Route::has('login'))
                        @auth
                              <li><a class="nav-link active" style="background:#f2184f;color:#fff;" href="{{ route('home') }}">Dashboard</a></li>
@@ -87,27 +87,27 @@
 
     @yield('welcome')
     @yield('apropos')
-
+    @yield('noslivres')
 
     <!-- Start Footer -->
     <footer class="footer-box">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 margin-bottom_30">
-				   <img src="img/f_logo.png" alt="#" />
+				   <img src="logo.jpg"  width="70" height="70" alt="#" />
 				</div>
                <div class="col-xl-6 white_fonts">
                     <div class="row">
 					<div class="col-md-12 white_fonts margin-bottom_30">
-					   <h3>Contact Us</h3>
+					   <h3>Contactez nous</h3>
 					</div>
                         <div class="col-md-4">
                             <div class="full icon">
                                 <img src="images/social1.png">
                             </div>
                             <div class="full white_fonts">
-                                <p>London 145
-                                    <br>United Kingdom</p>
+                                <p>Delmas 33
+                                    <br>Haiti</p>
                             </div>
                         </div>
                         <div class="col-md-5">
@@ -115,8 +115,10 @@
                                 <img src="images/social2.png">
                             </div>
                             <div class="full white_fonts">
-                                <p>consultation@gmail.com
-                                    <br>consultation@gmail.com</p>
+                                <p>
+                                    altidorjb@gmail.com
+                                    <br>kevindubuche@gmail.com
+                                    <br>bgtheodore18@gmail.com</p>
                             </div>
                         </div>
                         <div class="col-md-3">
@@ -124,8 +126,9 @@
                                 <img src="images/social3.png">
                             </div>
                             <div class="full white_fonts">
-                                <p>+7586656566
-                                    <br>+7586656566</p>
+                                <p>+509 43757105
+                                    <br>+509 36870473
+                                    <br>+509 37315966 </p>
                             </div>
                         </div>
 						<div class="col-md-12">
@@ -143,31 +146,17 @@
 				    <div class="row">
 					   <div class="col-md-6">
 					     <div class="footer_blog footer_menu">
-						    <h3>Menus</h3>
+						    <h3>Menu</h3>
 						    <ul> 
-							  <li><a href="index.html">Home</a></li>
-							  <li><a href="about.html">About Us</a></li>
-							  <li><a href="services.html">Services</a></li>
-							  <li><a href="#">Blog</a></li>
-							  <li><a href="contact.html">Contact us</a></li>
+							  <li><a href="{{url('/')}}">Accueil</a></li>
+							  <li><a href="{{url('apropos')}}">A props</a></li>
+							  <li><a href="{{url('noslivres')}}">Nos Livres</a></li>
+							  <li><a href="{{url('contact')}}">Contact</a></li>
 							</ul>
 						 </div>
-						 <div class="footer_blog recent_post_footer">
-						   <h3>Recent Post</h3>
-						   <p>Participate in staff meetings manage dedicated to marketing November 25, 2019</p>
-						 </div>
+				
 					   </div>
-					   <div class="col-md-6">
-					     <div class="footer_blog full">
-						     <h3>Newsletter</h3>
-							 <div class="newsletter_form">
-							    <form action="index.html">
-								   <input type="email" placeholder="Your Email" name="#" required />
-								   <button>Submit</button>
-								</form>
-							 </div>
-						 </div>
-					   </div>
+					
 					</div>
 				 </div>
 
@@ -181,7 +170,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <p class="crp">© 2019 Business . All Rights Reserved.</p>
+                    <p class="crp">© 2019 Biblio-Tech . All Rights Reserved.</p>
                     <ul class="bottom_menu">
                         <li><a href="#">Term of Service</a></li>
                         <li><a href="#">Privacy</a></li>

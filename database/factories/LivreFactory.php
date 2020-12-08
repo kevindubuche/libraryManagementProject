@@ -26,6 +26,7 @@ class LivreFactory extends Factory
         'titre' => $this->faker->realText(25),
         'annee_de_parution' => $this->faker->dateTimeBetween('-100 years', 'now'),
         'auteur' => $this->faker->name,
+        'categorie' => $this->faker->word,
         'statut' => $this->faker->boolean(),
         'resume' => $this->faker->realText(300),
         'isbn' => $this->faker->numerify('###-###-####'),

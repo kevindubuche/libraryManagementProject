@@ -48,4 +48,17 @@ class AccueilController extends Controller
         return view('apropos');
     }
 
+    public function noslivres(Request $request)
+    {
+        $toutes_les_categories = Livre::select('categorie')
+        ->groupBy('categorie')
+        ->get();dd($toutes_les_categories);
+        return view('noslivres', compact('toutes_les_categories'));
+    }
+
+    public function contact(Request $request)
+    {
+        return view('contact');
+    }
+
 }
