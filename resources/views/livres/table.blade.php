@@ -9,7 +9,6 @@
         <th>Annee De Parution</th>
         <th>Statut</th>
         <th>Etat</th>
-        <th>Date de creation</th>
                 <th >Action</th>
             </tr>
         </thead>
@@ -38,7 +37,6 @@
                 <i class="fa fa-star"></i>
                 @endfor
             </td>
-            <td>{{ $livre->created_at->format('d M Y')  }}</td>
                 <td>
                     {!! Form::open(['route' => ['livres.destroy', $livre->id], 'method' => 'delete']) !!}
                     <div class='btn-group'>

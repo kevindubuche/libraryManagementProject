@@ -35,7 +35,7 @@
                 @endswitch
             </td>
             <td>{{ $emprunt->idLivre->titre }}</td>
-            <td>{{ $emprunt->date_de_restitution->format('d M y') }}</td>
+            <td>{{ $emprunt->date_de_restitution}}</td>
                 <td>
                     {!! Form::open(['route' => ['emprunts.destroy', $emprunt->id], 'method' => 'delete']) !!}
                     <div class='btn-group'>

@@ -17,7 +17,6 @@
 </div>
 
 @push('scripts')
-@push('scripts')
     <script type="text/javascript">
         $('#annee_de_parution').datetimepicker({
             format: 'YYYY',
@@ -110,5 +109,5 @@
 <div class="form-group col-sm-12">
     {!! Form::submit('Enregistrer', ['class' => 'btn btn-primary']) !!}
     <a href="{{ route('livres.index') }}" class="btn btn-default">Annuler</a>
-</div>            </div>
+</div>          
 
