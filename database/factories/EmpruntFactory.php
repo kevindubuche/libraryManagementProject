@@ -3,6 +3,8 @@
 namespace Database\Factories;
 
 use App\Models\Emprunt;
+use App\Models\User;
+use App\Models\Livre;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class EmpruntFactory extends Factory
@@ -22,12 +24,12 @@ class EmpruntFactory extends Factory
     public function definition()
     {
         return [
-            'id_utilisateur' => $this->faker->word,
-        'id_livre' => $this->faker->word,
-        'date_de_restitution' => $this->faker->word,
+        'id_utilisateur' => User::all()->random()->id,
+        'id_livre' => Livre::all()->random()->id,
+        'date_de_restitution' => $this->faker->dateTimeBetween('now', '+10 days'),
         'created_at' => $this->faker->date('Y-m-d H:i:s'),
         'updated_at' => $this->faker->date('Y-m-d H:i:s'),
-        'deleted_at' => $this->faker->date('Y-m-d H:i:s')
+        // 'deleted_at' => $this->faker->date('Y-m-d H:i:s')
         ];
     }
 }
