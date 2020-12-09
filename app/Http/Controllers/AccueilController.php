@@ -27,7 +27,7 @@ class AccueilController extends Controller
      * @return Response
      */
     public function home(Request $request)
-    {
+    { 
         //ces info se retrouvent dans la page d'accueil
         $livres = Livre::all();
         $top_3_livres_les_plus_pupulaires = Emprunt::select('id_livre')
