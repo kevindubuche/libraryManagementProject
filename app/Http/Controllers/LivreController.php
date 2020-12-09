@@ -10,6 +10,7 @@ use Illuminate\Http\Request;
 use Flash;
 use Response;
 use App\Models\Livre;
+use App\Http\Middleware\GestionnnaireOuBibliothecaire;
 
 class LivreController extends AppBaseController
 {
@@ -19,6 +20,16 @@ class LivreController extends AppBaseController
     public function __construct(LivreRepository $livreRepo)
     {
         $this->livreRepository = $livreRepo;
+         // Middleware only applied to these methods
+        $this->middleware(GestionnnaireOuBibliothecaire::class, [
+            'only' => [
+                 'create' ,
+                'store',
+                'destroy',
+                'edit',
+                'update'
+            ]
+        ]);
     }
 
     /**

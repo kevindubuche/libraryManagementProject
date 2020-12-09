@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Middleware\Gestionnaire;
+use App\Http\Middleware\GestionnnaireOuBibliothecaire;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,12 +29,10 @@ Route::get('resume/{id}', [App\Http\Controllers\AccueilController::class, 'resum
 
 
 Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-
-Route::resource('users', App\Http\Controllers\UserController::class);
-
-Route::resource('livres', App\Http\Controllers\LivreController::class);
-
-Route::resource('emprunts', App\Http\Controllers\EmpruntController::class);
+Route::group(['middleware' => ['auth']], function()
+{
+    Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+    Route::resource('users', App\Http\Controllers\UserController::class)->middleware(Gestionnaire::Class);//getionnaire middleware
+    Route::resource('livres', App\Http\Controllers\LivreController::class);
+    Route::resource('emprunts', App\Http\Controllers\EmpruntController::class)->middleware(GestionnnaireOuBibliothecaire::class);
+});

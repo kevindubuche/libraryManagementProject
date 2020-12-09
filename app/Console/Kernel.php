@@ -13,7 +13,7 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        //
+        Commands\LoadApiData::class,
     ];
 
     /**
@@ -24,8 +24,12 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        // $schedule->command('inspire')->hourly();
+        // $schedule->command('inspire')->hourly();* * * * * php /path/to/artisan schedule:run >> /dev/null 2>&1
+        $schedule->command('app:email_relance')
+        ->everyMinute();
     }
+
+    
 
     /**
      * Register the commands for the application.
