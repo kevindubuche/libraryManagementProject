@@ -103,7 +103,7 @@
 
         <!-- Main Footer -->
         <footer class="main-footer" style="max-height: 100px;text-align: center">
-            <strong>Copyright © 2020 <a href="#">Biblio Tech</a>.</strong> Tout droit reserve.
+            <strong>Copyright © 2020 <a href="#">Biblio-Tech</a>.</strong> Tout droit réservé.
         </footer>
 
     </div>

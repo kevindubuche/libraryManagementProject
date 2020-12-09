@@ -202,7 +202,7 @@
 
                 <div class="col-lg-12">
                     <div class="full center">
-                        <a href="about.html" class="hvr-radial-out button-theme">See More ></a>
+                        <a href="{{url('categories')}}" class="hvr-radial-out button-theme">Voir les Catégories</a>
                     </div>
                 </div>
 

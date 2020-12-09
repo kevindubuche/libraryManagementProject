@@ -64,7 +64,15 @@ class AccueilController extends Controller
     public function categorie($categorie)
     {
         $liste_des_livres_goupes_par_categorie = Livre::where('categorie', $categorie)->paginate(12);
-        return view('noslivres', compact('liste_des_livres_goupes_par_categorie'));
+        return view('noslivres', compact(['liste_des_livres_goupes_par_categorie','categorie']));
+       
+    }
+
+    public function resume($id)
+    {
+        //pa bliye jere si id liv la pa existe
+        $livre = Livre::find($id);
+        return view('resume', compact('livre'));
        
     }
 
