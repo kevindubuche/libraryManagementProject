@@ -88,6 +88,7 @@
     @yield('apropos')
     @yield('categories')
     @yield('noslivres')
+    @yield('resume')
 
     <!-- Start Footer -->
     <footer class="footer-box">

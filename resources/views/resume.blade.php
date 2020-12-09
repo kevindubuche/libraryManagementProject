@@ -1,7 +1,7 @@
 
 @extends('main')
 
-@section('noslivres') 
+@section('resume') 
        
         <!-- section -->
 		<div class="section layout_padding">
@@ -14,9 +14,9 @@
 								 <p class="section_count"></p>
 							   </div>
 							   <div class="right">
-								<p class="small_tag">Catégorie</p>
-                               <h2><span class="theme_color">{{$categorie}}</span> </h2>
-								<p class="large">Régalez-vous !</p>
+								<p class="small_tag"></p>
+                               <h2><span class="theme_color">{{$livre->titre}}</span> </h2>
+								<p class="large">{{$livre->auteur}}</p>
 							  </div>	
 							</div>
 						</div>
@@ -31,27 +31,21 @@
     <div class="container">
 
         <div class="row ">
-           @foreach ($liste_des_livres_goupes_par_categorie as $livre)
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-12 col-md-12">
                     <div class="service_blog">
                     <div class="service_icons">
                         <img width="75" height="75" src="{{asset('img/icon-6.png')}}" alt="#">
                     </div>
                     <div class="full">
-                    <h4>
-                        <a class="nav-link" href="{{route('resume',[$livre->id])}}">{{$livre->titre}}</a>
+                    <h4>{{$livre->titre}}
                     </h4>
                     </div>
                     <div class="full">
-                        <p>{{substr($livre->resume, 0, 150)}} ...</p>
+                        <p>{{$livre->resume}}</p>
                       </div>
                     </div>
                 </div>
-           @endforeach
       
-        </div>
-        <div class="row " style="margin-top: 50px">
-            {{ $liste_des_livres_goupes_par_categorie->links() }}
         </div>
     </div>
 </div>

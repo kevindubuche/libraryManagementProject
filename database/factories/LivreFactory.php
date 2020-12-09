@@ -22,14 +22,14 @@ class LivreFactory extends Factory
     public function definition()
     {
         return [
-        'position_dans_la_bibliotheque' => $this->faker->regexify('[A-Za-z0-9]' . mt_rand(4, 200).'[A-Za-z0-9]'. mt_rand(4, 200)),
+        'position_dans_la_bibliotheque' => $this->faker->regexify('[A-Z]' . mt_rand(4, 200).'[A-Z]'. mt_rand(4, 200)),
         'titre' => $this->faker->realText(25),
         'annee_de_parution' => $this->faker->dateTimeBetween('-100 years', 'now'),
         'auteur' => $this->faker->name,
         'categorie' =>  $this->faker->randomElement(['Roman courtois',' Roman historique','Roman épistolaire',
         'Roman-mémoires','Roman d\'amour','Roman industriel','Nouvelle fiction']),
         'statut' => $this->faker->boolean(),
-        'resume' => $this->faker->realText(300),
+        'resume' => $this->faker->realText(1000),
         'isbn' => $this->faker->numerify('###-###-####'),
         'nombre_de_pages' => $this->faker->numberBetween(20,800),
         'etat' => $this->faker->randomElement([0,1,2,3,4]),

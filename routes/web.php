@@ -22,6 +22,7 @@ Route::get('apropos', [App\Http\Controllers\AccueilController::class, 'apropos']
 Route::get('categories', [App\Http\Controllers\AccueilController::class, 'categories']);
 Route::get('contact', [App\Http\Controllers\AccueilController::class, 'contact']);
 Route::get('categorie/{categorie}', [App\Http\Controllers\AccueilController::class, 'categorie'])->name('categorie');
+Route::get('resume/{id}', [App\Http\Controllers\AccueilController::class, 'resume'])->name('resume');
 
 
 
