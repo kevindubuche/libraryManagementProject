@@ -20,9 +20,19 @@ return [
     'registration' =>[
         'title' => 'Bibliotheque'
     ],
+    'confirm_password' => 'Confimer mot de passe',
     'login' =>[
         'title' => 'Login',
-        'forgot_password' => 'Mot de passe oublie'
+        'forgot_password' => 'Mot de passe oublié'
+    ],
+    'forgot_password' =>[
+        'title' => 'Réinitialiser mot de passe',
+        'send_pwd_reset' => 'Réinitialiser'
+    ],
+    'reset_password' =>[
+        'title' => 'Réinitialiser mot de passe',
+        'reset_pwd_btn' => 'Réinitialiser'
+       
     ],
     'email' => 'Entrer votre email',
     'password' => 'Entrer votre mot de passe',
