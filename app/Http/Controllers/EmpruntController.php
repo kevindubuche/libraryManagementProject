@@ -53,6 +53,13 @@ class EmpruntController extends AppBaseController
         return $livre;
     }
 
+    public static function verifier_si_abonne_a_atteint_limite_de_pret($id_utilisateur)
+    {
+        $quantite_prets = Emprunt::where("id_utilisateur",$id_utilisateur)
+        ->wherenull('date_de_restitution')
+        ->count();
+        return $quantite_prets;
+    }
     public static function changer_statut_d_un_livre($id)
     {
         $livre = Livre::find($id);
@@ -68,7 +75,7 @@ class EmpruntController extends AppBaseController
      */
     public function create()
     {
-        $abonnes = User::all();
+        $abonnes = User::orderBy('nom', 'ASC')->get();
         $ouvrages_disponibles = Livre::where('statut', 1)->get();
         return view('emprunts.create', compact(['abonnes','ouvrages_disponibles']));
     }
@@ -88,7 +95,11 @@ class EmpruntController extends AppBaseController
             Flash::error('Cet utilisateur n\'existe pas');
             return redirect()->back()->withInput();
         }
-
+        if ($this->verifier_si_abonne_a_atteint_limite_de_pret($request->id_utilisateur) >= 3)
+        {
+            Flash::error('Echec ! Cet utilisateur a déjà atteint son quota !');
+            return redirect()->back()->withInput();
+        }
         if ($this->verifier_existence_livre_pour_creation_emprunt($request->id_livre) == 0) 
         {
             Flash::error('Ce livre n\'existe pas');

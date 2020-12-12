@@ -47,7 +47,29 @@
                 <!-- Sidebar toggle button-->
                 <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
                     <span class="sr-only">Toggle navigation</span>
-                </a>
+                    @switch(Auth::user()->role)
+                    @case(0)
+                        <h5>Gestionnaire</h5>
+                        @break
+                    @case(1)
+                         <h5>Bibliothécaire</h5>
+                        @break
+                        @case(2)
+                        <h5>Professeur</h5>
+                       @break
+                       @case(3)
+                       <h5>Etudiant local</h5>
+                      @break
+                      @case(4)
+                      <h5>Etudiant externe</h5>
+                     @break
+                  
+                    @default
+                        
+                @endswitch
+                 
+                </a>   
+          
                 <!-- Navbar Right Menu -->
                 <div class="navbar-custom-menu">
                     <ul class="nav navbar-nav">
