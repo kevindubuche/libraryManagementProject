@@ -19,7 +19,7 @@
             <td>{{ $livre->titre }}</td>
             <td>{{ $livre->auteur }}</td>
             <td>{{ $livre->position_dans_la_bibliotheque }}</td>
-            <td>{{ $livre->annee_de_parution->format('Y') }}</td>
+            <td>{{ $livre->annee_de_parution }}</td>
             <td>
                 @switch($livre->statut)
                 @case(0)

@@ -25,8 +25,8 @@ class EmpruntFactory extends Factory
     {
         return [
         'id_utilisateur' => User::all()->random()->id,
-        'id_livre' => Livre::all()->random()->id,
-        'date_de_restitution' => $this->faker->dateTimeBetween('now', '+10 days'),
+        'id_livre' => Livre::where('statut', 1)->get()->random()->id,
+        // 'date_de_restitution' => $this->faker->dateTimeBetween('now', '+10 days'),
         'created_at' => $this->faker->date('Y-m-d H:i:s'),
         'updated_at' => $this->faker->date('Y-m-d H:i:s'),
         // 'deleted_at' => $this->faker->date('Y-m-d H:i:s')

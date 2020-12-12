@@ -18,6 +18,7 @@ class EmpruntController extends AppBaseController
     /** @var  EmpruntRepository */
     private $empruntRepository;
 
+
     public function __construct(EmpruntRepository $empruntRepo)
     {
         $this->empruntRepository = $empruntRepo;
@@ -52,6 +53,14 @@ class EmpruntController extends AppBaseController
         return $livre;
     }
 
+    public static function changer_statut_d_un_livre($id)
+    {
+        $livre = Livre::find($id);
+        $livre->statut = ($livre->statut== false) ? true : false;
+        $result = $livre->save();
+
+        return $result;
+    }
     /**
      * Show the form for creating a new Emprunt.
      *
@@ -60,8 +69,8 @@ class EmpruntController extends AppBaseController
     public function create()
     {
         $abonnes = User::all();
-        $ouvrages = Livre::all();
-        return view('emprunts.create', compact(['abonnes','ouvrages']));
+        $ouvrages_disponibles = Livre::where('statut', 1)->get();
+        return view('emprunts.create', compact(['abonnes','ouvrages_disponibles']));
     }
 
     /**
@@ -88,6 +97,7 @@ class EmpruntController extends AppBaseController
         
 
         $emprunt = $this->empruntRepository->create($input);
+        $this->changer_statut_d_un_livre($request->id_livre);
 
         Flash::success('Emprunt enregistre avec succes !');
 
@@ -125,7 +135,7 @@ class EmpruntController extends AppBaseController
     {
         $emprunt = $this->empruntRepository->find($id);
         $abonnes = User::all();
-        $ouvrages = Livre::all();
+        $ouvrages_disponibles = Livre::where('statut', 1)->get();
 
         if (empty($emprunt)) {
             Flash::error('Emprunt non trouve !');
@@ -133,7 +143,7 @@ class EmpruntController extends AppBaseController
             return redirect(route('emprunts.index'));
         }
 
-        return view('emprunts.edit', compact(['abonnes','ouvrages','emprunt']));
+        return view('emprunts.edit', compact(['abonnes','ouvrages_disponibles','emprunt']));
     }
 
     /**
@@ -155,7 +165,10 @@ class EmpruntController extends AppBaseController
         }
 
         $emprunt = $this->empruntRepository->update($request->all(), $id);
-
+        if($request->date_de_restitution)
+        {
+            $this->changer_statut_d_un_livre($request->id_livre);
+        }
         Flash::success('Emprunt modifie avec succes !');
 
         return redirect(route('emprunts.index'));

@@ -10,6 +10,13 @@
     <p>{{ $user->prenom }}</p>
 </div>
 
+<!-- ID Field -->
+<div class="form-group">
+    {!! Form::label('id', 'ID:') !!}
+    <p>{{ $user->id }}</p>
+</div>
+
+
 <!-- Email Field -->
 <div class="form-group">
     {!! Form::label('email', 'Email:') !!}

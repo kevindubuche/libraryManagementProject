@@ -57,7 +57,7 @@ class Livre extends Model
         'id' => 'integer',
         'position_dans_la_bibliotheque' => 'string',
         'titre' => 'string',
-        'annee_de_parution' => 'date',
+        'annee_de_parution' => 'string',
         'auteur' => 'string',
         'categorie' => 'string',
         'statut' => 'string',

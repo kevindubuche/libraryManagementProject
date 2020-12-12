@@ -8,6 +8,8 @@ use App\Models\Livre;
 use App\Models\Emprunt;
 use App\Models\User;
 
+
+use Carbon\Carbon;
 class AccueilController extends Controller
 {
     
@@ -28,6 +30,17 @@ class AccueilController extends Controller
      */
     public function home(Request $request)
     { 
+
+///////////////////////////////
+// $liste_des_emprunts_non_remis_a_temps_et_avec_relance_null =
+// Emprunt::whereNull('date_de_restitution')
+// // ->whereDate('created_at' , '>=', Carbon::today()->subDays( 5 ))
+//  ->whereNull('relance')
+// ->get();
+// dd($liste_des_emprunts_non_remis_a_temps_et_avec_relance_null);
+///////////////////////////////
+
+
         //ces info se retrouvent dans la page d'accueil
         $livres = Livre::all();
         $top_3_livres_les_plus_pupulaires = Emprunt::select('id_livre')
