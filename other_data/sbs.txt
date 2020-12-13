@@ -33,13 +33,12 @@ http://www.infyom.com/open-source/laravelgenerator/docs/8.0/installation#install
 
 utilisation de thinker:
 php artisan tinker
-
 $user = new App\Models\User();
 $user->password = Hash::make('password');
 $user->email = 'kevindubuche@gmail.com';
 $user->nom = 'Dubuche';
 $user->prenom = 'Kevin';
-$user->role = 1;
+$user->role = 0;
 $user->save();
 
 User Barbara

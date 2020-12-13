@@ -53,6 +53,16 @@ class EmpruntController extends AppBaseController
         return $livre;
     }
 
+    public static function verifier_si_abonne_a_paye($id)
+    {
+        $user = User::where("id",$id)->get();
+        if($user->is_paye){
+            return true;
+        }
+        
+        return false;
+    }
+
     public static function verifier_si_abonne_a_atteint_limite_de_pret($id_utilisateur)
     {
         $quantite_prets = Emprunt::where("id_utilisateur",$id_utilisateur)
@@ -93,6 +103,11 @@ class EmpruntController extends AppBaseController
         if ($this->verifier_existence_utilisateur_pour_creation_emprunt($request->id_utilisateur) == 0) 
         {
             Flash::error('Cet utilisateur n\'existe pas');
+            return redirect()->back()->withInput();
+        }
+        if($this->verifier_si_abonne_a_paye($request->id_utilisateur) == false)
+        {
+            Flash::error('Echec ! Cet utilisateur n\'a pas payé !');
             return redirect()->back()->withInput();
         }
         if ($this->verifier_si_abonne_a_atteint_limite_de_pret($request->id_utilisateur) >= 3)
