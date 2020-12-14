@@ -62,18 +62,6 @@ OUTPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_dat
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/main.toc
-INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/main.toc
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-OUTPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/main.toc
 OUTPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Resume/resume.aux
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Resume/resume.tex
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Resume/resume.tex
@@ -85,6 +73,18 @@ INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data
 OUTPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Glossaire/glossaire.aux
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Glossaire/glossaire.tex
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Glossaire/glossaire.tex
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/main.toc
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/main.toc
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+OUTPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/main.toc
 OUTPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Introduction/introduction.aux
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Introduction/introduction.tex
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Introduction/introduction.tex
