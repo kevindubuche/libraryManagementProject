@@ -64,11 +64,24 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/main.toc
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/main.toc
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 OUTPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/main.toc
 OUTPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Resume/resume.aux
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Resume/resume.tex
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Resume/resume.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 OUTPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Remerciements/remerciements.aux
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Remerciements/remerciements.tex
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Remerciements/remerciements.tex
 OUTPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Glossaire/glossaire.aux
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Glossaire/glossaire.tex
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Glossaire/glossaire.tex
@@ -88,6 +101,8 @@ OUTPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_dat
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Implementation/implementation.tex
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Implementation/implementation.tex
 OUTPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Diagrammes/diagrammes.aux
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Diagrammes/diagrammes.tex
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Diagrammes/diagrammes.tex
 OUTPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Conclusion/conclusion.aux
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Conclusion/conclusion.tex
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Conclusion/conclusion.tex

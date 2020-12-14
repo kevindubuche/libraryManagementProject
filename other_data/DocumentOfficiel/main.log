@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.12.1)  14 DEC 2020 17:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.12.1)  14 DEC 2020 17:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -87,7 +87,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 10.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/main.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/main.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 1.
+)
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
@@ -96,49 +103,92 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ]
 \openout2 = `Resume/resume.aux'.
 
- (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Resume/resume.tex)
+ (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Resume/resume.tex) [1
+
+]
 \openout2 = `Remerciements/remerciements.aux'.
 
+ (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Remerciements/remerciements.tex) [2
 
-No file Remerciements/remerciements.tex.
+
+]
 \openout2 = `Glossaire/glossaire.aux'.
 
-(/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Glossaire/glossaire.tex)
+ (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Glossaire/glossaire.tex) [3
+
+
+]
 \openout2 = `Introduction/introduction.aux'.
 
- (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Introduction/introduction.tex)
+ (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Introduction/introduction.tex) [4
+
+
+
+]
 \openout2 = `Contexte/contexte.aux'.
 
- (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Contexte/contexte.tex)
+ (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Contexte/contexte.tex
+Chapter 1.
+[5
+
+
+
+]) [6]
 \openout2 = `Organisation/organisation.aux'.
 
- (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Organisation/organisation.tex)
+ (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Organisation/organisation.tex
+Chapter 2.
+) [7
+
+
+
+] [8]
 \openout2 = `AnalyseDesBesoins/analyse_des_besoins.aux'.
 
- (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/AnalyseDesBesoins/analyse_des_besoins.tex)
+ (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/AnalyseDesBesoins/analyse_des_besoins.tex
+Chapter 3.
+[9
+
+
+
+]) [10]
 \openout2 = `Implementation/implementation.aux'.
 
- (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Implementation/implementation.tex)
+ (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Implementation/implementation.tex
+Chapter 4.
+[11
+
+
+
+]) [12]
 \openout2 = `Diagrammes/diagrammes.aux'.
 
+ (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Diagrammes/diagrammes.tex) [13
 
-No file Diagrammes/diagrammes.tex.
+
+]
 \openout2 = `Conclusion/conclusion.aux'.
 
-(/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Conclusion/conclusion.tex) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/main.aux (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Resume/resume.aux) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Remerciements/remerciements.aux) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Glossaire/glossaire.aux) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Introduction/introduction.aux) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Contexte/contexte.aux) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Organisation/organisation.aux) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/AnalyseDesBesoins/analyse_des_besoins.aux) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Implementation/implementation.aux) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Diagrammes/diagrammes.aux) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Conclusion/conclusion.aux)) ) 
+ (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Conclusion/conclusion.tex
+Chapter 5.
+) [14
+
+
+
+] (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/main.aux (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Resume/resume.aux) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Remerciements/remerciements.aux) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Glossaire/glossaire.aux) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Introduction/introduction.aux) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Contexte/contexte.aux) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Organisation/organisation.aux) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/AnalyseDesBesoins/analyse_des_besoins.aux) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Implementation/implementation.aux) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Diagrammes/diagrammes.aux) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Conclusion/conclusion.aux)) ) 
 Here is how much of TeX's memory you used:
- 1294 strings out of 481239
- 27025 string characters out of 5920377
- 251411 words of memory out of 5000000
- 16516 multiletter control sequences out of 15000+600000
- 534454 words of font info for 31 fonts, out of 8000000 for 9000
+ 1319 strings out of 481239
+ 27750 string characters out of 5920377
+ 255415 words of memory out of 5000000
+ 16531 multiletter control sequences out of 15000+600000
+ 537805 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,6n,25p,275b,191s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,6n,25p,781b,191s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on "/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/main.pdf" (2 pages, 33756 bytes).
+Output written on "/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/main.pdf" (16 pages, 59315 bytes).
 PDF statistics:
- 23 PDF objects out of 1000 (max. 8388607)
- 15 compressed objects within 1 object stream
+ 68 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
