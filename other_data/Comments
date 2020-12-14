@@ -34,7 +34,7 @@ E#skon va imposer une liste de categories ou le gestionnaire aura a les ajouter 
 17.mettre "on delete cascade" sur les cles etrangere dans la table emprunt cause leum delete yon livre keu yo te prete emprunt an pa delete
 or map just fe force delete sou li.
 18.edit user : li toujou paye par defaut menm si li te save non paye 
-19.securite route yo ak middleware
+#19.securite route yo ak middleware
 20. download excel
 21. imma try to find a free hosting provider
 22. pa bliye model yo poko fini, bann tizè code
@@ -42,8 +42,19 @@ or map just fe force delete sou li.
 24. automation avec laravel, create command, create job,
 25.https://www.positronx.io/laravel-cron-job-task-scheduling-tutorial-with-example/
 26.php artisan schedule:work
-27.
-28.
-29.
-30.
+#27. leu yon moun prete yon livre mete non dipo automatiquement
+#28. add relance nan table emprunt pou ka konn si te gen relance deja
+#29. mete status livre la boolean nan bd a
+#30. chager annee_de_parution en annee et non date
+31. user : leu map edit menm si mpa payer li montre mpaye par default TBG ap vann Bibliothek la.
+32.
+33.
+34
+35.
+36.
+37.
+37.
+38
+39.
+40.
 

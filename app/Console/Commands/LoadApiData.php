@@ -7,7 +7,8 @@ use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\SendMail;
 use App\Models\User;
-
+use App\Models\Emprunt;
+use Carbon\Carbon;
 use Illuminate\Support\Facades\Log;
 
 class LoadApiData extends Command
@@ -36,14 +37,19 @@ class LoadApiData extends Command
         parent::__construct();
     }
 
-    /**
+    /** 
      * Execute the console command.
      *
      * @return int
      */
     public function handle()
-    {
-        Log::info('Relances : SUCCES  !!');
-        $this->info('Relances : SUCCES  !!');
+    { 
+        $liste_des_emprunts_non_remis_a_temps_et_avec_relance_null =
+            Emprunt::whereNull('date_de_restitution')
+            ->whereDate('created_at' , '>=', Carbon::today()->subDays( 5 ))
+            ->whereNull('relance');
+        Log::info($liste_des_emprunts_non_remis_a_temps_et_avec_relance_null->id);
+         $this->info('Relances : SUCCES  !!');
+       
     }
 }

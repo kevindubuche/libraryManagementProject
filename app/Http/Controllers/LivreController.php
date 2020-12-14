@@ -11,6 +11,7 @@ use Flash;
 use Response;
 use App\Models\Livre;
 use App\Http\Middleware\GestionnnaireOuBibliothecaire;
+use DateTime;
 
 class LivreController extends AppBaseController
 {
@@ -179,4 +180,83 @@ class LivreController extends AppBaseController
 
         return redirect(route('livres.index'));
     }
+
+    public function livrescsv()
+    {
+        $liste_des_categories = Livre::select('categorie')
+        ->groupBy('categorie')
+       ->get();
+       $liste_des_auteurs = Livre::select('auteur')
+        ->groupBy('auteur')
+       ->get();
+        $livres = Livre::all();
+        return view('livres.tablecsv', compact(['livres','liste_des_categories','liste_des_auteurs']));
+    }
+
+    public function exportCsv(Request $request)
+    {
+        $livres = Livre::where('id', '>', '0');//condition toujours vraie
+        if($request->categorie != "Tous") {                      
+            $livres->where('categorie', $request->categorie);
+        }
+        if($request->auteur != "Tous") {                      
+            $livres->where('auteur', $request->auteur);
+        }
+         if(!empty($request->created_at_debut)  && !empty($request->created_at_fin) ) {                      
+            $livres->whereBetween('created_at',
+            [ (new DateTime($request->created_at_debut))->format('Y-m-d H:i:s'),
+            (new DateTime($request->created_at_fin))->format('Y-m-d H:i:s')]);
+        }
+        $livres = $livres->orderBy('created_at', 'DESC')->get();
+
+        if($request->submit =='download')
+        {
+       $fileName = 'Liste_des_livres.csv';
+            $headers = array(
+                "Content-type"        => "text/csv",
+                "Content-Disposition" => "attachment; filename=$fileName",
+                "Pragma"              => "no-cache",
+                "Cache-Control"       => "must-revalidate, post-check=0, pre-check=0",
+                "Expires"             => "0",
+                "Charset"             =>"UTF-8",
+                "Content-Encoding"    => "UTF-8"
+            );
+    
+            $columns = array('ID','Titre','Année de parution','Auteur','Statut','Catégorie','Date de création');
+            
+            $callback = function() use($livres, $columns) {
+                $file = fopen('php://output', 'w');
+                fputcsv($file, $columns);
+                foreach ($livres as $livre) {
+                    $row['ID']  = $livre->id;
+                    $row['Titre']  = $livre->titre;
+                    $row['Année de parution']   = $livre->annee_de_parution;
+                    $row['Auteur']    = $livre->auteur;
+                    $row['Statut']  = $livre->statut ;
+                    $row['Catégorie']  = $livre->categorie;
+                    $row['Date de création']  = $livre->created_at->format('d-m-y');
+    
+                    fputcsv($file, array($row['ID'], $row['Titre'], $row['Année de parution'], $row['Auteur'], $row['Statut'], $row['Catégorie'], $row['Date de création']));
+                }
+                
+                fclose($file);
+            };
+    
+            return response()->stream($callback, 200, $headers);
+        }
+         else
+        {
+            $inputs =$request->all();
+            $liste_des_categories = Livre::select('categorie')
+            ->groupBy('categorie')
+           ->get();
+           $liste_des_auteurs = Livre::select('auteur')
+            ->groupBy('auteur')
+           ->get();
+            return view('livres.tablecsv', compact('livres','liste_des_categories','liste_des_auteurs','inputs'));
+        }
+        }
+
+
+
 }
