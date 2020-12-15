@@ -1,24 +1,26 @@
-\contentsline {chapter}{\numberline {1}Introduction}{1}%
-\contentsline {chapter}{\numberline {2}Contexte}{2}%
-\contentsline {section}{\numberline {2.1}Realite des etudes de sol en Haiti}{2}%
-\contentsline {section}{\numberline {2.2}Les donnees geotechniques en Haiti}{2}%
-\contentsline {section}{\numberline {2.3}Comparaison avec des pays etrangers}{3}%
-\contentsline {section}{\numberline {2.4}Comparaison avec des outils deja implementes}{3}%
-\contentsline {chapter}{\numberline {3}Organisation}{4}%
-\contentsline {section}{\numberline {3.1}Approche de travail}{4}%
-\contentsline {section}{\numberline {3.2}Methodologie}{4}%
-\contentsline {section}{\numberline {3.3}Repartition des taches}{5}%
-\contentsline {chapter}{\numberline {4}Analyse des besoins}{6}%
-\contentsline {section}{\numberline {4.1}Besoins fonctionnels}{6}%
-\contentsline {section}{\numberline {4.2}Besoins non-fonctionnels}{6}%
-\contentsline {section}{\numberline {4.3}Structure modulaire}{7}%
-\contentsline {section}{\numberline {4.4}Structure des donnees}{7}%
-\contentsline {chapter}{\numberline {5}Implementation}{8}%
-\contentsline {section}{\numberline {5.1}Choix des technologies}{8}%
-\contentsline {section}{\numberline {5.2}La hierarchie dans l'application}{8}%
-\contentsline {section}{\numberline {5.3}Interface utilisateur}{9}%
-\contentsline {section}{\numberline {5.4}Client}{9}%
-\contentsline {section}{\numberline {5.5}Serveur}{9}%
-\contentsline {section}{\numberline {5.6}D Diagrammes d'activites}{10}%
-\contentsline {chapter}{\numberline {6}Conclusion}{11}%
-\contentsline {section}{\numberline {6.1}Metriques}{11}%
+\contentsline {paragraph}{}{2}%
+\contentsline {paragraph}{Utilisateurs directes de l’application}{2}%
+\contentsline {paragraph}{Contraintes liées aux exigences des règlements de la bibliothèque}{3}%
+\contentsline {chapter}{\numberline {1}Contexte}{1}%
+\contentsline {section}{\numberline {1.1}Realite des etudes de sol en Haiti}{1}%
+\contentsline {section}{\numberline {1.2}Les donnees geotechniques en Haiti}{1}%
+\contentsline {section}{\numberline {1.3}Comparaison avec des pays etrangers}{2}%
+\contentsline {section}{\numberline {1.4}Comparaison avec des outils deja implementes}{2}%
+\contentsline {chapter}{\numberline {2}Organisation}{3}%
+\contentsline {section}{\numberline {2.1}Approche de travail}{3}%
+\contentsline {section}{\numberline {2.2}Methodologie}{3}%
+\contentsline {section}{\numberline {2.3}Repartition des taches}{4}%
+\contentsline {chapter}{\numberline {3}Analyse des besoins}{5}%
+\contentsline {section}{\numberline {3.1}Besoins fonctionnels}{5}%
+\contentsline {section}{\numberline {3.2}Besoins non-fonctionnels}{5}%
+\contentsline {section}{\numberline {3.3}Structure modulaire}{6}%
+\contentsline {section}{\numberline {3.4}Structure des donnees}{6}%
+\contentsline {chapter}{\numberline {4}Implementation}{7}%
+\contentsline {section}{\numberline {4.1}Choix des technologies}{7}%
+\contentsline {section}{\numberline {4.2}La hierarchie dans l'application}{7}%
+\contentsline {section}{\numberline {4.3}Interface utilisateur}{8}%
+\contentsline {section}{\numberline {4.4}Client}{8}%
+\contentsline {section}{\numberline {4.5}Serveur}{8}%
+\contentsline {section}{\numberline {4.6}D Diagrammes d'activites}{9}%
+\contentsline {chapter}{\numberline {5}Conclusion}{10}%
+\contentsline {section}{\numberline {5.1}Metriques}{10}%
