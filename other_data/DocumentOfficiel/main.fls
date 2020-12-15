@@ -35,8 +35,6 @@ INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Contexte/contexte.aux
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Organisation/organisation.aux
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Organisation/organisation.aux
-INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/AnalyseDesBesoins/analyse_des_besoins.aux
-INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/AnalyseDesBesoins/analyse_des_besoins.aux
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Implementation/implementation.aux
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Implementation/implementation.aux
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Diagrammes/diagrammes.aux
@@ -85,9 +83,6 @@ INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data
 OUTPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Organisation/organisation.aux
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Organisation/organisation.tex
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Organisation/organisation.tex
-OUTPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/AnalyseDesBesoins/analyse_des_besoins.aux
-INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/AnalyseDesBesoins/analyse_des_besoins.tex
-INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/AnalyseDesBesoins/analyse_des_besoins.tex
 OUTPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Implementation/implementation.aux
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Implementation/implementation.tex
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Implementation/implementation.tex
@@ -106,8 +101,6 @@ INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Contexte/contexte.aux
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Organisation/organisation.aux
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Organisation/organisation.aux
-INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/AnalyseDesBesoins/analyse_des_besoins.aux
-INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/AnalyseDesBesoins/analyse_des_besoins.aux
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Implementation/implementation.aux
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Implementation/implementation.aux
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Diagrammes/diagrammes.aux
