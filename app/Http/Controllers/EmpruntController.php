@@ -55,7 +55,7 @@ class EmpruntController extends AppBaseController
 
     public static function verifier_si_abonne_a_paye($id)
     {
-        $user = User::where("id",$id)->get();
+        $user = User::where("id",$id)->first();         
         if($user->is_paye){
             return true;
         }
@@ -85,7 +85,7 @@ class EmpruntController extends AppBaseController
      */
     public function create()
     {
-        $abonnes = User::orderBy('nom', 'ASC')->get();
+        $abonnes = User::where('is_paye', '!=', 0)->orderBy('nom', 'ASC')->get();
         $ouvrages_disponibles = Livre::where('statut', 1)->get();
         return view('emprunts.create', compact(['abonnes','ouvrages_disponibles']));
     }
@@ -110,7 +110,7 @@ class EmpruntController extends AppBaseController
             Flash::error('Echec ! Cet utilisateur n\'a pas payé !');
             return redirect()->back()->withInput();
         }
-        if ($this->verifier_si_abonne_a_atteint_limite_de_pret($request->id_utilisateur) >= 3)
+        if ($this->verifier_si_abonne_a_atteint_limite_de_pret($request->id_utilisateur) >= 35)
         {
             Flash::error('Echec ! Cet utilisateur a déjà atteint son quota !');
             return redirect()->back()->withInput();

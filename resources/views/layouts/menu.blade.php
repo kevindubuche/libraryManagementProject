@@ -1,5 +1,5 @@
 @if(Auth::user()->role <= 4)
-<li class="{{ Request::is('livres*') ? 'active' : '' }}">
+<li class="{{ Request::is('home*') ? 'active' : '' }}">
     <a href="{{route('home') }}"><i class="fa fa-tasks"></i><span>Activités</span></a>
 </li>
 
@@ -9,7 +9,7 @@
 @endif
 @if(Auth::user()->role <= 1)
     <li class="{{ Request::is('emprunts*') ? 'active' : '' }}">
-        <a href="{{ route('emprunts.index') }}"><i class="fa fa-edit"></i><span>Emprunts</span></a>
+        <a href="{{ route('emprunts.index') }}"><i class="fa fa-shopping-cart"></i><span>Emprunts</span></a>
     </li>
 @endif
 @if(Auth::user()->role == 0 )
