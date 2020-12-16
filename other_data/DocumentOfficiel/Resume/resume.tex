@@ -1,0 +1,92 @@
+\section*{Résumé}
+\paragraph{}
+Afin de numériser la gestion des prêts dans une bibliothèque 
+universitaire, cette dernière souhaite mettre en place une 
+application capable de contrôler les différentes actions
+ pouvant avoir lieu au sein de ladite bibliothèque. 
+ De façon générale, elle est gérée par un chargé des 
+ inscriptions et des relances des lecteurs quand ceux-ci 
+ n’ont pas rendu leurs ouvrages au-delà du délai autorisé. 
+ D’un autre côté, les bibliothécaires sont chargés de gérer 
+ les emprunts et la restitution des ouvrages ainsi que 
+ l’acquisition de nouveaux ouvrages. \par
+Afin d’assurer l’intégrité de cette gestion, l’application 
+devra définir les différentes tâches propres à chaque 
+utilisateur et respecter les règlements internes de la 
+bibliothèque. \par
+
+\paragraph{Utilisateurs directes de l’application}
+\par 
+L’application sera continuellement en possession de deux 
+utilisateurs spécifiques: un administrateur et un 
+bibliothécaire. Mais, pour décongestionner l’espace, 
+une interface sera accessible par les inscrits afin de 
+consulter, à distance, un catalogue. Ainsi, chaque utilisateur aura des droits prédéfinis par 
+l’application. Donc, pour avoir accès à l’application, 
+ils devront d’abord s’authentifier. \par
+
+\begin{enumerate}
+    \item Gestionnaire
+\\ Deux types de gestionnaires devront être pris en compte.
+    \begin{itemize}
+        \item L'administrateur sera le gestionnaire en chef
+    de l'application. Il devra être en mesure de tout assurer
+    au niveau de l'application. De ce fait, certaines tâches
+    lui seront entièrement réservées.
+        \begin{itemize}
+            \item Ajouter/Afficher/Modifier/Supprimer des 
+            utilisateurs à tous les niveaux.
+            \item Ajouter/Afficher/Modifier/Supprimer des 
+            cas exceptionnels dans le fonctionnement de la 
+            bibliothèque.
+            \item Faire tout ce que peut faire un autre utilisateur.
+        \end{itemize}
+        \item Le bibliothécaire sera le gestionnaire des 
+    données accessibles de l’application. En d’autres termes, 
+    il sera en interaction directe et continue avec les données 
+    de la base. Ses tâches consisteront à:
+        \begin{itemize}
+            \item Ajouter/Afficher/Modifier/Supprimer un emprunt 
+            ou une restitution  d’ouvrage
+            \item Ajouter/Afficher/Modifier/Supprimer l’acquisition 
+            de nouveaux ouvrages
+        \end{itemize}
+    \end{itemize}
+
+    \item Abonnés
+\\ Tous les abonnés hériteront des mêmes droits. Ce qui fera la 
+différence sera le type qui leur sera attribué dès 
+l’inscription. Trois catégories seront clairement 
+identifiées.
+    \begin{itemize}
+    \item Un étudiant doit seulement s’acquitter d’une somme 
+    forfaitaire pour une année afin d’avoir droit à tous les 
+    services de la bibliothèque. Il sera identifié sous le type “inscrit”.
+    \item L’accès à la bibliothèque est libre pour tous les enseignants.
+    \item Il est possible d’autoriser des étudiants d’une autre université à 
+    s’inscrire exceptionnellement comme abonné moyennant le versement d’une 
+    cotisation. Il sera identifié sous le type “externe”.
+    \end{itemize}
+\end{enumerate}
+\par 
+    Les abonnés devront être en mesure de: \par 
+\begin{enumerate}
+    \item Consulter la disponibilité des ouvrages sans avoir à
+     passer par les gestionnaires
+    \item Vérifier la localisation des ouvrages à partir d’un catalogue
+\end{enumerate}
+    
+\paragraph{Contraintes liées aux exigences des règlements de la bibliothèque}
+Certaines règles sont strictes et exigibles afin d’assurer le bon fonctionnement 
+de la bibliothèque. Par ailleurs, l’application devra prendre en compte toutes
+ ces obligations pour que la cohérence soit respectée. \par
+ \begin{enumerate}
+     \item Le nombre d’abonnés externes est limité chaque année à environ 
+     10\% des inscrits.
+     \item Les ouvrages, souvent acquis en plusieurs exemplaires, sont 
+     rangés dans des rayons de la bibliothèque. Chaque exemplaire est repéré 
+     par une référence gérée dans le catalogue et le code du rayon où il est rangé.
+     \item Chaque abonné ne peut emprunter plus de trois ouvrages.
+     \item Le délai d’emprunt d’un ouvrage est de trois semaines; il peut 
+     cependant être prolongé exceptionnellement à cinq(5) semaines.
+ \end{enumerate}

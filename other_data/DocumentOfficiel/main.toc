@@ -1,0 +1,23 @@
+\contentsline {paragraph}{}{2}%
+\contentsline {paragraph}{Utilisateurs directes de l’application}{2}%
+\contentsline {paragraph}{Contraintes liées aux exigences des règlements de la bibliothèque}{3}%
+\contentsline {paragraph}{}{4}%
+\contentsline {chapter}{\numberline {1}Contexte}{1}%
+\contentsline {section}{\numberline {1.1}Fonctionnenment d'une bibliothèque}{1}%
+\contentsline {paragraph}{}{1}%
+\contentsline {section}{\numberline {1.2}Affluence résultante}{1}%
+\contentsline {paragraph}{}{1}%
+\contentsline {section}{\numberline {1.3}Avantages portées par la numérisation}{2}%
+\contentsline {paragraph}{}{2}%
+\contentsline {chapter}{\numberline {2}Organisation}{3}%
+\contentsline {section}{\numberline {2.1}Approche de travail}{3}%
+\contentsline {paragraph}{}{3}%
+\contentsline {section}{\numberline {2.2}Methodologie}{3}%
+\contentsline {section}{\numberline {2.3}Repartition des taches}{3}%
+\contentsline {chapter}{\numberline {3}Implémentation}{5}%
+\contentsline {section}{\numberline {3.1}Choix des technologies}{5}%
+\contentsline {paragraph}{}{5}%
+\contentsline {section}{\numberline {3.2}La hierarchie dans l'application}{5}%
+\contentsline {section}{\numberline {3.3}Interface utilisateur}{6}%
+\contentsline {section}{\numberline {3.4}Diagrammes d'activites}{7}%
+\contentsline {chapter}{\numberline {4}Conclusion}{8}%
