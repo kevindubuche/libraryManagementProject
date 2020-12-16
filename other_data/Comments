@@ -35,13 +35,13 @@ E#skon va imposer une liste de categories ou le gestionnaire aura a les ajouter 
 or map just fe force delete sou li.
 18.edit user : li toujou paye par defaut menm si li te save non paye 
 #19.securite route yo ak middleware
-20. download excel
+#20. download excel
 21. imma try to find a free hosting provider
 22. pa bliye model yo poko fini, bann tizè code
 #23. reset password via mail
-24. automation avec laravel, create command, create job,
+#24. automation avec laravel, create command, create job,
 25.https://www.positronx.io/laravel-cron-job-task-scheduling-tutorial-with-example/
-26.php artisan schedule:work
+#26.php artisan schedule:work
 #27. leu yon moun prete yon livre mete non dipo automatiquement
 #28. add relance nan table emprunt pou ka konn si te gen relance deja
 #29. mete status livre la boolean nan bd a

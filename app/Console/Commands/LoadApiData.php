@@ -44,12 +44,29 @@ class LoadApiData extends Command
      */
     public function handle()
     { 
-        $liste_des_emprunts_non_remis_a_temps_et_avec_relance_null =
-            Emprunt::whereNull('date_de_restitution')
-            ->whereDate('created_at' , '>=', Carbon::today()->subDays( 5 ))
-            ->whereNull('relance');
-        Log::info($liste_des_emprunts_non_remis_a_temps_et_avec_relance_null->id);
+
+        ///////////////////////////////
+$liste_des_emprunts_non_remis_a_temps_et_avec_relance_null =
+Emprunt::whereNull('date_de_restitution')
+ ->whereNull('relance')
+ ->where('created_at', '<', now()->subDays(30))
+ ->get();
+ foreach($liste_des_emprunts_non_remis_a_temps_et_avec_relance_null as $emprunt)
+ {
+     Mail::raw("TEST-  Mpap baw manti : pote liv la tounen !", function ($mail) use ($emprunt) {
+        $mail->from('kevindubuche@gmail.com');
+        $mail->to($emprunt->idUtilisateur->email)
+            ->subject('BIBLIOTHECH Rappel pou pote liv la tounen !');
+            
+            dd($emprunt->idUtilisateur->email);
+    });
+ }
+
+///////////////////////////////
+            Log::info($emp->id);
          $this->info('Relances : SUCCES  !!');
+        
+        
        
     }
 }
