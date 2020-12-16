@@ -85,7 +85,7 @@ class EmpruntController extends AppBaseController
      */
     public function create()
     {
-        $abonnes = User::orderBy('nom', 'ASC')->get();
+        $abonnes = User::where('is_paye', '!=', 0)->orderBy('nom', 'ASC')->get();
         $ouvrages_disponibles = Livre::where('statut', 1)->get();
         return view('emprunts.create', compact(['abonnes','ouvrages_disponibles']));
     }

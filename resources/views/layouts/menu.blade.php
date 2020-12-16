@@ -1,5 +1,5 @@
 @if(Auth::user()->role <= 4)
-<li class="{{ Request::is('livres*') ? 'active' : '' }}">
+<li class="{{ Request::is('home*') ? 'active' : '' }}">
     <a href="{{route('home') }}"><i class="fa fa-tasks"></i><span>Activités</span></a>
 </li>
 
