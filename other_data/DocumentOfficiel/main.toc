@@ -4,8 +4,11 @@
 \contentsline {paragraph}{}{4}%
 \contentsline {chapter}{\numberline {1}Contexte}{1}%
 \contentsline {section}{\numberline {1.1}Fonctionnenment d'une bibliothèque}{1}%
+\contentsline {paragraph}{}{1}%
 \contentsline {section}{\numberline {1.2}Affluence résultante}{1}%
+\contentsline {paragraph}{}{1}%
 \contentsline {section}{\numberline {1.3}Avantages portées par la numérisation}{2}%
+\contentsline {paragraph}{}{2}%
 \contentsline {chapter}{\numberline {2}Organisation}{3}%
 \contentsline {section}{\numberline {2.1}Approche de travail}{3}%
 \contentsline {paragraph}{}{3}%
