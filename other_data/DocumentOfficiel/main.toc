@@ -14,8 +14,9 @@
 \contentsline {paragraph}{}{3}%
 \contentsline {section}{\numberline {2.2}Methodologie}{3}%
 \contentsline {section}{\numberline {2.3}Repartition des taches}{3}%
-\contentsline {chapter}{\numberline {3}Implementation}{5}%
+\contentsline {chapter}{\numberline {3}Implémentation}{5}%
 \contentsline {section}{\numberline {3.1}Choix des technologies}{5}%
+\contentsline {paragraph}{}{5}%
 \contentsline {section}{\numberline {3.2}La hierarchie dans l'application}{5}%
 \contentsline {section}{\numberline {3.3}Interface utilisateur}{6}%
 \contentsline {section}{\numberline {3.4}Diagrammes d'activites}{7}%
