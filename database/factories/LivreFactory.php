@@ -24,7 +24,7 @@ class LivreFactory extends Factory
         return [
         'position_dans_la_bibliotheque' => $this->faker->regexify('[A-Z]' . mt_rand(4, 200).'[A-Z]'. mt_rand(4, 200)),
         'titre' => $this->faker->realText(25),
-        'annee_de_parution' => $this->faker->dateTimeBetween('-100 years', 'now'),
+        'annee_de_parution' => $this->faker->dateTimeBetween('-100 years', 'now')->format('Y'),
         'auteur' => $this->faker->name,
         'categorie' =>  $this->faker->randomElement(['Roman courtois',' Roman historique','Roman épistolaire',
         'Roman-mémoires','Roman d\'amour','Roman industriel','Nouvelle fiction']),
