@@ -18,20 +18,20 @@
 \contentsline {section}{\numberline {2.3}Répartition des tâches}{4}%
 \contentsline {paragraph}{}{4}%
 \contentsline {chapter}{\numberline {3}Implémentation}{5}%
-\contentsline {section}{\numberline {3.1}Choix des technologies}{5}%
-\contentsline {paragraph}{}{5}%
-\contentsline {section}{\numberline {3.2}La hiérarchie dans l'application}{5}%
-\contentsline {paragraph}{}{5}%
-\contentsline {section}{\numberline {3.3}Interface utilisateur}{6}%
+\contentsline {section}{\numberline {3.1}Choix des technologies}{6}%
 \contentsline {paragraph}{}{6}%
-\contentsline {section}{\numberline {3.4}Diagrammes}{6}%
-\contentsline {subsection}{\numberline {3.4.1}Diagrammes des cas d'utilisation}{6}%
-\contentsline {paragraph}{}{6}%
-\contentsline {subsection}{\numberline {3.4.2}Diagrammes de séquence}{6}%
-\contentsline {paragraph}{}{6}%
-\contentsline {subsection}{\numberline {3.4.3}Diagrammes de ce ce qu'on a demande}{6}%
-\contentsline {paragraph}{}{6}%
-\contentsline {subsection}{\numberline {3.4.4}Diagrammes de ce qu'on n'a pas demande}{7}%
+\contentsline {section}{\numberline {3.2}La hiérarchie dans l'application}{7}%
 \contentsline {paragraph}{}{7}%
-\contentsline {section}{\numberline {3.5}Diagrammes d'activites}{8}%
-\contentsline {chapter}{\numberline {4}Conclusion}{9}%
+\contentsline {section}{\numberline {3.3}Interface utilisateur}{7}%
+\contentsline {paragraph}{}{7}%
+\contentsline {section}{\numberline {3.4}Diagrammes}{7}%
+\contentsline {subsection}{\numberline {3.4.1}Diagrammes des cas d'utilisation}{7}%
+\contentsline {paragraph}{}{7}%
+\contentsline {subsection}{\numberline {3.4.2}Diagrammes de séquence}{8}%
+\contentsline {paragraph}{}{8}%
+\contentsline {subsection}{\numberline {3.4.3}Diagrammes de ce ce qu'on a demande}{8}%
+\contentsline {paragraph}{}{8}%
+\contentsline {subsection}{\numberline {3.4.4}Diagrammes de ce qu'on n'a pas demande}{8}%
+\contentsline {paragraph}{}{8}%
+\contentsline {section}{\numberline {3.5}Diagrammes d'activites}{9}%
+\contentsline {chapter}{\numberline {4}Conclusion}{10}%
