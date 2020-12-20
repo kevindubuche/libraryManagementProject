@@ -1,7 +1,7 @@
 \chapter{Implémentation}
-        \section{Choix des technologies}
-\paragraph{}   
-\begin{tabular}{|c|c|p{2.7cm}|p{4cm}|}
+        \section{Choix des technologies} 
+        \paragraph{} 
+\begin{tabular}{|c|p{1.5cm}|p{2.7cm}|p{4cm}|}
         \hline
         Technologie & Version & Utilité & Raison du choix \\
         \hline
@@ -17,6 +17,9 @@
         \hline
         PHP & 7.4.13 & Codage backend & Open source | Robuste | Sécurité | Imposé par le client\\
         \hline
+\end{tabular}
+\begin{tabular}{|c|p{1.5cm}|p{2.7cm}|p{4cm}|}
+        \hline
         Laravel Framework & 8.15.0 & Programmation web & Prise en charge de l’architecture MVC | Facilite d’utilisation du Framework | Sécurité et performance | Documentation et communauté\\
         \hline
         HTML5 & 5 & Programmation structure frontend & Open source | Facilité\\
@@ -30,7 +33,6 @@
         Google: Gmail API &  & SMTP & Server mail pour délivrer les email\\
         \hline
 \end{tabular}
-\par 
 
 \section{La hiérarchie dans l'application}
 \paragraph{}
@@ -54,8 +56,68 @@ les différentes utilités de chaque bouton.
 
 \section{Diagrammes}
 \subsection{Diagrammes des cas d'utilisation}
-\paragraph{} 
+\subsubsection{Cas d'utilisation général} 
+\begin{figure}[h]
+        \centering
+        \includegraphics[width=1\textwidth]{generalUseCase}
+        \caption{Diagramme des cas d'utilisation général}
+        \label{image-generalUseCase}
+        \end{figure}
+\paragraph{}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices purus. Donec finibus metus et augue sodales posuere. Proin sit amet turpis dictum, iaculis felis in, scelerisque massa. Nullam aliquam nunc eget fringilla volutpat. Integer et mauris et massa imperdiet scelerisque mollis at sapien. Donec condimentum felis eget sagittis ultricies. Nunc laoreet augue id consectetur vulputate. Cras sagittis aliquam risus sit amet tempus. Curabitur finibus neque eget magna efficitur, sed dignissim quam sagittis. Ut euismod justo id gravida pulvinar. Ut urna magna, auctor maximus volutpat ac, elementum sed mi.
+
+\subsubsection{Consultation du catalogue} 
+\begin{figure}[h]
+        \centering
+        \includegraphics[width=1\textwidth]{consultationDuCatalogueUseCase}
+        \caption{Diagramme du cas de consultation du catalogue}
+        \label{image-consultationDuCatalogueUseCase}
+        \end{figure}
+\paragraph{}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices purus. Donec finibus metus et augue sodales posuere. Proin sit amet turpis dictum, iaculis felis in, scelerisque massa. Nullam aliquam nunc eget fringilla volutpat. Integer et mauris et massa imperdiet scelerisque mollis at sapien. Donec condimentum felis eget sagittis ultricies. Nunc laoreet augue id consectetur vulputate. Cras sagittis aliquam risus sit amet tempus. Curabitur finibus neque eget magna efficitur, sed dignissim quam sagittis. Ut euismod justo id gravida pulvinar. Ut urna magna, auctor maximus volutpat ac, elementum sed mi.
+
+\subsubsection{Acquisition des ouvrages} 
+\begin{figure}[h]
+        \centering
+        \includegraphics[width=1\textwidth]{acquisitionDesOuvragesUseCase}
+        \caption{Diagramme du cas d'acquisition des ouvrages}
+        \label{image-acquisitionDesOuvragesUseCase}
+        \end{figure}
+\paragraph{}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices purus. Donec finibus metus et augue sodales posuere. Proin sit amet turpis dictum, iaculis felis in, scelerisque massa. Nullam aliquam nunc eget fringilla volutpat. Integer et mauris et massa imperdiet scelerisque mollis at sapien. Donec condimentum felis eget sagittis ultricies. Nunc laoreet augue id consectetur vulputate. Cras sagittis aliquam risus sit amet tempus. Curabitur finibus neque eget magna efficitur, sed dignissim quam sagittis. Ut euismod justo id gravida pulvinar. Ut urna magna, auctor maximus volutpat ac, elementum sed mi.
+
+\subsubsection{Gestion des emprunts} 
+\begin{figure}[ht]
+        \centering
+        \includegraphics[width=1\textwidth]{gestionDesEmpruntsUseCase}
+        \caption{Diagramme du cas de gestion des emprunts}
+        \label{image-gestionDesEmpruntsUseCase}
+        \end{figure}
+\paragraph{}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices purus. Donec finibus metus et augue sodales posuere. Proin sit amet turpis dictum, iaculis felis in, scelerisque massa. Nullam aliquam nunc eget fringilla volutpat. Integer et mauris et massa imperdiet scelerisque mollis at sapien. Donec condimentum felis eget sagittis ultricies. Nunc laoreet augue id consectetur vulputate. Cras sagittis aliquam risus sit amet tempus. Curabitur finibus neque eget magna efficitur, sed dignissim quam sagittis. Ut euismod justo id gravida pulvinar. Ut urna magna, auctor maximus volutpat ac, elementum sed mi.
+
+\subsubsection{Restitution des ouvrages} 
+\begin{figure}[h]
+        \centering
+        \includegraphics[width=1\textwidth]{restitutionDesOuvragesUseCase}
+        \caption{Diagramme du cas de restitution des ouvrages}
+        \label{image-restitutionDesOuvragesUseCase}
+        \end{figure}
+\paragraph{}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices purus. Donec finibus metus et augue sodales posuere. Proin sit amet turpis dictum, iaculis felis in, scelerisque massa. Nullam aliquam nunc eget fringilla volutpat. Integer et mauris et massa imperdiet scelerisque mollis at sapien. Donec condimentum felis eget sagittis ultricies. Nunc laoreet augue id consectetur vulputate. Cras sagittis aliquam risus sit amet tempus. Curabitur finibus neque eget magna efficitur, sed dignissim quam sagittis. Ut euismod justo id gravida pulvinar. Ut urna magna, auctor maximus volutpat ac, elementum sed mi.
+
+\subsubsection{Gestion des utilisateurs} 
+\begin{figure}[h]
+        \centering
+        \includegraphics[width=1\textwidth]{gestionDesUtilisateursUseCase}
+        \caption{Diagramme du cas de gestion des utilisateurs}
+        \label{image-gestionDesUtilisateursUseCase}
+        \end{figure}
+\paragraph{}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices purus. Donec finibus metus et augue sodales posuere. Proin sit amet turpis dictum, iaculis felis in, scelerisque massa. Nullam aliquam nunc eget fringilla volutpat. Integer et mauris et massa imperdiet scelerisque mollis at sapien. Donec condimentum felis eget sagittis ultricies. Nunc laoreet augue id consectetur vulputate. Cras sagittis aliquam risus sit amet tempus. Curabitur finibus neque eget magna efficitur, sed dignissim quam sagittis. Ut euismod justo id gravida pulvinar. Ut urna magna, auctor maximus volutpat ac, elementum sed mi.
+
+
+
 \subsection{Diagrammes de séquence}
 \paragraph{} 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices purus. Donec finibus metus et augue sodales posuere. Proin sit amet turpis dictum, iaculis felis in, scelerisque massa. Nullam aliquam nunc eget fringilla volutpat. Integer et mauris et massa imperdiet scelerisque mollis at sapien. Donec condimentum felis eget sagittis ultricies. Nunc laoreet augue id consectetur vulputate. Cras sagittis aliquam risus sit amet tempus. Curabitur finibus neque eget magna efficitur, sed dignissim quam sagittis. Ut euismod justo id gravida pulvinar. Ut urna magna, auctor maximus volutpat ac, elementum sed mi.
