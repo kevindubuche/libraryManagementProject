@@ -1,13 +1,51 @@
 \chapter{Implémentation}
         \section{Choix des technologies}
 \paragraph{}   
-Pour assurer la conception de ce projet, le langage UML
-a été imposé par le client.
+\begin{tabular}{|c|p{2.7cm}|p{6cm}|}
+        \hline
+        Technologie & Utilité & Raison du choix \\
+        \hline
+        Linux & OS & Les trois membres utilisent Linux \\
+        \hline
+        Github & Système de contrôle de version & Il permet de travailler à distance et en même temps et de garder une trace des différentes versions\\
+        \hline 
+        StarUml & Conception & Le choix de UML a été imposé par le client dès le départ. \\
+        \hline
+        (you know better) & Programmation web & Donne la raison \\
+        \hline
+\end{tabular}
+\par 
 
-BUT M PANSE FOM TA METE DES TABLES DE PREFERENCE POUR CHAQUE TECHNOLOGIE
-\par Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Mauris at ultricespurus.  Donec finibus metus et augue sodales posuere.  Proin sit amet turpisdictum, iaculis felis in, scelerisque massa.  Nullam aliquam nunc eget fringillavolutpat.  Integer et mauris et massa imperdiet scelerisque mollis at sapien.Donec condimentum felis eget sagittis ultricies.  Nunc laoreet augue id con-sectetur vulputate.  Cras sagittis aliquam risus sit amet tempus.  Curabiturfinibus neque eget magna efficitur, sed dignissim quam sagittis.  Ut euismodjusto  id  gravida  pulvinar.   Ut  urna  magna,  auctor  maximus  volutpat  ac,elementum sed mi.
-        \section{La hierarchie dans l'application}
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices purus. Donec finibus metus et augue sodales posuere. Proin sit amet turpis dictum, iaculis felis in, scelerisque massa. Nullam aliquam nunc eget fringilla volutpat. Integer et mauris et massa imperdiet scelerisque mollis at sapien. Donec condimentum felis eget sagittis ultricies. Nunc laoreet augue id consectetur vulputate. Cras sagittis aliquam risus sit amet tempus. Curabitur finibus neque eget magna efficitur, sed dignissim quam sagittis. Ut euismod justo id gravida pulvinar. Ut urna magna, auctor maximus volutpat ac, elementum sed mi.
-        \section{Interface utilisateur}
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices purus. Donec finibus metus et augue sodales posuere. Proin sit amet turpis dictum, iaculis felis in, scelerisque massa. Nullam aliquam nunc eget fringilla volutpat. Integer et mauris et massa imperdiet scelerisque mollis at sapien. Donec condimentum felis eget sagittis ultricies. Nunc laoreet augue id consectetur vulputate. Cras sagittis aliquam risus sit amet tempus. Curabitur finibus neque eget magna efficitur, sed dignissim quam sagittis. Ut euismod justo id gravida pulvinar. Ut urna magna, auctor maximus volutpat ac, elementum sed mi.
-        
+\section{La hiérarchie dans l'application}
+\paragraph{}
+Trois niveaux d'utilisation sont considérés au sein de l'application.
+Chacun d'eux détient des privilèges en plus de celui qui vient directement après lui.
+Les abonnés sont ceux qui peuvent poser le moins d'actions possibles dans le système. ils 
+ne peuvent rien faire de plus que lire les données disponibles. De ce fait, 
+ils peuvent voir tous les livres qui sont disponibles à chaque instant, et recevoir 
+des notifications lorsqu'ils auront passé trop de temps avec un ouvrage en main.\par 
+De leur côté, les bibliothécaires détiennent des droits de ressources matérielles. En plus
+des droits d'accès des abonnés, ils peuvent agir sur les différents 
+emprunts ainsi que que sur les données relatives aux ouvrages. \par 
+Et enfin, le gestionnaire peut tout faire, et plus particulièrement gérer les 
+utilisateurs du système.
+\section{Interface utilisateur}
+\paragraph{}       
+L'interface utilisateur a été réfléchi de telle sorte que n'importe qui 
+peut se retrouver facilement sur l'application. Aucun téléchargement préalable n'est requis, de même 
+qu'il ne sera pas du tout nécessaire de faire un cours complet pour expliquer à un nouvel utilisateur
+les différentes utilités de chaque bouton.
+
+\section{Diagrammes}
+\subsection{Diagrammes des cas d'utilisation}
+\paragraph{} 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices purus. Donec finibus metus et augue sodales posuere. Proin sit amet turpis dictum, iaculis felis in, scelerisque massa. Nullam aliquam nunc eget fringilla volutpat. Integer et mauris et massa imperdiet scelerisque mollis at sapien. Donec condimentum felis eget sagittis ultricies. Nunc laoreet augue id consectetur vulputate. Cras sagittis aliquam risus sit amet tempus. Curabitur finibus neque eget magna efficitur, sed dignissim quam sagittis. Ut euismod justo id gravida pulvinar. Ut urna magna, auctor maximus volutpat ac, elementum sed mi.
+\subsection{Diagrammes de séquence}
+\paragraph{} 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices purus. Donec finibus metus et augue sodales posuere. Proin sit amet turpis dictum, iaculis felis in, scelerisque massa. Nullam aliquam nunc eget fringilla volutpat. Integer et mauris et massa imperdiet scelerisque mollis at sapien. Donec condimentum felis eget sagittis ultricies. Nunc laoreet augue id consectetur vulputate. Cras sagittis aliquam risus sit amet tempus. Curabitur finibus neque eget magna efficitur, sed dignissim quam sagittis. Ut euismod justo id gravida pulvinar. Ut urna magna, auctor maximus volutpat ac, elementum sed mi.
+\subsection{Diagrammes de ce ce qu'on a demande}
+\paragraph{} 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices purus. Donec finibus metus et augue sodales posuere. Proin sit amet turpis dictum, iaculis felis in, scelerisque massa. Nullam aliquam nunc eget fringilla volutpat. Integer et mauris et massa imperdiet scelerisque mollis at sapien. Donec condimentum felis eget sagittis ultricies. Nunc laoreet augue id consectetur vulputate. Cras sagittis aliquam risus sit amet tempus. Curabitur finibus neque eget magna efficitur, sed dignissim quam sagittis. Ut euismod justo id gravida pulvinar. Ut urna magna, auctor maximus volutpat ac, elementum sed mi.
+\subsection{Diagrammes de ce qu'on n'a pas demande}
+\paragraph{} 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices purus. Donec finibus metus et augue sodales posuere. Proin sit amet turpis dictum, iaculis felis in, scelerisque massa. Nullam aliquam nunc eget fringilla volutpat. Integer et mauris et massa imperdiet scelerisque mollis at sapien. Donec condimentum felis eget sagittis ultricies. Nunc laoreet augue id consectetur vulputate. Cras sagittis aliquam risus sit amet tempus. Curabitur finibus neque eget magna efficitur, sed dignissim quam sagittis. Ut euismod justo id gravida pulvinar. Ut urna magna, auctor maximus volutpat ac, elementum sed mi.
