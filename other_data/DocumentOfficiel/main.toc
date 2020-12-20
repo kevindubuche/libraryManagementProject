@@ -14,11 +14,24 @@
 \contentsline {section}{\numberline {2.1}Approche de travail}{3}%
 \contentsline {paragraph}{}{3}%
 \contentsline {section}{\numberline {2.2}Methodologie}{3}%
-\contentsline {section}{\numberline {2.3}Répartition des tâches}{3}%
+\contentsline {paragraph}{}{3}%
+\contentsline {section}{\numberline {2.3}Répartition des tâches}{4}%
+\contentsline {paragraph}{}{4}%
 \contentsline {chapter}{\numberline {3}Implémentation}{5}%
 \contentsline {section}{\numberline {3.1}Choix des technologies}{5}%
 \contentsline {paragraph}{}{5}%
-\contentsline {section}{\numberline {3.2}La hierarchie dans l'application}{5}%
+\contentsline {section}{\numberline {3.2}La hiérarchie dans l'application}{5}%
+\contentsline {paragraph}{}{5}%
 \contentsline {section}{\numberline {3.3}Interface utilisateur}{6}%
-\contentsline {section}{\numberline {3.4}Diagrammes d'activites}{7}%
-\contentsline {chapter}{\numberline {4}Conclusion}{8}%
+\contentsline {paragraph}{}{6}%
+\contentsline {section}{\numberline {3.4}Diagrammes}{6}%
+\contentsline {subsection}{\numberline {3.4.1}Diagrammes des cas d'utilisation}{6}%
+\contentsline {paragraph}{}{6}%
+\contentsline {subsection}{\numberline {3.4.2}Diagrammes de séquence}{6}%
+\contentsline {paragraph}{}{6}%
+\contentsline {subsection}{\numberline {3.4.3}Diagrammes de ce ce qu'on a demande}{6}%
+\contentsline {paragraph}{}{6}%
+\contentsline {subsection}{\numberline {3.4.4}Diagrammes de ce qu'on n'a pas demande}{7}%
+\contentsline {paragraph}{}{7}%
+\contentsline {section}{\numberline {3.5}Diagrammes d'activites}{8}%
+\contentsline {chapter}{\numberline {4}Conclusion}{9}%
