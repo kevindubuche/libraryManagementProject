@@ -1,23 +1,41 @@
 
 \documentclass[a4paper,12pt]{report}
 \usepackage{graphicx}
+\usepackage{subfig}
 
 \begin{document}
+
+\begin{figure}[!tbp]
+    \centering
+    \subfloat{\includegraphics[width=0.5\textwidth]{logo_ueh.jpg}\label{fig:logo_ueh}}
+    \hfill
+    \subfloat{\includegraphics[width=0.4\textwidth]{logoFDS.jpg}\label{fig:logoFDS}}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{lib}
+    \label{image-lib}
+\end{figure}
+
 
 \title{BiblioTech \\ Automatisation de la Gestion des prêts au sein d'une Bibliothèque universitaire}
 \author{ALTIDOR Jean-Bernard T. \\ DUBUCHE Kevin J. \\ THEODORE Barbara G.}
 \date{Décembre 2020}
 \maketitle
 
+\paragraph{}
+Projet de Génie Logiciel \par 
+Professeur  :   M. Faubert Étienne \par 
+Classe      :   3ème année \par 
+Section     :   Électronique \par 
+Promotion   :   2019-2020
+\tableofcontents
+
 \chapter*{}
 \include{Resume/resume}
 
 \include{Glossaire/glossaire}
-
-\pagenumbering{roman}
-\tableofcontents
-\newpage
-\pagenumbering{arabic}
 
 \include{Contexte/contexte}
 

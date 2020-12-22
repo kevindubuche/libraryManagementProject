@@ -1,61 +1,63 @@
-\contentsline {paragraph}{}{2}%
-\contentsline {paragraph}{Utilisateurs directes de l’application}{2}%
-\contentsline {paragraph}{Contraintes liées aux exigences des règlements de la bibliothèque}{3}%
-\contentsline {paragraph}{}{4}%
-\contentsline {chapter}{\numberline {1}Contexte}{1}%
-\contentsline {section}{\numberline {1.1}Fonctionnenment d'une bibliothèque}{1}%
 \contentsline {paragraph}{}{1}%
-\contentsline {section}{\numberline {1.2}Affluence résultante}{1}%
-\contentsline {paragraph}{}{1}%
-\contentsline {section}{\numberline {1.3}Avantages portées par la numérisation}{2}%
-\contentsline {paragraph}{}{2}%
-\contentsline {paragraph}{}{2}%
-\contentsline {chapter}{\numberline {2}Organisation}{3}%
-\contentsline {section}{\numberline {2.1}Approche de travail}{3}%
-\contentsline {paragraph}{}{3}%
-\contentsline {section}{\numberline {2.2}Méthodologie}{3}%
-\contentsline {paragraph}{}{3}%
-\contentsline {section}{\numberline {2.3}Répartition des tâches}{4}%
 \contentsline {paragraph}{}{4}%
-\contentsline {chapter}{\numberline {3}Implémentation}{5}%
-\contentsline {section}{\numberline {3.1}Choix des technologies}{5}%
-\contentsline {paragraph}{}{5}%
-\contentsline {section}{\numberline {3.2}La hiérarchie dans l'application}{6}%
+\contentsline {paragraph}{Utilisateurs directes de l’application}{4}%
+\contentsline {paragraph}{Contraintes liées aux exigences des règlements de la bibliothèque}{5}%
 \contentsline {paragraph}{}{6}%
-\contentsline {section}{\numberline {3.3}Interface utilisateur}{7}%
+\contentsline {chapter}{\numberline {1}Contexte}{7}%
+\contentsline {section}{\numberline {1.1}Fonctionnenment d'une bibliothèque}{7}%
 \contentsline {paragraph}{}{7}%
-\contentsline {section}{\numberline {3.4}Diagrammes}{7}%
-\contentsline {subsection}{\numberline {3.4.1}Diagrammes des cas d'utilisation}{7}%
+\contentsline {section}{\numberline {1.2}Affluence résultante}{7}%
 \contentsline {paragraph}{}{7}%
-\contentsline {subsubsection}{Cas d'utilisation général}{7}%
+\contentsline {section}{\numberline {1.3}Avantages portées par la numérisation}{8}%
 \contentsline {paragraph}{}{8}%
-\contentsline {subsubsection}{Consultation du catalogue}{8}%
 \contentsline {paragraph}{}{8}%
-\contentsline {subsubsection}{Acquisition des ouvrages}{9}%
+\contentsline {chapter}{\numberline {2}Organisation}{9}%
+\contentsline {section}{\numberline {2.1}Approche de travail}{9}%
 \contentsline {paragraph}{}{9}%
-\contentsline {subsubsection}{Gestion des emprunts}{11}%
+\contentsline {section}{\numberline {2.2}Méthodologie}{9}%
+\contentsline {paragraph}{}{9}%
+\contentsline {section}{\numberline {2.3}Répartition des tâches}{10}%
+\contentsline {paragraph}{}{10}%
+\contentsline {chapter}{\numberline {3}Implémentation}{11}%
+\contentsline {section}{\numberline {3.1}Choix des technologies}{11}%
 \contentsline {paragraph}{}{11}%
-\contentsline {subsubsection}{Restitution des ouvrages}{13}%
+\contentsline {section}{\numberline {3.2}La hiérarchie dans l'application}{12}%
+\contentsline {paragraph}{}{12}%
+\contentsline {section}{\numberline {3.3}Interface utilisateur}{13}%
 \contentsline {paragraph}{}{13}%
-\contentsline {subsubsection}{Gestion des utilisateurs}{15}%
-\contentsline {paragraph}{}{16}%
-\contentsline {subsection}{\numberline {3.4.2}Diagrammes de séquence}{17}%
+\contentsline {section}{\numberline {3.4}Diagrammes}{13}%
+\contentsline {subsection}{\numberline {3.4.1}Diagrammes des cas d'utilisation}{13}%
+\contentsline {paragraph}{}{13}%
+\contentsline {subsubsection}{Cas d'utilisation général}{13}%
+\contentsline {paragraph}{}{14}%
+\contentsline {subsubsection}{Consultation du catalogue}{14}%
+\contentsline {paragraph}{}{14}%
+\contentsline {subsubsection}{Acquisition des ouvrages}{15}%
+\contentsline {paragraph}{}{15}%
+\contentsline {subsubsection}{Gestion des emprunts}{17}%
 \contentsline {paragraph}{}{17}%
-\contentsline {subsubsection}{Acquisition des ouvrages}{17}%
-\contentsline {paragraph}{}{17}%
-\contentsline {subsubsection}{Consultation du catalogue}{19}%
+\contentsline {subsubsection}{Restitution des ouvrages}{19}%
 \contentsline {paragraph}{}{19}%
-\contentsline {subsubsection}{Gestion des utilisateurs}{19}%
-\contentsline {paragraph}{}{19}%
-\contentsline {subsubsection}{Restitution des ouvrages}{20}%
-\contentsline {paragraph}{}{20}%
-\contentsline {subsubsection}{Gestion des emprunts}{21}%
-\contentsline {paragraph}{}{21}%
-\contentsline {subsection}{\numberline {3.4.3}Diagramme d’activité du processus de Gestion des prêts dans la bibliothèque}{22}%
+\contentsline {subsubsection}{Gestion des utilisateurs}{21}%
 \contentsline {paragraph}{}{22}%
-\contentsline {subsection}{\numberline {3.4.4}Diagramme de classe de gestion des prêts}{23}%
+\contentsline {subsection}{\numberline {3.4.2}Diagrammes de séquence}{23}%
 \contentsline {paragraph}{}{23}%
-\contentsline {subsection}{\numberline {3.4.5}Diagrammes de ce qu'on n'a pas demande}{24}%
-\contentsline {paragraph}{}{24}%
-\contentsline {section}{\numberline {3.5}Diagrammes d'activites}{25}%
-\contentsline {chapter}{\numberline {4}Conclusion}{26}%
+\contentsline {subsubsection}{Acquisition des ouvrages}{23}%
+\contentsline {paragraph}{}{23}%
+\contentsline {subsubsection}{Consultation du catalogue}{25}%
+\contentsline {paragraph}{}{25}%
+\contentsline {subsubsection}{Gestion des utilisateurs}{25}%
+\contentsline {paragraph}{}{25}%
+\contentsline {subsubsection}{Restitution des ouvrages}{26}%
+\contentsline {paragraph}{}{26}%
+\contentsline {subsubsection}{Gestion des emprunts}{27}%
+\contentsline {paragraph}{}{27}%
+\contentsline {subsection}{\numberline {3.4.3}Diagrammes de ce qu'on n'a pas demande}{28}%
+\contentsline {paragraph}{}{28}%
+\contentsline {section}{\numberline {3.5}Diagrammes incontournables}{29}%
+\contentsline {subsection}{\numberline {3.5.1}Diagramme d’activité du processus de Gestion des prêts dans la bibliothèque}{29}%
+\contentsline {paragraph}{}{29}%
+\contentsline {subsection}{\numberline {3.5.2}Diagramme de classe de gestion des prêts}{30}%
+\contentsline {paragraph}{}{30}%
+\contentsline {chapter}{\numberline {4}Conclusion}{31}%
+\contentsline {paragraph}{}{31}%
