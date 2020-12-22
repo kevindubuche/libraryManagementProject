@@ -50,12 +50,16 @@ utilisateurs du système.
 \section{Interface utilisateur}
 \paragraph{}       
 L'interface utilisateur a été réfléchi de telle sorte que n'importe qui 
-peut se retrouver facilement sur l'application. Aucun téléchargement préalable n'est requis, de même 
+puisse se retrouver facilement sur l'application. Aucun téléchargement préalable n'est requis, de même 
 qu'il ne sera pas du tout nécessaire de faire un cours complet pour expliquer à un nouvel utilisateur
 les différentes utilités de chaque bouton.
 
 \section{Diagrammes}
 \subsection{Diagrammes des cas d'utilisation}
+\paragraph{}
+Ici, seront expliqués les différents cas d'utilisation que l'on peut retrouver au sein de 
+l'application. D'abord, le cas général sera présenté, puis chaque cas particulier sera détaillé
+et aura une image comme support.
 \subsubsection{Cas d'utilisation général} 
 \begin{figure}[h]
         \centering
@@ -64,7 +68,14 @@ les différentes utilités de chaque bouton.
         \label{image-generalUseCase}
         \end{figure}
 \paragraph{}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices purus. Donec finibus metus et augue sodales posuere. Proin sit amet turpis dictum, iaculis felis in, scelerisque massa. Nullam aliquam nunc eget fringilla volutpat. Integer et mauris et massa imperdiet scelerisque mollis at sapien. Donec condimentum felis eget sagittis ultricies. Nunc laoreet augue id consectetur vulputate. Cras sagittis aliquam risus sit amet tempus. Curabitur finibus neque eget magna efficitur, sed dignissim quam sagittis. Ut euismod justo id gravida pulvinar. Ut urna magna, auctor maximus volutpat ac, elementum sed mi.
+De façon générale, l'objectif principal de l'application est d'assurer la 
+gestion des prêts dans une bibliothèque universitaire. De ce fait, tois 
+acteurs principaux sont à prendre en compte: l'abonné, le bibliothécaire et 
+le gestionnaire. L'abonné est uniquement capable de consulter le catalogue.
+Le bibliothécaire est, de son côté, responsable de gérer les emprunts, restituer les ouvrages et 
+acquérir de nouveaux ouvrages. Et enfin, le gestionnaire a pour rôle d'inscrire de nouveaux utilisateurs
+dans le système. Néanmoins, ces trois catégories peuvent à tout moment réinitialiser leur mot de passe ainsi 
+que voir les activités qu'ils ont effectué en matière d'emprunts.
 
 \subsubsection{Consultation du catalogue} 
 \begin{figure}[h]
@@ -74,7 +85,39 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices puru
         \label{image-consultationDuCatalogueUseCase}
         \end{figure}
 \paragraph{}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices purus. Donec finibus metus et augue sodales posuere. Proin sit amet turpis dictum, iaculis felis in, scelerisque massa. Nullam aliquam nunc eget fringilla volutpat. Integer et mauris et massa imperdiet scelerisque mollis at sapien. Donec condimentum felis eget sagittis ultricies. Nunc laoreet augue id consectetur vulputate. Cras sagittis aliquam risus sit amet tempus. Curabitur finibus neque eget magna efficitur, sed dignissim quam sagittis. Ut euismod justo id gravida pulvinar. Ut urna magna, auctor maximus volutpat ac, elementum sed mi.
+La consultation du catalogue est particulièrement réservée aux abonnés, même si 
+tous les utilisateurs y ont accès. Cette activité évite à l'abonné un déplacement
+inutile dans le cas où le livre souhaité ne serait pas disponible. \par 
+Elle peut être décrite comme suit: \par 
+\begin{tabular}{|c|p{7cm}|}
+        \hline
+        Titre & Consulter le catalogue  \\
+        \hline
+        Objectif & Permettre à l'utilisateur de vérifier la disponibilité d'un ouvrage \\
+        \hline
+        Acteur & Abonné \\
+        \hline
+        Précondition & \begin{itemize}
+                \item L'abonné s'est authentifié 
+        \end{itemize} \\
+        \hline
+        Postcondition & \begin{itemize}
+                \item L'abonné peut voir le statut des différents livres
+                \item L'abonné peut télécharger la liste des livres
+        \end{itemize} \\
+        \hline
+        Fonctionnement Normal & \begin{itemize}
+                \item L'abonné se rend sur le site
+                \item Il s'authentifie
+                \item Il a accès aux différents livres
+        \end{itemize} \\
+        \hline
+        Exception & \begin{itemize}
+                \item L'abonné n'a pas été enregistré sur le système - Il ne peut pas avoir accès à la plateforme; il 
+                doit contacter le gestionnaire directement
+        \end{itemize} \\
+        \hline
+\end{tabular}
 
 \subsubsection{Acquisition des ouvrages} 
 \begin{figure}[h]
@@ -84,17 +127,96 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices puru
         \label{image-acquisitionDesOuvragesUseCase}
         \end{figure}
 \paragraph{}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices purus. Donec finibus metus et augue sodales posuere. Proin sit amet turpis dictum, iaculis felis in, scelerisque massa. Nullam aliquam nunc eget fringilla volutpat. Integer et mauris et massa imperdiet scelerisque mollis at sapien. Donec condimentum felis eget sagittis ultricies. Nunc laoreet augue id consectetur vulputate. Cras sagittis aliquam risus sit amet tempus. Curabitur finibus neque eget magna efficitur, sed dignissim quam sagittis. Ut euismod justo id gravida pulvinar. Ut urna magna, auctor maximus volutpat ac, elementum sed mi.
+L'acquisition des ouvrages est réservée plus principalement au bibliothécaire. Cette activité lui permet de garder à jour
+la base de données à chaque nouvel arrivage de bouquins. Ceci permettra aux abonnées de savoir de quels livres dispose
+la bibliothèque.  \par 
+Elle peut être décrite comme suit: \par 
+\begin{tabular}{|c|p{7cm}|}
+        \hline
+        Titre & Acquisition d'ouvrages  \\
+        \hline
+        Objectif & Permettre au biliothécaire d'enregistrer un nouvel ouvrage \\
+        \hline
+        Acteur & Bibliothécaire \\
+        \hline
+        Précondition & \begin{itemize}
+                \item Le bibliothécaire s'est authentifié 
+        \end{itemize} \\
+        \hline
+        Postcondition & \begin{itemize}
+                \item Un nouvel ouvrage est enregistré dans la base de données
+        \end{itemize} \\
+        \hline
+\end{tabular}
+\par 
+\begin{tabular}{|c|p{7cm}|}
+        \hline
+        Fonctionnement Normal & \begin{itemize}
+                \item Le bibliothécaire se rend sur le site
+                \item Il s'authentifie
+                \item Il va dans le module "Livres"
+                \item Il clique sur ajouter
+                \item Il remplit les champs et fait sa sauvegarde
+                \item Un message de succès est affiché
+        \end{itemize} \\
+        \hline
+        Exception & \begin{itemize}
+                \item Les champs obligatoires ne sont pas remplis - Un message d'erreur est affiché
+                \item Une position a déjà été enregistrée - L'utilisateur en est signalé
+        \end{itemize} \\
+        \hline
+\end{tabular}
 
 \subsubsection{Gestion des emprunts} 
-\begin{figure}[ht]
+\begin{figure}[h]
         \centering
         \includegraphics[width=1\textwidth]{gestionDesEmpruntsUseCase}
         \caption{Diagramme du cas de gestion des emprunts}
         \label{image-gestionDesEmpruntsUseCase}
         \end{figure}
 \paragraph{}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices purus. Donec finibus metus et augue sodales posuere. Proin sit amet turpis dictum, iaculis felis in, scelerisque massa. Nullam aliquam nunc eget fringilla volutpat. Integer et mauris et massa imperdiet scelerisque mollis at sapien. Donec condimentum felis eget sagittis ultricies. Nunc laoreet augue id consectetur vulputate. Cras sagittis aliquam risus sit amet tempus. Curabitur finibus neque eget magna efficitur, sed dignissim quam sagittis. Ut euismod justo id gravida pulvinar. Ut urna magna, auctor maximus volutpat ac, elementum sed mi.
+L'acteur direct de la gestion des emprunts n'est nul autre que le bibliothécaire. Cette activité 
+permet au bibliothécaire d'enregistrer les informations nécessaires afin de retracer l'utilisation
+des différents ouvrages.\par 
+Elle peut être décrite comme suit: \par 
+\begin{tabular}{|c|p{7cm}|}
+        \hline
+        Titre & Gérer des emprunts \\
+        \hline
+        Objectif & Permettre au bibliothécaire de faire différentes actions sur un prêt \\
+        \hline
+        Acteur & Bibliothécaire \\
+        \hline
+        Précondition & \begin{itemize}
+                \item Le bibliothécaire s'est authentifié 
+                \item L'abonné existe
+                \item L'ouvrage existe
+        \end{itemize} \\
+        \hline
+        Postcondition & \begin{itemize}
+                \item L'emprunt est enregistré 
+        \end{itemize} \\
+        \hline
+\end{tabular}
+\par 
+\begin{tabular}{|c|p{7cm}|}
+        \hline
+        Fonctionnement Normal & \begin{itemize}
+                \item Le bibliothécaire se rend sur le site
+                \item Il s'authentifie
+                \item Il va dans le module "Emprunts"
+                \item Il clique sur ajouter
+                \item Il remplit les champs et fait sa sauvegarde
+                \item Un message de succès est affiché
+        \end{itemize} \\
+        \hline
+        Exception & \begin{itemize}
+                \item L'abonné n'a pas été enregistré sur le système - Le bibliothécaire ne peut pas remplir le champ
+                \item Le livre n'est pas enregistré dans la base de données - Le bibliothécaire ne peut pas remplir le champ
+        \end{itemize} \\
+        \hline
+\end{tabular}
+
 
 \subsubsection{Restitution des ouvrages} 
 \begin{figure}[h]
@@ -104,7 +226,45 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices puru
         \label{image-restitutionDesOuvragesUseCase}
         \end{figure}
 \paragraph{}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices purus. Donec finibus metus et augue sodales posuere. Proin sit amet turpis dictum, iaculis felis in, scelerisque massa. Nullam aliquam nunc eget fringilla volutpat. Integer et mauris et massa imperdiet scelerisque mollis at sapien. Donec condimentum felis eget sagittis ultricies. Nunc laoreet augue id consectetur vulputate. Cras sagittis aliquam risus sit amet tempus. Curabitur finibus neque eget magna efficitur, sed dignissim quam sagittis. Ut euismod justo id gravida pulvinar. Ut urna magna, auctor maximus volutpat ac, elementum sed mi.
+Cette activité prend en compte tant l'abonné que le bibliothécaire. Elle permet de sauvegarder la 
+date à laquelle un livre a été  rendu afin de déterminer s'il est disponible ou pas. \par 
+Elle peut être décrite comme suit: \par 
+\begin{tabular}{|c|p{7cm}|}
+        \hline
+        Titre & Restitution des ouvrages \\
+        \hline
+        Objectif & Permettre de se rappeler quand un livre a été rendu \\
+        \hline
+        Acteur & Abonné, Bibliothécaire \\
+        \hline
+        Précondition & \begin{itemize}
+                \item Le bibliothécaire s'est authentifié 
+                \item L'emprunt avait été enregistré
+        \end{itemize} \\
+        \hline
+        Postcondition & \begin{itemize}
+                \item Le livre est à nouveau disponible
+        \end{itemize} \\
+        \hline
+\end{tabular}
+\par 
+\begin{tabular}{|c|p{7cm}|}
+        \hline
+        Fonctionnement Normal & \begin{itemize}
+                \item L'abonné se rend à la bibliothèque avec le livre
+                \item Le gestionnaire va sur le site
+                \item Il s'authentifie
+                \item Il va dans le module "Emprunts"
+                \item Il cherche l'emprunt en question pour le modifier
+                \item Il ajoute la date de restitution
+                \item Un message de succès est affiché
+        \end{itemize} \\
+        \hline
+        Exception & \begin{itemize}
+                \item 
+        \end{itemize} \\
+        \hline
+\end{tabular}
 
 \subsubsection{Gestion des utilisateurs} 
 \begin{figure}[h]
@@ -114,8 +274,46 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices puru
         \label{image-gestionDesUtilisateursUseCase}
         \end{figure}
 \paragraph{}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices purus. Donec finibus metus et augue sodales posuere. Proin sit amet turpis dictum, iaculis felis in, scelerisque massa. Nullam aliquam nunc eget fringilla volutpat. Integer et mauris et massa imperdiet scelerisque mollis at sapien. Donec condimentum felis eget sagittis ultricies. Nunc laoreet augue id consectetur vulputate. Cras sagittis aliquam risus sit amet tempus. Curabitur finibus neque eget magna efficitur, sed dignissim quam sagittis. Ut euismod justo id gravida pulvinar. Ut urna magna, auctor maximus volutpat ac, elementum sed mi.
-
+L'unique utilisateur à avoir accès à ce type de gestion est l'administrateur. Dans 
+ce cas de figure précis, il s'agit du gestionnaire. Cette activité 
+permet d'enregistrer les informations relatives à chaque utilisateur. \par 
+Elle peut être décrite comme suit: \par 
+\begin{tabular}{|c|p{7cm}|}
+        \hline
+        Titre & Inscription des utilisateurs \\
+        \hline
+        Objectif & Permettre au gestionnaire de faire différentes actions sur les données d'un utilisateur \\
+        \hline
+        Acteur & Gestionnaire \\
+        \hline
+        Précondition & \begin{itemize}
+                \item Le gestionnaire s'est authentifié 
+        \end{itemize} \\
+        \hline
+        Postcondition & \begin{itemize}
+                \item L'utilisateur est enregistré 
+        \end{itemize} \\
+        \hline
+\end{tabular}
+\par 
+\begin{tabular}{|c|p{7cm}|}
+        \hline
+        Fonctionnement Normal & \begin{itemize}
+                \item Le gestionnaire se rend sur le site
+                \item Il s'authentifie
+                \item Il va dans le module "Utilisateurs"
+                \item Il clique sur ajouter
+                \item Il remplit les champs et fait sa sauvegarde
+                \item Un message de succès est affiché
+        \end{itemize} \\
+        \hline
+        Exception & \begin{itemize}
+                \item Les champs obligatoires ne sont pas remplis - Un message d'erreur est affiché
+                \item Une information unique est répliquée - Un message d'erreur est affiché
+                \item Les mots de passe ne sont pas identiques - Un message d'erreur est affiché
+        \end{itemize} \\
+        \hline
+\end{tabular}
 
 
 \subsection{Diagrammes de séquence}
