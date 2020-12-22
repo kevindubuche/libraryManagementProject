@@ -52,11 +52,11 @@
 \contentsline {paragraph}{}{26}%
 \contentsline {subsubsection}{Gestion des emprunts}{27}%
 \contentsline {paragraph}{}{27}%
-\contentsline {subsection}{\numberline {3.4.3}Diagramme d’activité du processus de Gestion des prêts dans la bibliothèque}{28}%
+\contentsline {subsection}{\numberline {3.4.3}Diagrammes de ce qu'on n'a pas demande}{28}%
 \contentsline {paragraph}{}{28}%
-\contentsline {subsection}{\numberline {3.4.4}Diagramme de classe de gestion des prêts}{29}%
+\contentsline {section}{\numberline {3.5}Diagrammes incontournables}{29}%
+\contentsline {subsection}{\numberline {3.5.1}Diagramme d’activité du processus de Gestion des prêts dans la bibliothèque}{29}%
 \contentsline {paragraph}{}{29}%
-\contentsline {subsection}{\numberline {3.4.5}Diagrammes de ce qu'on n'a pas demande}{29}%
-\contentsline {paragraph}{}{29}%
-\contentsline {section}{\numberline {3.5}Diagrammes d'activites}{31}%
-\contentsline {chapter}{\numberline {4}Conclusion}{32}%
+\contentsline {subsection}{\numberline {3.5.2}Diagramme de classe de gestion des prêts}{30}%
+\contentsline {paragraph}{}{30}%
+\contentsline {chapter}{\numberline {4}Conclusion}{31}%
