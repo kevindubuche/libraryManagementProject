@@ -50,12 +50,16 @@ utilisateurs du système.
 \section{Interface utilisateur}
 \paragraph{}       
 L'interface utilisateur a été réfléchi de telle sorte que n'importe qui 
-peut se retrouver facilement sur l'application. Aucun téléchargement préalable n'est requis, de même 
+puisse se retrouver facilement sur l'application. Aucun téléchargement préalable n'est requis, de même 
 qu'il ne sera pas du tout nécessaire de faire un cours complet pour expliquer à un nouvel utilisateur
 les différentes utilités de chaque bouton.
 
 \section{Diagrammes}
 \subsection{Diagrammes des cas d'utilisation}
+\paragraph{}
+Ici, seront expliqués les différents cas d'utilisation que l'on peut retrouver au sein de 
+l'application. D'abord, le cas général sera présenté, puis chaque cas particulier sera détaillé
+et aura une image comme support.
 \subsubsection{Cas d'utilisation général} 
 \begin{figure}[h]
         \centering
@@ -64,7 +68,14 @@ les différentes utilités de chaque bouton.
         \label{image-generalUseCase}
         \end{figure}
 \paragraph{}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices purus. Donec finibus metus et augue sodales posuere. Proin sit amet turpis dictum, iaculis felis in, scelerisque massa. Nullam aliquam nunc eget fringilla volutpat. Integer et mauris et massa imperdiet scelerisque mollis at sapien. Donec condimentum felis eget sagittis ultricies. Nunc laoreet augue id consectetur vulputate. Cras sagittis aliquam risus sit amet tempus. Curabitur finibus neque eget magna efficitur, sed dignissim quam sagittis. Ut euismod justo id gravida pulvinar. Ut urna magna, auctor maximus volutpat ac, elementum sed mi.
+De façon générale, l'objectif principal de l'application est d'assurer la 
+gestion des prêts dans une bibliothèque universitaire. De ce fait, tois 
+acteurs principaux sont à prendre en compte: l'abonné, le bibliothécaire et 
+le gestionnaire. L'abonné est uniquement capable de consulter le catalogue.
+Le bibliothécaire est, de son côté, responsable de gérer les emprunts, restituer les ouvrages et 
+acquérir de nouveaux ouvrages. Et enfin, le gestionnaire a pour rôle d'inscrire de nouveaux utilisateurs
+dans le système. Néanmoins, ces trois catégories peuvent à tout moment réinitialiser leur mot de passe ainsi 
+que voir les activités qu'ils ont effectué en matière d'emprunts.
 
 \subsubsection{Consultation du catalogue} 
 \begin{figure}[h]
@@ -74,7 +85,39 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices puru
         \label{image-consultationDuCatalogueUseCase}
         \end{figure}
 \paragraph{}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices purus. Donec finibus metus et augue sodales posuere. Proin sit amet turpis dictum, iaculis felis in, scelerisque massa. Nullam aliquam nunc eget fringilla volutpat. Integer et mauris et massa imperdiet scelerisque mollis at sapien. Donec condimentum felis eget sagittis ultricies. Nunc laoreet augue id consectetur vulputate. Cras sagittis aliquam risus sit amet tempus. Curabitur finibus neque eget magna efficitur, sed dignissim quam sagittis. Ut euismod justo id gravida pulvinar. Ut urna magna, auctor maximus volutpat ac, elementum sed mi.
+La consultation du catalogue est particulièrement réservée aux abonnés, même si 
+tous les utilisateurs y ont accès. Cette activité évite à l'abonné un déplacement
+inutile dans le cas où le livre souhaité ne serait pas disponible. \par 
+Elle peut être décrite comme suit: \par 
+\begin{tabular}{|c|p{7cm}|}
+        \hline
+        Titre & Consulter le catalogue  \\
+        \hline
+        Objectif & Permettre à l'utilisateur de vérifier la disponibilité d'un ouvrage \\
+        \hline
+        Acteur & Abonné \\
+        \hline
+        Précondition & \begin{itemize}
+                \item L'abonné s'est authentifié 
+        \end{itemize} \\
+        \hline
+        Postcondition & \begin{itemize}
+                \item L'abonné peut voir le statut des différents livres
+                \item L'abonné peut télécharger la liste des livres
+        \end{itemize} \\
+        \hline
+        Fonctionnement Normal & \begin{itemize}
+                \item L'abonné se rend sur le site
+                \item Il s'authentifie
+                \item Il a accès aux différents livres
+        \end{itemize} \\
+        \hline
+        Exception & \begin{itemize}
+                \item L'abonné n'a pas été enregistré sur le système - Il ne peut pas avoir accès à la plateforme; il 
+                doit contacter le gestionnaire directement
+        \end{itemize} \\
+        \hline
+\end{tabular}
 
 \subsubsection{Acquisition des ouvrages} 
 \begin{figure}[h]
