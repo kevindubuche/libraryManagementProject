@@ -39,11 +39,11 @@
 \contentsline {paragraph}{}{13}%
 \contentsline {subsubsection}{Gestion des utilisateurs}{14}%
 \contentsline {paragraph}{}{14}%
-\contentsline {subsection}{\numberline {3.4.2}Diagrammes de séquence}{14}%
-\contentsline {paragraph}{}{14}%
+\contentsline {subsection}{\numberline {3.4.2}Diagrammes de séquence}{15}%
+\contentsline {paragraph}{}{15}%
 \contentsline {subsection}{\numberline {3.4.3}Diagrammes de ce ce qu'on a demande}{15}%
 \contentsline {paragraph}{}{15}%
-\contentsline {subsection}{\numberline {3.4.4}Diagrammes de ce qu'on n'a pas demande}{15}%
-\contentsline {paragraph}{}{15}%
-\contentsline {section}{\numberline {3.5}Diagrammes d'activites}{16}%
-\contentsline {chapter}{\numberline {4}Conclusion}{17}%
+\contentsline {subsection}{\numberline {3.4.4}Diagrammes de ce qu'on n'a pas demande}{16}%
+\contentsline {paragraph}{}{16}%
+\contentsline {section}{\numberline {3.5}Diagrammes d'activites}{17}%
+\contentsline {chapter}{\numberline {4}Conclusion}{18}%
