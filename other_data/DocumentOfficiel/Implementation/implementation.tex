@@ -423,7 +423,25 @@ correct, l'enregistrement est validé et l'abonné peut partir sans contrainte.
         \label{image-ActivityDiagram1}
         \end{figure}
 \par
-
+Les prêts au sein de la bibliothèque universitaire suivent un ensemble d'étapes précis.
+Certaines contraintes sont donc à respecter continuellement. Pour commencer, n'importe qui 
+peut consulter la liste des ouvrages accessibles dans la biblio. Mais pour savoir quel 
+ouvrage est disponible au moment de la recherche, il faut que le gestionnaire enregistre 
+l'abonné. De son côté, il faut que le bibliothécaire enregistre les ouvrages acquis 
+dans la base de données du système. \par 
+Après s'être assuré de la disponibilité d'un livre, l'abonné peut alors se rendre sur 
+place pour effectuer l'emprunt. Du coup, le bibliothèque a pour responsabilité de relever
+toutes les informations relatives à l'emprunt en question. Certains champs sont obligatoires
+et le système renverra un message d'erreur s'ils ne sont pas remplis. Si l'abonné a déjà 
+trois livres en sa possession, le système n'autorise pas la validation de l'emprunt.
+Une fois l'emprunt validé, l'abonné peut vaquer à ses occupations sans problème. Il lui 
+est donné trois semaines pour rester en possession du livre. De façon exceptionnelle, il 
+peut pourtant le garder durant cinq semaines. Pourtant, une fois ce délai atteint, le 
+système envoie une relance automatique sur le mail du concerné pour le rappeler qu'il doit 
+rapporter ce livre en question.
+Lorsque l'abonné rend le livre, il se présente encore une fois à la bibliothèque et le 
+responsable se charge de modifier l'emprunt en y ajoutant une date de restitution. \par 
+Ainsi se déroule le cycle de la gestion des emprunts au sein de la bibliothèque.
 
 \subsection{Diagrammes de ce qu'on n'a pas demande}
 \paragraph{} 
