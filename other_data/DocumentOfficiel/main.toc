@@ -53,7 +53,9 @@
 \contentsline {paragraph}{}{21}%
 \contentsline {subsection}{\numberline {3.4.3}Diagramme d’activité du processus de Gestion des prêts dans la bibliothèque}{22}%
 \contentsline {paragraph}{}{22}%
-\contentsline {subsection}{\numberline {3.4.4}Diagrammes de ce qu'on n'a pas demande}{23}%
+\contentsline {subsection}{\numberline {3.4.4}Diagramme de classe de gestion des prêts}{23}%
 \contentsline {paragraph}{}{23}%
-\contentsline {section}{\numberline {3.5}Diagrammes d'activites}{24}%
-\contentsline {chapter}{\numberline {4}Conclusion}{25}%
+\contentsline {subsection}{\numberline {3.4.5}Diagrammes de ce qu'on n'a pas demande}{24}%
+\contentsline {paragraph}{}{24}%
+\contentsline {section}{\numberline {3.5}Diagrammes d'activites}{25}%
+\contentsline {chapter}{\numberline {4}Conclusion}{26}%
