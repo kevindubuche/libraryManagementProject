@@ -226,7 +226,45 @@ Elle peut être décrite comme suit: \par
         \label{image-restitutionDesOuvragesUseCase}
         \end{figure}
 \paragraph{}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices purus. Donec finibus metus et augue sodales posuere. Proin sit amet turpis dictum, iaculis felis in, scelerisque massa. Nullam aliquam nunc eget fringilla volutpat. Integer et mauris et massa imperdiet scelerisque mollis at sapien. Donec condimentum felis eget sagittis ultricies. Nunc laoreet augue id consectetur vulputate. Cras sagittis aliquam risus sit amet tempus. Curabitur finibus neque eget magna efficitur, sed dignissim quam sagittis. Ut euismod justo id gravida pulvinar. Ut urna magna, auctor maximus volutpat ac, elementum sed mi.
+Cette activité prend en compte tant l'abonné que le bibliothécaire. Elle permet de sauvegarder la 
+date à laquelle un livre a été  rendu afin de déterminer s'il est disponible ou pas. \par 
+Elle peut être décrite comme suit: \par 
+\begin{tabular}{|c|p{7cm}|}
+        \hline
+        Titre & Restitution des ouvrages \\
+        \hline
+        Objectif & Permettre de se rappeler quand un livre a été rendu \\
+        \hline
+        Acteur & Abonné, Bibliothécaire \\
+        \hline
+        Précondition & \begin{itemize}
+                \item Le bibliothécaire s'est authentifié 
+                \item L'emprunt avait été enregistré
+        \end{itemize} \\
+        \hline
+        Postcondition & \begin{itemize}
+                \item Le livre est à nouveau disponible
+        \end{itemize} \\
+        \hline
+\end{tabular}
+\par 
+\begin{tabular}{|c|p{7cm}|}
+        \hline
+        Fonctionnement Normal & \begin{itemize}
+                \item L'abonné se rend à la bibliothèque avec le livre
+                \item Le gestionnaire va sur le site
+                \item Il s'authentifie
+                \item Il va dans le module "Emprunts"
+                \item Il cherche l'emprunt en question pour le modifier
+                \item Il ajoute la date de restitution
+                \item Un message de succès est affiché
+        \end{itemize} \\
+        \hline
+        Exception & \begin{itemize}
+                \item 
+        \end{itemize} \\
+        \hline
+\end{tabular}
 
 \subsubsection{Gestion des utilisateurs} 
 \begin{figure}[h]
