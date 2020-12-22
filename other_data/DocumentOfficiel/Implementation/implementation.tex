@@ -204,7 +204,6 @@ Elle peut être décrite comme suit: \par
         Fonctionnement Normal & \begin{itemize}
                 \item Le bibliothécaire se rend sur le site
                 \item Il s'authentifie
-                \item Il a accès aux différents livres
                 \item Il va dans le module "Emprunts"
                 \item Il clique sur ajouter
                 \item Il remplit les champs et fait sa sauvegarde
@@ -237,8 +236,46 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices puru
         \label{image-gestionDesUtilisateursUseCase}
         \end{figure}
 \paragraph{}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices purus. Donec finibus metus et augue sodales posuere. Proin sit amet turpis dictum, iaculis felis in, scelerisque massa. Nullam aliquam nunc eget fringilla volutpat. Integer et mauris et massa imperdiet scelerisque mollis at sapien. Donec condimentum felis eget sagittis ultricies. Nunc laoreet augue id consectetur vulputate. Cras sagittis aliquam risus sit amet tempus. Curabitur finibus neque eget magna efficitur, sed dignissim quam sagittis. Ut euismod justo id gravida pulvinar. Ut urna magna, auctor maximus volutpat ac, elementum sed mi.
-
+L'unique utilisateur à avoir accès à ce type de gestion est l'administrateur. Dans 
+ce cas de figure précis, il s'agit du gestionnaire. Cette activité 
+permet d'enregistrer les informations relatives à chaque utilisateur. \par 
+Elle peut être décrite comme suit: \par 
+\begin{tabular}{|c|p{7cm}|}
+        \hline
+        Titre & Inscription des utilisateurs \\
+        \hline
+        Objectif & Permettre au gestionnaire de faire différentes actions sur les données d'un utilisateur \\
+        \hline
+        Acteur & Gestionnaire \\
+        \hline
+        Précondition & \begin{itemize}
+                \item Le gestionnaire s'est authentifié 
+        \end{itemize} \\
+        \hline
+        Postcondition & \begin{itemize}
+                \item L'utilisateur est enregistré 
+        \end{itemize} \\
+        \hline
+\end{tabular}
+\par 
+\begin{tabular}{|c|p{7cm}|}
+        \hline
+        Fonctionnement Normal & \begin{itemize}
+                \item Le gestionnaire se rend sur le site
+                \item Il s'authentifie
+                \item Il va dans le module "Utilisateurs"
+                \item Il clique sur ajouter
+                \item Il remplit les champs et fait sa sauvegarde
+                \item Un message de succès est affiché
+        \end{itemize} \\
+        \hline
+        Exception & \begin{itemize}
+                \item Les champs obligatoires ne sont pas remplis - Un message d'erreur est affiché
+                \item Une information unique est répliquée - Un message d'erreur est affiché
+                \item Les mots de passe ne sont pas identiques - Un message d'erreur est affiché
+        \end{itemize} \\
+        \hline
+\end{tabular}
 
 
 \subsection{Diagrammes de séquence}

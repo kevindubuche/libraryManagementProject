@@ -37,12 +37,12 @@
 \contentsline {paragraph}{}{11}%
 \contentsline {subsubsection}{Restitution des ouvrages}{13}%
 \contentsline {paragraph}{}{13}%
-\contentsline {subsubsection}{Gestion des utilisateurs}{14}%
-\contentsline {paragraph}{}{14}%
-\contentsline {subsection}{\numberline {3.4.2}Diagrammes de séquence}{15}%
-\contentsline {paragraph}{}{15}%
-\contentsline {subsection}{\numberline {3.4.3}Diagrammes de ce ce qu'on a demande}{15}%
-\contentsline {paragraph}{}{15}%
+\contentsline {subsubsection}{Gestion des utilisateurs}{13}%
+\contentsline {paragraph}{}{13}%
+\contentsline {subsection}{\numberline {3.4.2}Diagrammes de séquence}{16}%
+\contentsline {paragraph}{}{16}%
+\contentsline {subsection}{\numberline {3.4.3}Diagrammes de ce ce qu'on a demande}{16}%
+\contentsline {paragraph}{}{16}%
 \contentsline {subsection}{\numberline {3.4.4}Diagrammes de ce qu'on n'a pas demande}{16}%
 \contentsline {paragraph}{}{16}%
 \contentsline {section}{\numberline {3.5}Diagrammes d'activites}{17}%
