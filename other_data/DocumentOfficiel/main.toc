@@ -45,9 +45,11 @@
 \contentsline {paragraph}{}{17}%
 \contentsline {subsubsection}{Consultation du catalogue}{19}%
 \contentsline {paragraph}{}{19}%
+\contentsline {subsubsection}{Gestion des utilisateurs}{19}%
+\contentsline {paragraph}{}{19}%
 \contentsline {subsection}{\numberline {3.4.3}Diagrammes de ce ce qu'on a demande}{20}%
 \contentsline {paragraph}{}{20}%
-\contentsline {subsection}{\numberline {3.4.4}Diagrammes de ce qu'on n'a pas demande}{20}%
-\contentsline {paragraph}{}{20}%
-\contentsline {section}{\numberline {3.5}Diagrammes d'activites}{21}%
-\contentsline {chapter}{\numberline {4}Conclusion}{22}%
+\contentsline {subsection}{\numberline {3.4.4}Diagrammes de ce qu'on n'a pas demande}{21}%
+\contentsline {paragraph}{}{21}%
+\contentsline {section}{\numberline {3.5}Diagrammes d'activites}{22}%
+\contentsline {chapter}{\numberline {4}Conclusion}{23}%
