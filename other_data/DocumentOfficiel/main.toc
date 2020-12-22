@@ -43,9 +43,17 @@
 \contentsline {paragraph}{}{17}%
 \contentsline {subsubsection}{Acquisition des ouvrages}{17}%
 \contentsline {paragraph}{}{17}%
-\contentsline {subsection}{\numberline {3.4.3}Diagrammes de ce ce qu'on a demande}{19}%
+\contentsline {subsubsection}{Consultation du catalogue}{19}%
 \contentsline {paragraph}{}{19}%
-\contentsline {subsection}{\numberline {3.4.4}Diagrammes de ce qu'on n'a pas demande}{19}%
+\contentsline {subsubsection}{Gestion des utilisateurs}{19}%
 \contentsline {paragraph}{}{19}%
-\contentsline {section}{\numberline {3.5}Diagrammes d'activites}{20}%
-\contentsline {chapter}{\numberline {4}Conclusion}{21}%
+\contentsline {subsubsection}{Restitution des ouvrages}{20}%
+\contentsline {paragraph}{}{20}%
+\contentsline {subsubsection}{Gestion des emprunts}{21}%
+\contentsline {paragraph}{}{21}%
+\contentsline {subsection}{\numberline {3.4.3}Diagramme d’activité du processus de Gestion des prêts dans la bibliothèque}{22}%
+\contentsline {paragraph}{}{22}%
+\contentsline {subsection}{\numberline {3.4.4}Diagrammes de ce qu'on n'a pas demande}{22}%
+\contentsline {paragraph}{}{22}%
+\contentsline {section}{\numberline {3.5}Diagrammes d'activites}{24}%
+\contentsline {chapter}{\numberline {4}Conclusion}{25}%

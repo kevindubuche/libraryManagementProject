@@ -78,13 +78,14 @@ dans le système. Néanmoins, ces trois catégories peuvent à tout moment réin
 que voir les activités qu'ils ont effectué en matière d'emprunts.
 
 \subsubsection{Consultation du catalogue} 
+\paragraph{}
 \begin{figure}[h]
         \centering
         \includegraphics[width=1\textwidth]{consultationDuCatalogueUseCase}
         \caption{Diagramme du cas de consultation du catalogue}
         \label{image-consultationDuCatalogueUseCase}
         \end{figure}
-\paragraph{}
+\par
 La consultation du catalogue est particulièrement réservée aux abonnés, même si 
 tous les utilisateurs y ont accès. Cette activité évite à l'abonné un déplacement
 inutile dans le cas où le livre souhaité ne serait pas disponible. \par 
@@ -119,14 +120,15 @@ Elle peut être décrite comme suit: \par
         \hline
 \end{tabular}
 
-\subsubsection{Acquisition des ouvrages} 
+\subsubsection{Acquisition des ouvrages}
+\paragraph{} 
 \begin{figure}[h]
         \centering
         \includegraphics[width=1\textwidth]{acquisitionDesOuvragesUseCase}
         \caption{Diagramme du cas d'acquisition des ouvrages}
         \label{image-acquisitionDesOuvragesUseCase}
         \end{figure}
-\paragraph{}
+\par
 L'acquisition des ouvrages est réservée plus principalement au bibliothécaire. Cette activité lui permet de garder à jour
 la base de données à chaque nouvel arrivage de bouquins. Ceci permettra aux abonnées de savoir de quels livres dispose
 la bibliothèque.  \par 
@@ -168,13 +170,14 @@ Elle peut être décrite comme suit: \par
 \end{tabular}
 
 \subsubsection{Gestion des emprunts} 
+\paragraph{}
 \begin{figure}[h]
         \centering
         \includegraphics[width=1\textwidth]{gestionDesEmpruntsUseCase}
         \caption{Diagramme du cas de gestion des emprunts}
         \label{image-gestionDesEmpruntsUseCase}
         \end{figure}
-\paragraph{}
+\par
 L'acteur direct de la gestion des emprunts n'est nul autre que le bibliothécaire. Cette activité 
 permet au bibliothécaire d'enregistrer les informations nécessaires afin de retracer l'utilisation
 des différents ouvrages.\par 
@@ -219,13 +222,14 @@ Elle peut être décrite comme suit: \par
 
 
 \subsubsection{Restitution des ouvrages} 
+\paragraph{}
 \begin{figure}[h]
         \centering
         \includegraphics[width=1\textwidth]{restitutionDesOuvragesUseCase}
         \caption{Diagramme du cas de restitution des ouvrages}
         \label{image-restitutionDesOuvragesUseCase}
         \end{figure}
-\paragraph{}
+\par
 Cette activité prend en compte tant l'abonné que le bibliothécaire. Elle permet de sauvegarder la 
 date à laquelle un livre a été  rendu afin de déterminer s'il est disponible ou pas. \par 
 Elle peut être décrite comme suit: \par 
@@ -267,13 +271,14 @@ Elle peut être décrite comme suit: \par
 \end{tabular}
 
 \subsubsection{Gestion des utilisateurs} 
+\paragraph{}
 \begin{figure}[h]
         \centering
         \includegraphics[width=1\textwidth]{gestionDesUtilisateursUseCase}
         \caption{Diagramme du cas de gestion des utilisateurs}
         \label{image-gestionDesUtilisateursUseCase}
         \end{figure}
-\paragraph{}
+\par 
 L'unique utilisateur à avoir accès à ce type de gestion est l'administrateur. Dans 
 ce cas de figure précis, il s'agit du gestionnaire. Cette activité 
 permet d'enregistrer les informations relatives à chaque utilisateur. \par 
@@ -315,19 +320,19 @@ Elle peut être décrite comme suit: \par
         \hline
 \end{tabular}
 
-
 \subsection{Diagrammes de séquence}
 \paragraph{} 
 Les diagrammes de séquence sont utiles pour permettre la représentation des interactions 
 entre les différents acteurs et le système dans un ordre chronologique.
 \subsubsection{Acquisition des ouvrages} 
+\paragraph{}
 \begin{figure}[h]
         \centering
         \includegraphics[width=0.6\textwidth]{acquisitionDesOuvragesSequence}
         \caption{Diagramme de séquence pour l'acquisition des ouvrages}
         \label{image-acquisitionDesOuvragesSequence}
         \end{figure}
-\paragraph{}
+\par
 Pour commencer, il faut que le bibliothécaire s'authentifie sur le système.
 Une fois l'authentification réussie, il peut alors rentrer les données dans le système.
 Les données sont analysées et le bibliothécaire peut enfin valider la sauvegarde 
@@ -344,10 +349,84 @@ contraire, un message d'erreur fait son apparition. \par
 Et enfin, le bibliothécaire peut supprimer un livre. Au cours de cette suppression, le livre
 devient inaccessible au niveau de l'application, mais il reste disponible dans la base de 
 données afin que toute action futur soit encore possible. \par
+\subsubsection{Consultation du catalogue} 
+\paragraph{}
+\begin{figure}[h]
+        \centering
+        \includegraphics[width=1\textwidth]{consultationDuCatalogueSequence}
+        \caption{Diagramme de séquence pour la consultation du catalogue}
+        \label{image-consultationDuCatalogueSequence}
+        \end{figure}
+\par 
+Lors de la consultation du cataloque, tout intéressé peut faire de la lèche-vitrine à 
+sa guise. Mais si un abonné veut vérifier la disponibilité d'un ouvrage, il doit 
+obligatoirement s'authentifier. Il donc chercher/rechercher l'ouvrage qu'il lui faut, et le 
+système prend le soin d'afficher le résultat de ses recherches.
+\subsubsection{Gestion des utilisateurs} 
+\paragraph{}
+\begin{figure}[h]
+        \centering
+        \includegraphics[width=0.5\textwidth]{gestionDesUtilisateursSequence}
+        \caption{Diagramme de séquence pour la gestion des utilisateurs}
+        \label{image-gestionDesUtilisateursSequence}
+        \end{figure}
+\par
+Quelle que soit l'action que désire entamer le gestionnaire, il doit avant tout s'authentifier
+en tant que tel. S'il doit ajouter un nouvel utilisateur, il lui suffira, par la suite 
+d'enregistrer les informations dans les champs dédiés à cette fin. À son tour, le système 
+vérifie les informations avant de laisser le soin au gestionnaire de valider la sauvegarde.
+Une fois réussie, l'utilisateur est alors enregistré et pourra s'authentifier sur le 
+système. \par 
+Les étapes de modification, d'affichage et de suppression d'un utilisateur ne diffèrent 
+pas de celles expliquées plus tôt dans le cas de la gestion des ouvrages. Les détails 
+peuvent ainsi se passer de présentation; le même modèle est à suivre.
+\subsubsection{Restitution des ouvrages} 
+\paragraph{}
+\begin{figure}[h]
+        \centering
+        \includegraphics[width=1\textwidth]{restitutionDesOuvragesSequence}
+        \caption{Diagramme de séquence pour la restitution des ouvrages}
+        \label{image-restitutionDesOuvragesSequence}
+        \end{figure}
+\par
+Pour restituer un ouvrage, l'abonné se présente sur place. Pour assurer le suivi, le 
+bibliothécaire doit d'abord s'authentifier. Il va ensuite dans le module des emprunts 
+et cherche le correspondant à celui recherché. Il ajoute alors la date de restitution,
+ce qui fait passer automatiquement le statut de l'ouvrage de "Non disponible" à disponible.
+Le livre est donc rendu et l'abonné peut partir ou exécuter autant de nouveaux emprunts
+que le lui permet son quota.
+\subsubsection{Gestion des emprunts} 
+\paragraph{}
+\begin{figure}[h]
+        \centering
+        \includegraphics[width=1\textwidth]{gestionDesEmpruntsSequence}
+        \caption{Diagramme de séquence pour la gestion des emprunts}
+        \label{image-gestionDesEmpruntsSequence}
+        \end{figure}
+\par
+La première étape consiste en la présentation de l'abonné à la bibliothèque afin de 
+faire un emprunt. Puis, le responsable s'authentifie pour faire le suivi nécessaire. Avant 
+tout, il doit s'assurer que cet abonné existe dans le système. Si tel n'est pas le cas, le 
+gestionnaire est le seul capable de l'enregistrer. Une fois l'abonné validé, le 
+bibliothécaire peut remplir les champs requis pour l'enregistrement d'un emprunt. Seuls 
+les livres disponibles à l'instant seront affichés pour faciliter la sélection des choix.
+Si l'abonné détient encore trois livres qu'il n'a jamaias restitué, un message d'erreur 
+est affiché et il ne pourra effectuer tant qu'il ne les aura pas rendus. Si tout est 
+correct, l'enregistrement est validé et l'abonné peut partir sans contrainte.
 
-\subsection{Diagrammes de ce ce qu'on a demande}
-\paragraph{} 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices purus. Donec finibus metus et augue sodales posuere. Proin sit amet turpis dictum, iaculis felis in, scelerisque massa. Nullam aliquam nunc eget fringilla volutpat. Integer et mauris et massa imperdiet scelerisque mollis at sapien. Donec condimentum felis eget sagittis ultricies. Nunc laoreet augue id consectetur vulputate. Cras sagittis aliquam risus sit amet tempus. Curabitur finibus neque eget magna efficitur, sed dignissim quam sagittis. Ut euismod justo id gravida pulvinar. Ut urna magna, auctor maximus volutpat ac, elementum sed mi.
+\subsection{Diagramme d’activité du processus de Gestion des prêts dans la bibliothèque}
+\paragraph{}
+\begin{figure}[h]
+        \centering
+        \includegraphics[width=1\textwidth]{ActivityDiagram1}
+        \caption{Diagramme d’activité du processus de Gestion des prêts dans la bibliothèque}
+        \label{image-ActivityDiagram1}
+        \end{figure}
+\par
+
+
 \subsection{Diagrammes de ce qu'on n'a pas demande}
 \paragraph{} 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices purus. Donec finibus metus et augue sodales posuere. Proin sit amet turpis dictum, iaculis felis in, scelerisque massa. Nullam aliquam nunc eget fringilla volutpat. Integer et mauris et massa imperdiet scelerisque mollis at sapien. Donec condimentum felis eget sagittis ultricies. Nunc laoreet augue id consectetur vulputate. Cras sagittis aliquam risus sit amet tempus. Curabitur finibus neque eget magna efficitur, sed dignissim quam sagittis. Ut euismod justo id gravida pulvinar. Ut urna magna, auctor maximus volutpat ac, elementum sed mi.
+
+diagramme d’activité du processus de Gestion des prêts dans la bibliothèque.
