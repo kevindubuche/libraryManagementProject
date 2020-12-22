@@ -318,7 +318,33 @@ Elle peut être décrite comme suit: \par
 
 \subsection{Diagrammes de séquence}
 \paragraph{} 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices purus. Donec finibus metus et augue sodales posuere. Proin sit amet turpis dictum, iaculis felis in, scelerisque massa. Nullam aliquam nunc eget fringilla volutpat. Integer et mauris et massa imperdiet scelerisque mollis at sapien. Donec condimentum felis eget sagittis ultricies. Nunc laoreet augue id consectetur vulputate. Cras sagittis aliquam risus sit amet tempus. Curabitur finibus neque eget magna efficitur, sed dignissim quam sagittis. Ut euismod justo id gravida pulvinar. Ut urna magna, auctor maximus volutpat ac, elementum sed mi.
+Les diagrammes de séquence sont utiles pour permettre la représentation des interactions 
+entre les différents acteurs et le système dans un ordre chronologique.
+\subsubsection{Acquisition des ouvrages} 
+\begin{figure}[h]
+        \centering
+        \includegraphics[width=0.6\textwidth]{acquisitionDesOuvragesSequence}
+        \caption{Diagramme de séquence pour l'acquisition des ouvrages}
+        \label{image-acquisitionDesOuvragesSequence}
+        \end{figure}
+\paragraph{}
+Pour commencer, il faut que le bibliothécaire s'authentifie sur le système.
+Une fois l'authentification réussie, il peut alors rentrer les données dans le système.
+Les données sont analysées et le bibliothécaire peut enfin valider la sauvegarde 
+lorsque toutes les informations ont été bien rentrées. \par 
+Si le bibliothécaire souhaite afficher les informations relatives à un livre, il doit d'abord 
+être authentifié. Puis il cherche/recherche le livre en question afin d'avoir accès aux 
+différentes informations. Le système vérifie alors les informations pour s'assurer que 
+le livre existe avant d'en afficher toutes les informations y relatives. \par 
+Le bibliothécaire a aussi le pouvoir de modifier les informations liées à un ouvrage.
+Encore une fois, il ne peut rien faire sans être authentifié. Tout comme pour l'affichage, 
+il cherche le livre désiré pour ensuite le modifier cette fois. Une fois la modification 
+réussie, un message de succès est affiché. Si la modification n'est pas réussie, au 
+contraire, un message d'erreur fait son apparition. \par 
+Et enfin, le bibliothécaire peut supprimer un livre. Au cours de cette suppression, le livre
+devient inaccessible au niveau de l'application, mais il reste disponible dans la base de 
+données afin que toute action futur soit encore possible. \par
+
 \subsection{Diagrammes de ce ce qu'on a demande}
 \paragraph{} 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices purus. Donec finibus metus et augue sodales posuere. Proin sit amet turpis dictum, iaculis felis in, scelerisque massa. Nullam aliquam nunc eget fringilla volutpat. Integer et mauris et massa imperdiet scelerisque mollis at sapien. Donec condimentum felis eget sagittis ultricies. Nunc laoreet augue id consectetur vulputate. Cras sagittis aliquam risus sit amet tempus. Curabitur finibus neque eget magna efficitur, sed dignissim quam sagittis. Ut euismod justo id gravida pulvinar. Ut urna magna, auctor maximus volutpat ac, elementum sed mi.
