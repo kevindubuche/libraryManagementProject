@@ -34,7 +34,7 @@
 
 <!-- Summary Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('resume', 'Resume:') !!}
+    {!! Form::label('resume', 'Résumé:') !!}
     {!! Form::textarea('resume', null, ['class' => 'form-control']) !!}
 </div>
 
@@ -46,8 +46,8 @@
 
 <!-- Categorie Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('categorie', 'Categorie:') !!}
-    {!! Form::text('categorie', null, ['class' => 'form-control','maxlength' => 255]) !!}
+    {!! Form::label('categorie', 'Categorie*:') !!}
+    {!! Form::text('categorie', null, ['class' => 'form-control','maxlength' => 255, 'required']) !!}
 </div>
 
 <!-- Nombre de pages Field -->
