@@ -380,6 +380,39 @@ système. \par
 Les étapes de modification, d'affichage et de suppression d'un utilisateur ne diffèrent 
 pas de celles expliquées plus tôt dans le cas de la gestion des ouvrages. Les détails 
 peuvent ainsi se passer de présentation; le même modèle est à suivre.
+\subsubsection{Restitution des ouvrages} 
+\paragraph{}
+\begin{figure}[h]
+        \centering
+        \includegraphics[width=1\textwidth]{restitutionDesOuvragesSequence}
+        \caption{Diagramme de séquence pour la restitution des ouvrages}
+        \label{image-restitutionDesOuvragesSequence}
+        \end{figure}
+\par
+Pour restituer un ouvrage, l'abonné se présente sur place. Pour assurer le suivi, le 
+bibliothécaire doit d'abord s'authentifier. Il va ensuite dans le module des emprunts 
+et cherche le correspondant à celui recherché. Il ajoute alors la date de restitution,
+ce qui fait passer automatiquement le statut de l'ouvrage de "Non disponible" à disponible.
+Le livre est donc rendu et l'abonné peut partir ou exécuter autant de nouveaux emprunts
+que le lui permet son quota.
+\subsubsection{Gestion des emprunts} 
+\paragraph{}
+\begin{figure}[h]
+        \centering
+        \includegraphics[width=1\textwidth]{gestionDesEmpruntsSequence}
+        \caption{Diagramme de séquence pour la gestion des emprunts}
+        \label{image-gestionDesEmpruntsSequence}
+        \end{figure}
+\par
+La première étape consiste en la présentation de l'abonné à la bibliothèque afin de 
+faire un emprunt. Puis, le responsable s'authentifie pour faire le suivi nécessaire. Avant 
+tout, il doit s'assurer que cet abonné existe dans le système. Si tel n'est pas le cas, le 
+gestionnaire est le seul capable de l'enregistrer. Une fois l'abonné validé, le 
+bibliothécaire peut remplir les champs requis pour l'enregistrement d'un emprunt. Seuls 
+les livres disponibles à l'instant seront affichés pour faciliter la sélection des choix.
+Si l'abonné détient encore trois livres qu'il n'a jamaias restitué, un message d'erreur 
+est affiché et il ne pourra effectuer tant qu'il ne les aura pas rendus. Si tout est 
+correct, l'enregistrement est validé et l'abonné peut partir sans contrainte.
 
 \subsection{Diagrammes de ce ce qu'on a demande}
 \paragraph{} 

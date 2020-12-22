@@ -47,9 +47,13 @@
 \contentsline {paragraph}{}{19}%
 \contentsline {subsubsection}{Gestion des utilisateurs}{19}%
 \contentsline {paragraph}{}{19}%
-\contentsline {subsection}{\numberline {3.4.3}Diagrammes de ce ce qu'on a demande}{20}%
+\contentsline {subsubsection}{Restitution des ouvrages}{20}%
 \contentsline {paragraph}{}{20}%
-\contentsline {subsection}{\numberline {3.4.4}Diagrammes de ce qu'on n'a pas demande}{21}%
+\contentsline {subsubsection}{Gestion des emprunts}{21}%
 \contentsline {paragraph}{}{21}%
-\contentsline {section}{\numberline {3.5}Diagrammes d'activites}{22}%
-\contentsline {chapter}{\numberline {4}Conclusion}{23}%
+\contentsline {subsection}{\numberline {3.4.3}Diagrammes de ce ce qu'on a demande}{22}%
+\contentsline {paragraph}{}{22}%
+\contentsline {subsection}{\numberline {3.4.4}Diagrammes de ce qu'on n'a pas demande}{23}%
+\contentsline {paragraph}{}{23}%
+\contentsline {section}{\numberline {3.5}Diagrammes d'activites}{24}%
+\contentsline {chapter}{\numberline {4}Conclusion}{25}%
