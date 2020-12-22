@@ -315,7 +315,6 @@ Elle peut être décrite comme suit: \par
         \hline
 \end{tabular}
 
-
 \subsection{Diagrammes de séquence}
 \paragraph{} 
 Les diagrammes de séquence sont utiles pour permettre la représentation des interactions 
@@ -344,6 +343,18 @@ contraire, un message d'erreur fait son apparition. \par
 Et enfin, le bibliothécaire peut supprimer un livre. Au cours de cette suppression, le livre
 devient inaccessible au niveau de l'application, mais il reste disponible dans la base de 
 données afin que toute action futur soit encore possible. \par
+\subsubsection{Consultation du catalogue} 
+\begin{figure}[h]
+        \centering
+        \includegraphics[width=1\textwidth]{consultationDuCatalogueSequence}
+        \caption{Diagramme de séquence pour la consultation du catalogue}
+        \label{image-consultationDuCatalogueSequence}
+        \end{figure}
+\paragraph{}
+Lors de la consultation du cataloque, tout intéressé peut faire de la lèche-vitrine à 
+sa guise. Mais si un abonné veut vérifier la disponibilité d'un ouvrage, il doit 
+obligatoirement s'authentifier. Il donc chercher/rechercher l'ouvrage qu'il lui faut, et le 
+système prend le soin d'afficher le résultat de ses recherches.
 
 \subsection{Diagrammes de ce ce qu'on a demande}
 \paragraph{} 
