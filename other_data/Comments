@@ -31,9 +31,9 @@ E#skon va imposer une liste de categories ou le gestionnaire aura a les ajouter 
 14. https://www.free-css.com/assets/files/free-css-templates/preview/page254/rd-business/
 15.https://www.enseignementsup-recherche.gouv.fr/cid20545/les-bibliotheques-universitaires.html
 #16. Create emprunt: faire une lite deroulante ayant les nom des user et des livres
-17.mettre "on delete cascade" sur les cles etrangere dans la table emprunt cause leum delete yon livre keu yo te prete emprunt an pa delete
+#17.mettre "on delete cascade" sur les cles etrangere dans la table emprunt cause leum delete yon livre keu yo te prete emprunt an pa delete
 or map just fe force delete sou li.
-18.edit user : li toujou paye par defaut menm si li te save non paye 
+#18.edit user : li toujou paye par defaut menm si li te save non paye 
 #19.securite route yo ak middleware
 #20. download excel
 21. imma try to find a free hosting provider
@@ -46,11 +46,11 @@ or map just fe force delete sou li.
 #28. add relance nan table emprunt pou ka konn si te gen relance deja
 #29. mete status livre la boolean nan bd a
 #30. chager annee_de_parution en annee et non date
-31. user : leu map edit menm si mpa payer li montre mpaye par default TBG ap vann Bibliothek la.
-32.
-33.livres: ajouter livre. Categorie pas gen *
-34. livres: ajouter livre. erreur fatale leu champs categorie an pa rempli
-35.appli a pa responsive
+#31. user : leu map edit menm si mpa payer li montre mpaye par default TBG ap vann Bibliothek la.
+#32. appli a pa responsive
+#33.livres: ajouter livre. Categorie pas gen *
+#34. livres: ajouter livre. erreur fatale leu champs categorie an pa rempli
+35.
 36.
 37.
 37.

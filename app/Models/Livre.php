@@ -73,13 +73,13 @@ class Livre extends Model
      * @var array
      */
     public static $rules = [
-        'position_dans_la_bibliotheque' => 'nullable|string|max:45',
-        'titre' => 'nullable|string|max:45',
+        'position_dans_la_bibliotheque' => 'required|string|max:45',
+        'titre' => 'required|string|max:45',
         'annee_de_parution' => 'nullable',
-        'auteur' => 'nullable|string|max:45',
-        'categorie' => 'nullable|string|max:255',
-        'statut' => 'nullable|string|max:45',
-        'etat' => 'nullable|integer',
+        'auteur' => 'required|string|max:45',
+        'categorie' => 'required|string|max:255',
+        'statut' => 'required|string|max:45',
+        'etat' => 'required|integer',
         'resume' => 'nullable|string',
         'isbn' => 'nullable|string', 
         'nombre_de_pages' => 'nullable|integer',
