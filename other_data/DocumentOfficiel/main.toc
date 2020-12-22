@@ -33,17 +33,17 @@
 \contentsline {paragraph}{}{8}%
 \contentsline {subsubsection}{Acquisition des ouvrages}{9}%
 \contentsline {paragraph}{}{9}%
-\contentsline {subsubsection}{Gestion des emprunts}{10}%
-\contentsline {paragraph}{}{10}%
-\contentsline {subsubsection}{Restitution des ouvrages}{10}%
-\contentsline {paragraph}{}{10}%
-\contentsline {subsubsection}{Gestion des utilisateurs}{11}%
+\contentsline {subsubsection}{Gestion des emprunts}{11}%
 \contentsline {paragraph}{}{11}%
-\contentsline {subsection}{\numberline {3.4.2}Diagrammes de séquence}{11}%
+\contentsline {subsubsection}{Restitution des ouvrages}{11}%
 \contentsline {paragraph}{}{11}%
-\contentsline {subsection}{\numberline {3.4.3}Diagrammes de ce ce qu'on a demande}{12}%
+\contentsline {subsubsection}{Gestion des utilisateurs}{12}%
 \contentsline {paragraph}{}{12}%
-\contentsline {subsection}{\numberline {3.4.4}Diagrammes de ce qu'on n'a pas demande}{13}%
+\contentsline {subsection}{\numberline {3.4.2}Diagrammes de séquence}{12}%
+\contentsline {paragraph}{}{12}%
+\contentsline {subsection}{\numberline {3.4.3}Diagrammes de ce ce qu'on a demande}{13}%
 \contentsline {paragraph}{}{13}%
-\contentsline {section}{\numberline {3.5}Diagrammes d'activites}{14}%
-\contentsline {chapter}{\numberline {4}Conclusion}{15}%
+\contentsline {subsection}{\numberline {3.4.4}Diagrammes de ce qu'on n'a pas demande}{14}%
+\contentsline {paragraph}{}{14}%
+\contentsline {section}{\numberline {3.5}Diagrammes d'activites}{15}%
+\contentsline {chapter}{\numberline {4}Conclusion}{16}%

@@ -127,17 +127,55 @@ Elle peut être décrite comme suit: \par
         \label{image-acquisitionDesOuvragesUseCase}
         \end{figure}
 \paragraph{}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices purus. Donec finibus metus et augue sodales posuere. Proin sit amet turpis dictum, iaculis felis in, scelerisque massa. Nullam aliquam nunc eget fringilla volutpat. Integer et mauris et massa imperdiet scelerisque mollis at sapien. Donec condimentum felis eget sagittis ultricies. Nunc laoreet augue id consectetur vulputate. Cras sagittis aliquam risus sit amet tempus. Curabitur finibus neque eget magna efficitur, sed dignissim quam sagittis. Ut euismod justo id gravida pulvinar. Ut urna magna, auctor maximus volutpat ac, elementum sed mi.
+L'acquisition des ouvrages est réservée plus principalement au bibliothécaire. Cette activité lui permet de garder à jour
+la base de données à chaque nouvel arrivage de bouquins. Ceci permettra aux abonnées de savoir de quels livres dispose
+la bibliothèque.  \par 
+Elle peut être décrite comme suit: \par 
+\begin{tabular}{|c|p{7cm}|}
+        \hline
+        Titre & Acquisition d'ouvrages  \\
+        \hline
+        Objectif & Permettre au biliothécaire d'enregistrer un nouvel ouvrage \\
+        \hline
+        Acteur & Bibliothécaire \\
+        \hline
+        Précondition & \begin{itemize}
+                \item Le bibliothécaire s'est authentifié 
+        \end{itemize} \\
+        \hline
+        Postcondition & \begin{itemize}
+                \item Un nouvel ouvrage est enregistré dans la base de données
+        \end{itemize} \\
+        \hline
+\end{tabular}
+\par 
+\begin{tabular}{|c|p{7cm}|}
+        \hline
+        Fonctionnement Normal & \begin{itemize}
+                \item Le bibliothécaire se rend sur le site
+                \item Il s'authentifie
+                \item Il va dans le module "Livres"
+                \item Il clique sur ajouter
+                \item Il remplit les champs et fait sa sauvegarde
+                \item Un message de succès est affiché
+        \end{itemize} \\
+        \hline
+        Exception & \begin{itemize}
+                \item Les champs obligatoires ne sont pas remplis - Un message d'erreur est affiché
+                \item Une position a déjà été enregistrée - L'utilisateur en est signalé
+        \end{itemize} \\
+        \hline
+\end{tabular}
 
 \subsubsection{Gestion des emprunts} 
-\begin{figure}[ht]
+\begin{figure}[h]
         \centering
         \includegraphics[width=1\textwidth]{gestionDesEmpruntsUseCase}
         \caption{Diagramme du cas de gestion des emprunts}
         \label{image-gestionDesEmpruntsUseCase}
         \end{figure}
 \paragraph{}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ultrices purus. Donec finibus metus et augue sodales posuere. Proin sit amet turpis dictum, iaculis felis in, scelerisque massa. Nullam aliquam nunc eget fringilla volutpat. Integer et mauris et massa imperdiet scelerisque mollis at sapien. Donec condimentum felis eget sagittis ultricies. Nunc laoreet augue id consectetur vulputate. Cras sagittis aliquam risus sit amet tempus. Curabitur finibus neque eget magna efficitur, sed dignissim quam sagittis. Ut euismod justo id gravida pulvinar. Ut urna magna, auctor maximus volutpat ac, elementum sed mi.
+
 
 \subsubsection{Restitution des ouvrages} 
 \begin{figure}[h]
