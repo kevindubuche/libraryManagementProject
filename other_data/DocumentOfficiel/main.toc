@@ -55,5 +55,5 @@
 \contentsline {paragraph}{}{22}%
 \contentsline {subsection}{\numberline {3.4.4}Diagrammes de ce qu'on n'a pas demande}{23}%
 \contentsline {paragraph}{}{23}%
-\contentsline {section}{\numberline {3.5}Diagrammes d'activites}{25}%
-\contentsline {chapter}{\numberline {4}Conclusion}{26}%
+\contentsline {section}{\numberline {3.5}Diagrammes d'activites}{24}%
+\contentsline {chapter}{\numberline {4}Conclusion}{25}%
