@@ -175,6 +175,44 @@ Elle peut être décrite comme suit: \par
         \label{image-gestionDesEmpruntsUseCase}
         \end{figure}
 \paragraph{}
+L'acteur direct de la gestion des emprunts n'est nul autre que le bibliothécaire. Cette activité 
+permet au bibliothécaire d'enregistrer les informations nécessaires afin de retracer l'utilisation
+des différents ouvrages.\par 
+Elle peut être décrite comme suit: \par 
+\begin{tabular}{|c|p{7cm}|}
+        \hline
+        Titre & Gérer des emprunts \\
+        \hline
+        Objectif & Permettre au bibliothécaire de faire différentes actions sur un prêt \\
+        \hline
+        Acteur & Bibliothécaire \\
+        \hline
+        Précondition & \begin{itemize}
+                \item Le bibliothécaire s'est authentifié 
+                \item L'abonné existe
+                \item L'ouvrage existe
+        \end{itemize} \\
+        \hline
+        Postcondition & \begin{itemize}
+                \item L'emprunt est enregistré 
+        \end{itemize} \\
+        \hline
+        Fonctionnement Normal & \begin{itemize}
+                \item Le bibliothécaire se rend sur le site
+                \item Il s'authentifie
+                \item Il a accès aux différents livres
+                \item Il va dans le module "Emprunts"
+                \item Il clique sur ajouter
+                \item Il remplit les champs et fait sa sauvegarde
+                \item Un message de succès est affiché
+        \end{itemize} \\
+        \hline
+        Exception & \begin{itemize}
+                \item L'abonné n'a pas été enregistré sur le système - Le bibliothécaire ne peut pas remplir le champ
+                \item Le livre n'est pas enregistré dans la base de données - Le bibliothécaire ne peut pas remplir le champ
+        \end{itemize} \\
+        \hline
+\end{tabular}
 
 
 \subsubsection{Restitution des ouvrages} 
