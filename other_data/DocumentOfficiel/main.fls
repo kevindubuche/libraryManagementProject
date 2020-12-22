@@ -87,6 +87,50 @@ OUTPUT /home/kevin/Documents/kevin/EN3/genie_logiciel/Projet_final/project/other
 INPUT /home/kevin/Documents/kevin/EN3/genie_logiciel/Projet_final/project/other_data/DocumentOfficiel/Implementation/implementation.tex
 INPUT /home/kevin/Documents/kevin/EN3/genie_logiciel/Projet_final/project/other_data/DocumentOfficiel/Implementation/implementation.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+<<<<<<< HEAD
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/generalUseCase.jpg
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/generalUseCase.jpg
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/generalUseCase.jpg
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/consultationDuCatalogueUseCase.jpg
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/consultationDuCatalogueUseCase.jpg
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/consultationDuCatalogueUseCase.jpg
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/acquisitionDesOuvragesUseCase.jpg
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/acquisitionDesOuvragesUseCase.jpg
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/acquisitionDesOuvragesUseCase.jpg
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/gestionDesEmpruntsUseCase.jpg
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/gestionDesEmpruntsUseCase.jpg
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/gestionDesEmpruntsUseCase.jpg
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/restitutionDesOuvragesUseCase.jpg
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/restitutionDesOuvragesUseCase.jpg
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/restitutionDesOuvragesUseCase.jpg
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/gestionDesUtilisateursUseCase.jpg
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/gestionDesUtilisateursUseCase.jpg
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/gestionDesUtilisateursUseCase.jpg
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/acquisitionDesOuvragesSequence.jpg
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/acquisitionDesOuvragesSequence.jpg
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/acquisitionDesOuvragesSequence.jpg
+OUTPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Diagrammes/diagrammes.aux
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Diagrammes/diagrammes.tex
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Diagrammes/diagrammes.tex
+OUTPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Conclusion/conclusion.aux
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Conclusion/conclusion.tex
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Conclusion/conclusion.tex
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/main.aux
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Resume/resume.aux
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Resume/resume.aux
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Glossaire/glossaire.aux
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Glossaire/glossaire.aux
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Contexte/contexte.aux
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Contexte/contexte.aux
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Organisation/organisation.aux
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Organisation/organisation.aux
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Implementation/implementation.aux
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Implementation/implementation.aux
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Diagrammes/diagrammes.aux
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Diagrammes/diagrammes.aux
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Conclusion/conclusion.aux
+INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Conclusion/conclusion.aux
+=======
 INPUT /home/kevin/Documents/kevin/EN3/genie_logiciel/Projet_final/project/other_data/DocumentOfficiel/generalUseCase.jpg
 INPUT /home/kevin/Documents/kevin/EN3/genie_logiciel/Projet_final/project/other_data/DocumentOfficiel/generalUseCase.jpg
 INPUT /home/kevin/Documents/kevin/EN3/genie_logiciel/Projet_final/project/other_data/DocumentOfficiel/generalUseCase.jpg
@@ -126,6 +170,7 @@ INPUT /home/kevin/Documents/kevin/EN3/genie_logiciel/Projet_final/project/other_
 INPUT /home/kevin/Documents/kevin/EN3/genie_logiciel/Projet_final/project/other_data/DocumentOfficiel/Diagrammes/diagrammes.aux
 INPUT /home/kevin/Documents/kevin/EN3/genie_logiciel/Projet_final/project/other_data/DocumentOfficiel/Conclusion/conclusion.aux
 INPUT /home/kevin/Documents/kevin/EN3/genie_logiciel/Projet_final/project/other_data/DocumentOfficiel/Conclusion/conclusion.aux
+>>>>>>> d0f5811f99e0ed7beb3028658dbe4dd8ca178508
 INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
