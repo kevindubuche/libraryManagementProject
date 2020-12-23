@@ -3,7 +3,8 @@
         \paragraph{} 
 \begin{tabular}{|c|p{1.5cm}|p{2.7cm}|p{4cm}|}
         \hline
-        Technologie & Version & Utilité & Raison du choix \\
+        \textbf{\underline{Technologie}} & \textbf{\underline{Version}} & 
+        \textbf{\underline{Utilité}} & \textbf{\underline{Raison du choix}} \\
         \hline
         Linux & Ubuntu 20.04.1 LTS & OS & Les trois membres utilisent Linux \\
         \hline
@@ -20,7 +21,7 @@
 \end{tabular}
 \begin{tabular}{|c|p{1.5cm}|p{2.7cm}|p{4cm}|}
         \hline
-        Laravel Framework & 8.15.0 & Programmation web & Prise en charge de l’architecture MVC | Facilite d’utilisation du Framework | Sécurité et performance | Documentation et communauté\\
+        Laravel Framework & 8.15.0 & Programmation web & Prise en charge de l’architecture MVC | Facilité d’utilisation du Framework | Sécurité et performance | Documentation et communauté\\
         \hline
         HTML5 & 5 & Programmation structure frontend & Open source | Facilité\\
         \hline
@@ -28,7 +29,7 @@
         \hline
         Bootstrap & 3.3.7 & Programmation design frontend & Open source | Facilité\\
         \hline
-        Jquery & 3.1.2 & Programmation gestion des evenements frontend & Open source | Facilité\\
+        Jquery & 3.1.2 & Programmation gestion des événements frontend & Open source | Facilité\\
         \hline
         Google: Gmail API &  & SMTP & Server mail pour délivrer les email\\
         \hline
@@ -38,7 +39,7 @@
 \paragraph{}
 Trois niveaux d'utilisation sont considérés au sein de l'application.
 Chacun d'eux détient des privilèges en plus de celui qui vient directement après lui.
-Les abonnés sont ceux qui peuvent poser le moins d'actions possibles dans le système. ils 
+Les abonnés sont ceux qui peuvent poser le moins d'actions possibles dans le système.Ils 
 ne peuvent rien faire de plus que lire les données disponibles. De ce fait, 
 ils peuvent voir tous les livres qui sont disponibles à chaque instant, et recevoir 
 des notifications lorsqu'ils auront passé trop de temps avec un ouvrage en main.\par 
@@ -49,17 +50,17 @@ Et enfin, le gestionnaire peut tout faire, et plus particulièrement gérer les
 utilisateurs du système.
 \section{Interface utilisateur}
 \paragraph{}       
-L'interface utilisateur a été réfléchi de telle sorte que n'importe qui 
-puisse se retrouver facilement sur l'application. Aucun téléchargement préalable n'est requis, de même 
-qu'il ne sera pas du tout nécessaire de faire un cours complet pour expliquer à un nouvel utilisateur
-les différentes utilités de chaque bouton.
+L'interface utilisateur a été réfléchi de telle sorte que n'importe qui puisse se retrouver 
+facilement sur l'application. Aucun téléchargement préalable n'est requis, de même qu'il 
+ne sera pas du tout nécessaire de faire un cours complet pour expliquer à un nouvel 
+utilisateur les différentes utilités de chaque bouton.
 
 \section{Diagrammes}
 \subsection{Diagrammes des cas d'utilisation}
 \paragraph{}
 Ici, seront expliqués les différents cas d'utilisation que l'on peut retrouver au sein de 
-l'application. D'abord, le cas général sera présenté, puis chaque cas particulier sera détaillé
-et aura une image comme support.
+l'application. D'abord, le cas général sera présenté, puis chaque cas particulier sera 
+détaillé et aura une image comme support.
 \subsubsection{Cas d'utilisation général} 
 \begin{figure}[h]
         \centering
@@ -69,13 +70,14 @@ et aura une image comme support.
         \end{figure}
 \paragraph{}
 De façon générale, l'objectif principal de l'application est d'assurer la 
-gestion des prêts dans une bibliothèque universitaire. De ce fait, tois 
+gestion des prêts dans une bibliothèque universitaire. De ce fait, trois 
 acteurs principaux sont à prendre en compte: l'abonné, le bibliothécaire et 
 le gestionnaire. L'abonné est uniquement capable de consulter le catalogue.
-Le bibliothécaire est, de son côté, responsable de gérer les emprunts, restituer les ouvrages et 
-acquérir de nouveaux ouvrages. Et enfin, le gestionnaire a pour rôle d'inscrire de nouveaux utilisateurs
-dans le système. Néanmoins, ces trois catégories peuvent à tout moment réinitialiser leur mot de passe ainsi 
-que voir les activités qu'ils ont effectué en matière d'emprunts.
+Le bibliothécaire est, de son côté, responsable de gérer les emprunts, restituer 
+les ouvrages et acquérir de nouveaux ouvrages. Et enfin, le gestionnaire a pour rôle 
+d'inscrire de nouveaux utilisateurs dans le système. Néanmoins, ces trois 
+catégories peuvent à tout moment réinitialiser leur mot de passe ainsi 
+que voir les activités qu'ils ont effectuées en matière d'emprunts.
 
 \subsubsection{Consultation du catalogue} 
 \paragraph{}
@@ -92,30 +94,30 @@ inutile dans le cas où le livre souhaité ne serait pas disponible. \par
 Elle peut être décrite comme suit: \par 
 \begin{tabular}{|c|p{7cm}|}
         \hline
-        Titre & Consulter le catalogue  \\
+        \textbf{Titre} & Consulter le catalogue  \\
         \hline
-        Objectif & Permettre à l'utilisateur de vérifier la disponibilité d'un ouvrage \\
+        \textbf{Objectif}  & Permettre à l'utilisateur de vérifier la disponibilité d'un ouvrage \\
         \hline
-        Acteur & Abonné \\
+        \textbf{Acteur} & Abonné \\
         \hline
-        Précondition & \begin{itemize}
+        \textbf{Précondition} & \begin{itemize}
                 \item L'abonné s'est authentifié 
         \end{itemize} \\
         \hline
-        Postcondition & \begin{itemize}
+        \textbf{Postcondition} & \begin{itemize}
                 \item L'abonné peut voir le statut des différents livres
                 \item L'abonné peut télécharger la liste des livres
         \end{itemize} \\
         \hline
-        Fonctionnement Normal & \begin{itemize}
+        \textbf{Fonctionnement Normal} & \begin{itemize}
                 \item L'abonné se rend sur le site
                 \item Il s'authentifie
                 \item Il a accès aux différents livres
         \end{itemize} \\
         \hline
-        Exception & \begin{itemize}
-                \item L'abonné n'a pas été enregistré sur le système - Il ne peut pas avoir accès à la plateforme; il 
-                doit contacter le gestionnaire directement
+        \textbf{Exception} & \begin{itemize}
+                \item L'abonné n'a pas été enregistré sur le système - Il ne peut pas avoir 
+                accès à la plateforme; il doit contacter le gestionnaire directement
         \end{itemize} \\
         \hline
 \end{tabular}
@@ -129,23 +131,24 @@ Elle peut être décrite comme suit: \par
         \label{image-acquisitionDesOuvragesUseCase}
         \end{figure}
 \par
-L'acquisition des ouvrages est réservée plus principalement au bibliothécaire. Cette activité lui permet de garder à jour
-la base de données à chaque nouvel arrivage de bouquins. Ceci permettra aux abonnées de savoir de quels livres dispose
+L'acquisition des ouvrages est réservée plus principalement au bibliothécaire. 
+Cette activité lui permet de garder à jour la base de données à chaque nouvel 
+arrivage de bouquins. Ceci permettra aux abonnées de savoir de quels livres dispose
 la bibliothèque.  \par 
 Elle peut être décrite comme suit: \par 
 \begin{tabular}{|c|p{7cm}|}
         \hline
-        Titre & Acquisition d'ouvrages  \\
+        \textbf{Titre} & Acquisition d'ouvrages  \\
         \hline
-        Objectif & Permettre au biliothécaire d'enregistrer un nouvel ouvrage \\
+        \textbf{Objectif} & Permettre au biliothécaire d'enregistrer un nouvel ouvrage \\
         \hline
-        Acteur & Bibliothécaire \\
+        \textbf{Acteur} & Bibliothécaire \\
         \hline
-        Précondition & \begin{itemize}
+        \textbf{Précondition} & \begin{itemize}
                 \item Le bibliothécaire s'est authentifié 
         \end{itemize} \\
         \hline
-        Postcondition & \begin{itemize}
+        \textbf{Postcondition} & \begin{itemize}
                 \item Un nouvel ouvrage est enregistré dans la base de données
         \end{itemize} \\
         \hline
@@ -153,7 +156,7 @@ Elle peut être décrite comme suit: \par
 \par 
 \begin{tabular}{|c|p{7cm}|}
         \hline
-        Fonctionnement Normal & \begin{itemize}
+        \textbf{Fonctionnement Normal} & \begin{itemize}
                 \item Le bibliothécaire se rend sur le site
                 \item Il s'authentifie
                 \item Il va dans le module "Livres"
@@ -162,8 +165,9 @@ Elle peut être décrite comme suit: \par
                 \item Un message de succès est affiché
         \end{itemize} \\
         \hline
-        Exception & \begin{itemize}
-                \item Les champs obligatoires ne sont pas remplis - Un message d'erreur est affiché
+        \textbf{Exception} & \begin{itemize}
+                \item Les champs obligatoires ne sont pas remplis - Un message 
+                d'erreur est affiché
                 \item Une position a déjà été enregistrée - L'utilisateur en est signalé
         \end{itemize} \\
         \hline
@@ -178,25 +182,25 @@ Elle peut être décrite comme suit: \par
         \label{image-gestionDesEmpruntsUseCase}
         \end{figure}
 \par
-L'acteur direct de la gestion des emprunts n'est nul autre que le bibliothécaire. Cette activité 
-permet au bibliothécaire d'enregistrer les informations nécessaires afin de retracer l'utilisation
-des différents ouvrages.\par 
+L'acteur direct de la gestion des emprunts n'est nul autre que le bibliothécaire. 
+Cette activité permet au bibliothécaire d'enregistrer les informations nécessaires 
+afin de retracer l'utilisation des différents ouvrages.\par 
 Elle peut être décrite comme suit: \par 
 \begin{tabular}{|c|p{7cm}|}
         \hline
-        Titre & Gérer des emprunts \\
+        \textbf{Titre} & Gérer des emprunts \\
         \hline
-        Objectif & Permettre au bibliothécaire de faire différentes actions sur un prêt \\
+        \textbf{Objectif} & Permettre au bibliothécaire de faire différentes actions sur un prêt \\
         \hline
-        Acteur & Bibliothécaire \\
+        \textbf{Acteur} & Bibliothécaire \\
         \hline
-        Précondition & \begin{itemize}
+        \textbf{Précondition} & \begin{itemize}
                 \item Le bibliothécaire s'est authentifié 
                 \item L'abonné existe
                 \item L'ouvrage existe
         \end{itemize} \\
         \hline
-        Postcondition & \begin{itemize}
+        \textbf{Postcondition} & \begin{itemize}
                 \item L'emprunt est enregistré 
         \end{itemize} \\
         \hline
@@ -204,7 +208,7 @@ Elle peut être décrite comme suit: \par
 \par 
 \begin{tabular}{|c|p{7cm}|}
         \hline
-        Fonctionnement Normal & \begin{itemize}
+        \textbf{Fonctionnement Normal} & \begin{itemize}
                 \item Le bibliothécaire se rend sur le site
                 \item Il s'authentifie
                 \item Il va dans le module "Emprunts"
@@ -213,9 +217,11 @@ Elle peut être décrite comme suit: \par
                 \item Un message de succès est affiché
         \end{itemize} \\
         \hline
-        Exception & \begin{itemize}
-                \item L'abonné n'a pas été enregistré sur le système - Le bibliothécaire ne peut pas remplir le champ
-                \item Le livre n'est pas enregistré dans la base de données - Le bibliothécaire ne peut pas remplir le champ
+        \textbf{Exception} & \begin{itemize}
+                \item L'abonné n'a pas été enregistré sur le système - Le bibliothécaire 
+                ne peut pas remplir le champ
+                \item Le livre n'est pas enregistré dans la base de données - Le 
+                bibliothécaire ne peut pas remplir le champ
         \end{itemize} \\
         \hline
 \end{tabular}
@@ -230,23 +236,24 @@ Elle peut être décrite comme suit: \par
         \label{image-restitutionDesOuvragesUseCase}
         \end{figure}
 \par
-Cette activité prend en compte tant l'abonné que le bibliothécaire. Elle permet de sauvegarder la 
-date à laquelle un livre a été  rendu afin de déterminer s'il est disponible ou pas. \par 
+Cette activité prend en compte tant l'abonné que le bibliothécaire. Elle permet de 
+sauvegarder la date à laquelle un livre a été rendu afin de déterminer s'il est 
+disponible ou pas. \par 
 Elle peut être décrite comme suit: \par 
 \begin{tabular}{|c|p{7cm}|}
         \hline
-        Titre & Restitution des ouvrages \\
+        \textbf{Titre} & Restitution des ouvrages \\
         \hline
-        Objectif & Permettre de se rappeler quand un livre a été rendu \\
+        \textbf{Objectif} & Permettre de se rappeler quand un livre a été rendu \\
         \hline
-        Acteur & Abonné, Bibliothécaire \\
+        \textbf{Acteur} & Abonné, Bibliothécaire \\
         \hline
-        Précondition & \begin{itemize}
+        \textbf{Précondition} & \begin{itemize}
                 \item Le bibliothécaire s'est authentifié 
                 \item L'emprunt avait été enregistré
         \end{itemize} \\
         \hline
-        Postcondition & \begin{itemize}
+        \textbf{Postcondition} & \begin{itemize}
                 \item Le livre est à nouveau disponible
         \end{itemize} \\
         \hline
@@ -254,7 +261,7 @@ Elle peut être décrite comme suit: \par
 \par 
 \begin{tabular}{|c|p{7cm}|}
         \hline
-        Fonctionnement Normal & \begin{itemize}
+        \textbf{Fonctionnement Normal} & \begin{itemize}
                 \item L'abonné se rend à la bibliothèque avec le livre
                 \item Le gestionnaire va sur le site
                 \item Il s'authentifie
@@ -264,7 +271,7 @@ Elle peut être décrite comme suit: \par
                 \item Un message de succès est affiché
         \end{itemize} \\
         \hline
-        Exception & \begin{itemize}
+        \textbf{Exception} & \begin{itemize}
                 \item 
         \end{itemize} \\
         \hline
@@ -285,17 +292,18 @@ permet d'enregistrer les informations relatives à chaque utilisateur. \par
 Elle peut être décrite comme suit: \par 
 \begin{tabular}{|c|p{7cm}|}
         \hline
-        Titre & Inscription des utilisateurs \\
+        \textbf{Titre} & Inscription des utilisateurs \\
         \hline
-        Objectif & Permettre au gestionnaire de faire différentes actions sur les données d'un utilisateur \\
+        \textbf{Objectif} & Permettre au gestionnaire de faire différentes actions sur les 
+        données d'un utilisateur \\
         \hline
-        Acteur & Gestionnaire \\
+        \textbf{Acteur} & Gestionnaire \\
         \hline
-        Précondition & \begin{itemize}
+        \textbf{Précondition} & \begin{itemize}
                 \item Le gestionnaire s'est authentifié 
         \end{itemize} \\
         \hline
-        Postcondition & \begin{itemize}
+        \textbf{Postcondition} & \begin{itemize}
                 \item L'utilisateur est enregistré 
         \end{itemize} \\
         \hline
@@ -303,7 +311,7 @@ Elle peut être décrite comme suit: \par
 \par 
 \begin{tabular}{|c|p{7cm}|}
         \hline
-        Fonctionnement Normal & \begin{itemize}
+        \textbf{Fonctionnement Normal} & \begin{itemize}
                 \item Le gestionnaire se rend sur le site
                 \item Il s'authentifie
                 \item Il va dans le module "Utilisateurs"
@@ -312,10 +320,12 @@ Elle peut être décrite comme suit: \par
                 \item Un message de succès est affiché
         \end{itemize} \\
         \hline
-        Exception & \begin{itemize}
-                \item Les champs obligatoires ne sont pas remplis - Un message d'erreur est affiché
+        \textbf{Exception} & \begin{itemize}
+                \item Les champs obligatoires ne sont pas remplis - Un message d'erreur 
+                est affiché
                 \item Une information unique est répliquée - Un message d'erreur est affiché
-                \item Les mots de passe ne sont pas identiques - Un message d'erreur est affiché
+                \item Les mots de passe ne sont pas identiques - Un message d'erreur 
+                est affiché
         \end{itemize} \\
         \hline
 \end{tabular}
@@ -348,7 +358,7 @@ réussie, un message de succès est affiché. Si la modification n'est pas réus
 contraire, un message d'erreur fait son apparition. \par 
 Et enfin, le bibliothécaire peut supprimer un livre. Au cours de cette suppression, le livre
 devient inaccessible au niveau de l'application, mais il reste disponible dans la base de 
-données afin que toute action futur soit encore possible. \par
+données afin que toute action future soit encore possible. \par
 \subsubsection{Consultation du catalogue} 
 \paragraph{}
 \begin{figure}[h]
@@ -360,8 +370,8 @@ données afin que toute action futur soit encore possible. \par
 \par 
 Lors de la consultation du cataloque, tout intéressé peut faire de la lèche-vitrine à 
 sa guise. Mais si un abonné veut vérifier la disponibilité d'un ouvrage, il doit 
-obligatoirement s'authentifier. Il donc chercher/rechercher l'ouvrage qu'il lui faut, et le 
-système prend le soin d'afficher le résultat de ses recherches.
+obligatoirement s'authentifier. Il peut donc chercher/rechercher l'ouvrage qu'il lui faut, 
+et le système prend le soin d'afficher le résultat de ses recherches.
 \subsubsection{Gestion des utilisateurs} 
 \paragraph{}
 \begin{figure}[h]
@@ -379,7 +389,7 @@ Une fois réussie, l'utilisateur est alors enregistré et pourra s'authentifier 
 système. \par 
 Les étapes de modification, d'affichage et de suppression d'un utilisateur ne diffèrent 
 pas de celles expliquées plus tôt dans le cas de la gestion des ouvrages. Les détails 
-peuvent ainsi se passer de présentation; le même modèle est à suivre.
+peuvent ainsi se passer de présentation; le même modèle reste à suivre.
 \subsubsection{Restitution des ouvrages} 
 \paragraph{}
 \begin{figure}[h]
@@ -392,7 +402,7 @@ peuvent ainsi se passer de présentation; le même modèle est à suivre.
 Pour restituer un ouvrage, l'abonné se présente sur place. Pour assurer le suivi, le 
 bibliothécaire doit d'abord s'authentifier. Il va ensuite dans le module des emprunts 
 et cherche le correspondant à celui recherché. Il ajoute alors la date de restitution,
-ce qui fait passer automatiquement le statut de l'ouvrage de "Non disponible" à disponible.
+ce qui fait passer automatiquement le statut de l'ouvrage de "Non disponible" à "Disponible".
 Le livre est donc rendu et l'abonné peut partir ou exécuter autant de nouveaux emprunts
 que le lui permet son quota.
 \subsubsection{Gestion des emprunts} 
@@ -410,9 +420,9 @@ tout, il doit s'assurer que cet abonné existe dans le système. Si tel n'est pa
 gestionnaire est le seul capable de l'enregistrer. Une fois l'abonné validé, le 
 bibliothécaire peut remplir les champs requis pour l'enregistrement d'un emprunt. Seuls 
 les livres disponibles à l'instant seront affichés pour faciliter la sélection des choix.
-Si l'abonné détient encore trois livres qu'il n'a jamaias restitué, un message d'erreur 
-est affiché et il ne pourra effectuer tant qu'il ne les aura pas rendus. Si tout est 
-correct, l'enregistrement est validé et l'abonné peut partir sans contrainte.
+Si l'abonné détient encore trois livres qu'il n'a jamais restitués, un message d'erreur 
+est affiché et il ne pourra effectuer aucun prêt tant qu'il ne les aura pas rendus. Si 
+tout est correct, l'enregistrement est validé et l'abonné peut partir sans contrainte.
 
 \subsection{Diagrammes de ce qu'on n'a pas demande}
 \paragraph{} 
