@@ -1,4 +1,3 @@
-\contentsline {paragraph}{}{1}%
 \contentsline {paragraph}{}{4}%
 \contentsline {paragraph}{Utilisateurs directes de l’application}{4}%
 \contentsline {paragraph}{Contraintes liées aux exigences des règlements de la bibliothèque}{5}%

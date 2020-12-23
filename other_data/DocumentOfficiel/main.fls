@@ -65,9 +65,12 @@ INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/lib.png
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/lib.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
@@ -102,7 +105,6 @@ INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data
 OUTPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Implementation/implementation.aux
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Implementation/implementation.tex
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Implementation/implementation.tex
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/generalUseCase.jpg
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/generalUseCase.jpg
 INPUT /home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/generalUseCase.jpg
