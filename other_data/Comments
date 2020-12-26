@@ -55,12 +55,53 @@ resave l'image a partir du crack please sous le meme nom et au meme endroit.
 #36. c'est mieux, mais je comprends pas ce que tu me demandes de faire !
 
 37. Page d'accueil: Le "A propos" ne renvoie nulle part. Celui qui est en dessous de
-Biblio Tech, pas celui de l entete // Je c pas si je dois modifier welcome.blade.php ou 
-welcomee.blade.php
-37.Accueil: La meilleure !!biblioque!! virtuelle de la Caraïbes ! // Je c 
+Biblio Tech, pas celui de l entete //  Poukisa m we codes yo repliker?
+<!-- Start Banner -->
+        <div class="ulockd-home-slider">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="pogoSlider" id="js-main-slider">
+                        <div class="pogoSlider-slide" style="background-image:url(img/banner-img.png);">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="slide_text">
+                                            <h3>Biblio-Tech</h3>
+                                            <br>
+                                            <h4><span class="theme_color">Savourez la lecture chez nous !</span></h4>
+                                            <br>
+                                            <p>La meilleure bibliothèque virtuelle de la Caraïbes !</p>
+                                            <a class="contact_bt" href="about.html">A propos</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pogoSlider-slide" style="background-image:url(https://source.unsplash.com/random);">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="slide_text">
+                                            <h3>Biblio-Tech<br></h3>
+                                            <br>
+                                            <h4><span class="theme_color">Savourez la lecture chez nous !</span></h4>
+                                            <br>
+                                            <p>La meilleure bibliothèque virtuelle de la Caraïbes !</p>
+                                            <a class="contact_bt" href="about.html">A propos</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- .pogoSlider -->
+                </div>
+            </div>
+        </div>
+        <!-- End Banner -->
+#37.Accueil: La meilleure !!biblioque!! virtuelle de la Caraïbes ! // Je c 
 pas si je dois modifier welcome.blade.php ou welcomee.blade.php
-38. 2020 dans le footer au lieu de 2019 // Je c pas si je dois modifier welcome.blade.php ou 
-welcomee.blade.php
+#38. 2020 dans le footer au lieu de 2019 /
 39. Date de creation: Heure la pa corresponn a heure ordi m lan. C normal?
 40. Leu m modifie yon etudiant ki pat paye, mm si toggle lan ret sou non paye, 
 li montre li paye apres enregistrement

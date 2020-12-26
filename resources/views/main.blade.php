@@ -101,7 +101,7 @@
                <div class="col-xl-6 white_fonts">
                     <div class="row">
 					<div class="col-md-12 white_fonts margin-bottom_30">
-					   <h3>Contactez nous</h3>
+					   <h3>Contactez-nous</h3>
 					</div>
                         <div class="col-md-4">
                             <div class="full icon">
@@ -151,7 +151,7 @@
 						    <h3>Menu</h3>
 						    <ul> 
 							  <li><a href="{{url('/')}}">Accueil</a></li>
-							  <li><a href="{{url('apropos')}}">A props</a></li>
+							  <li><a href="{{url('apropos')}}">A propos</a></li>
 							  <li><a href="{{url('noslivres')}}">Nos Livres</a></li>
 							  <li><a href="{{url('contact')}}">Contact</a></li>
 							</ul>
@@ -172,7 +172,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <p class="crp">© 2019 Biblio-Tech . All Rights Reserved.</p>
+                    <p class="crp">© 2020 Biblio-Tech . All Rights Reserved.</p>
                     <ul class="bottom_menu">
                         <li><a href="#">Term of Service</a></li>
                         <li><a href="#">Privacy</a></li>
