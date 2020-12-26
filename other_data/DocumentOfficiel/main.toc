@@ -38,25 +38,23 @@
 \contentsline {subsubsection}{Restitution des ouvrages}{19}%
 \contentsline {paragraph}{}{19}%
 \contentsline {subsubsection}{Gestion des utilisateurs}{21}%
-\contentsline {paragraph}{}{22}%
+\contentsline {paragraph}{}{21}%
 \contentsline {subsection}{\numberline {3.4.2}Diagrammes de séquence}{23}%
 \contentsline {paragraph}{}{23}%
 \contentsline {subsubsection}{Acquisition des ouvrages}{23}%
 \contentsline {paragraph}{}{23}%
-\contentsline {subsubsection}{Consultation du catalogue}{25}%
+\contentsline {subsubsection}{Consultation du catalogue}{24}%
+\contentsline {paragraph}{}{24}%
+\contentsline {subsubsection}{Gestion des utilisateurs}{24}%
 \contentsline {paragraph}{}{25}%
-\contentsline {subsubsection}{Gestion des utilisateurs}{25}%
+\contentsline {subsubsection}{Restitution des ouvrages}{25}%
 \contentsline {paragraph}{}{25}%
-\contentsline {subsubsection}{Restitution des ouvrages}{26}%
+\contentsline {subsubsection}{Gestion des emprunts}{26}%
 \contentsline {paragraph}{}{26}%
-\contentsline {subsubsection}{Gestion des emprunts}{27}%
-\contentsline {paragraph}{}{27}%
-\contentsline {subsection}{\numberline {3.4.3}Diagrammes de ce qu'on n'a pas demande}{28}%
+\contentsline {section}{\numberline {3.5}Diagrammes incontournables}{28}%
+\contentsline {subsection}{\numberline {3.5.1}Diagramme d’activité du processus de Gestion des prêts dans la bibliothèque}{28}%
 \contentsline {paragraph}{}{28}%
-\contentsline {section}{\numberline {3.5}Diagrammes incontournables}{29}%
-\contentsline {subsection}{\numberline {3.5.1}Diagramme d’activité du processus de Gestion des prêts dans la bibliothèque}{29}%
+\contentsline {subsection}{\numberline {3.5.2}Diagramme de classe de gestion des prêts}{29}%
 \contentsline {paragraph}{}{29}%
-\contentsline {subsection}{\numberline {3.5.2}Diagramme de classe de gestion des prêts}{30}%
+\contentsline {chapter}{\numberline {4}Conclusion}{30}%
 \contentsline {paragraph}{}{30}%
-\contentsline {chapter}{\numberline {4}Conclusion}{31}%
-\contentsline {paragraph}{}{31}%
