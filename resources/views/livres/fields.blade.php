@@ -1,12 +1,12 @@
 <!-- Position Dans La Bibliotheque Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('position_dans_la_bibliotheque', 'Position Dans La Bibliotheque:') !!}
+    {!! Form::label('position_dans_la_bibliotheque', 'Position Dans La Bibliotheque*:') !!}
     {!! Form::text('position_dans_la_bibliotheque', null, ['class' => 'form-control','maxlength' => 45,'maxlength' => 45]) !!}
 </div>
 
 <!-- Titre Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('titre', 'Titre:') !!}
+    {!! Form::label('titre', 'Titre*:') !!}
     {!! Form::text('titre', null, ['class' => 'form-control','maxlength' => 255]) !!}
 </div>
 
@@ -28,7 +28,7 @@
 
 <!-- Auteur Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('auteur', 'Auteur:') !!}
+    {!! Form::label('auteur', 'Auteur*:') !!}
     {!! Form::text('auteur', null, ['class' => 'form-control','maxlength' => 45]) !!}
 </div>
 

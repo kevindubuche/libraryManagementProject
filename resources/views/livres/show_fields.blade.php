@@ -37,7 +37,20 @@
 <!-- Statut Field -->
 <div class="form-group">
     {!! Form::label('statut', 'Statut:') !!}
-    <p>{{ $livre->statut }}</p>
+    <p>
+        @switch($livre->statut)
+            @case(0)
+                {{ 'Non disponible' }}
+                @break
+            @case(1)
+                {{ 'Disponible' }}
+                @break
+            @default
+                {{ 'Indetermine' }}
+                
+        @endswitch 
+    </p>
+    
 </div>
 
 <!-- Etat Field -->
