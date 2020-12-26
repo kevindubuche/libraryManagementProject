@@ -15,7 +15,7 @@
                                             <br>
                                             <h4><span class="theme_color">Savourez la lecture chez nous !</span></h4>
                                             <br>
-                                            <p>La meilleure biblioque virtuelle de la Caraïbes !</p>
+                                            <p>La meilleure bibliothèque virtuelle de la Caraïbes !</p>
                                             <a class="contact_bt" href="about.html">A propos</a>
                                         </div>
                                     </div>
@@ -31,7 +31,7 @@
                                             <br>
                                             <h4><span class="theme_color">Savourez la lecture chez nous !</span></h4>
                                             <br>
-                                            <p>La meilleure biblioque virtuelle de la Caraïbes !</p>
+                                            <p>La meilleure bibliothèque virtuelle de la Caraïbes !</p>
                                             <a class="contact_bt" href="about.html">A propos</a>
                                         </div>
                                     </div>
@@ -56,7 +56,7 @@
 						     <p class="section_count">01</p>
 						   </div>
 						   <div class="right">
-						    <p class="small_tag">A propos</p>
+						    <p class="small_tag" href="about.html">A propos</p>
                             <h2><span class="theme_color">Le rôle</span> de la bibliothèque "Bilio-Tech"</h2>
                             <p class="large">Accompagner et de soutenir</p>
 						  </div>	

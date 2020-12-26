@@ -55,25 +55,25 @@ resave l'image a partir du crack please sous le meme nom et au meme endroit.
 #36. c'est mieux, mais je comprends pas ce que tu me demandes de faire !
 
 37. Page d'accueil: Le "A propos" ne renvoie nulle part. Celui qui est en dessous de
-Biblio Tech, pas celui de l entete // Je c pas si je dois modifier welcome.blade.php ou 
-welcomee.blade.php
-37.Accueil: La meilleure !!biblioque!! virtuelle de la Caraïbes ! // Je c 
+Biblio Tech, pas celui de l entete
+#38.Accueil: La meilleure !!biblioque!! virtuelle de la Caraïbes ! // Je c 
 pas si je dois modifier welcome.blade.php ou welcomee.blade.php
-38. 2020 dans le footer au lieu de 2019 // Je c pas si je dois modifier welcome.blade.php ou 
-welcomee.blade.php
-39. Date de creation: Heure la pa corresponn a heure ordi m lan. C normal?
-40. Leu m modifie yon etudiant ki pat paye, mm si toggle lan ret sou non paye, 
+#39. 2020 dans le footer au lieu de 2019 /
+40. Date de creation: Heure la pa corresponn a heure ordi m lan. C normal?
+41. Leu m modifie yon etudiant ki pat paye, mm si toggle lan ret sou non paye, 
 li montre li paye apres enregistrement
-#41. creation livre: champs obligatoires but pa gen *: position, auteur, titre
-42. Pito yon livre disponible par defaut lors de la creation
-#43. Affichage livre: statut a gen yon valeur numerique
-44. Affichage emprunt: c id livre ak id user ki paret
-45. Delete emprunt: Si ou delete yon emprunt livre la tout pedu cuz livre la ret 
+#42. creation livre: champs obligatoires but pa gen *: position, auteur, titre
+43. Pito yon livre disponible par defaut lors de la creation
+#44. Affichage livre: statut a gen yon valeur numerique
+45. Affichage emprunt: c id livre ak id user ki paret
+46. Delete emprunt: Si ou delete yon emprunt livre la tout pedu cuz livre la ret 
 non disponible et ou paka modifier emprunt an anko puiske li delete
-46. Resize l image 'consultationDuCatalogueSequence' stp. li trop long. Save li san parti ki pa important an anba a stp
-47.
+47. Resize l image 'consultationDuCatalogueSequence' stp. li trop long. Save li san parti ki pa 
+important an anba a stp. // Si possible/necessaire, appelle-moi pour que jtexpique ce que je te
+demande de faire.
 48.
 49.
 50.
+
 
 
