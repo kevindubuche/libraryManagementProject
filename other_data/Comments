@@ -68,12 +68,12 @@ MWEN CHANJEL NAN app.php
 li montre li paye apres enregistrement
 
 #42. creation livre: champs obligatoires but pa gen *: position, auteur, titre
-43. Pito yon livre disponible par defaut lors de la creation
+#43. Pito yon livre disponible par defaut lors de la creation
 #44. Affichage livre: statut a gen yon valeur numerique
 #45. Affichage emprunt: c id livre ak id user ki paret
 #46. Delete emprunt: Si ou delete yon emprunt livre la tout pedu cuz livre la ret 
 non disponible et ou paka modifier emprunt an anko puiske li delete
-47. Resize l image 'consultationDuCatalogueSequence' stp. li trop long. Save li san parti ki pa 
+#47. Resize l image 'consultationDuCatalogueSequence' stp. li trop long. Save li san parti ki pa 
 important an anba a stp. // Si possible/necessaire, appelle-moi pour que jtexpique ce que je te
 demande de faire..
 48.
