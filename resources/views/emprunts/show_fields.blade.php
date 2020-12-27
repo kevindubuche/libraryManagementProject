@@ -1,13 +1,13 @@
 <!-- Id Utilisateur Field -->
 <div class="form-group">
     {!! Form::label('id_utilisateur', 'Id Utilisateur:') !!}
-    <p>{{ $emprunt->id_utilisateur }}</p>
+    <p>{{ $emprunt->idUtilisateur->nom }} {{ $emprunt->idUtilisateur->prenom  }}</p>
 </div>
 
 <!-- Id Livre Field -->
 <div class="form-group">
     {!! Form::label('id_livre', 'Id Livre:') !!}
-    <p>{{ $emprunt->id_livre }}</p>
+    <p>{{ $emprunt->idLivre->titre }}</p>
 </div>
 
 <!-- Date De Creation Field -->

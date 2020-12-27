@@ -164,6 +164,12 @@ class UserController extends AppBaseController
             return redirect()->back()->withInput();
         }
         $input['password'] = Hash::make( $request->password);
+        if( isset($input['is_paye'] ))
+        { 
+            $input['is_paye'] = 1; 
+        }else{
+            $input['is_paye'] = 0; 
+        }
         $user = $this->userRepository->update($input, $id);
 
         Flash::success('Utilisateur modifie avec succes !');
