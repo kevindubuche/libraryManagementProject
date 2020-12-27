@@ -16,7 +16,7 @@
                                             <h4><span class="theme_color">Savourez la lecture chez nous !</span></h4>
                                             <br>
                                             <p>La meilleure bibliothèque virtuelle de la Caraïbes !</p>
-                                            <a class="contact_bt" href="about.html">A propos</a>
+                                            <a class="contact_bt" href="{{url('apropos')}}">A propos</a>
                                         </div>
                                     </div>
                                 </div>
@@ -32,7 +32,7 @@
                                             <h4><span class="theme_color">Savourez la lecture chez nous !</span></h4>
                                             <br>
                                             <p>La meilleure bibliothèque virtuelle de la Caraïbes !</p>
-                                            <a class="contact_bt" href="about.html">A propos</a>
+                                            <a class="contact_bt" href="{{url('apropos')}}">A propos</a>
                                         </div>
                                     </div>
                                 </div>

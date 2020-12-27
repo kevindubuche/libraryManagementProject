@@ -78,6 +78,15 @@ class EmpruntController extends AppBaseController
 
         return $result;
     }
+
+    public static function rendre_livre_disponible_on_delete_emprunt($id)
+    {
+        $livre = Livre::find($id);
+        $livre->statut = true ;
+        $result = $livre->save();
+
+        return $result;
+    }
     /**
      * Show the form for creating a new Emprunt.
      *
@@ -220,7 +229,7 @@ class EmpruntController extends AppBaseController
         }
 
         $this->empruntRepository->delete($id);
-
+        $this->rendre_livre_disponible_on_delete_emprunt($emprunt->id_livre);
         Flash::success('Emprunt supprime avec succes !');
 
         return redirect(route('emprunts.index'));

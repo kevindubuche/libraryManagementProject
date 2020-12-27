@@ -73,21 +73,14 @@
 <!-- Is Paye Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('is_paye', 'Frais Inscription*:') !!}
-    <input 
+
     @if ($user->is_paye == 1)
-      type="hidden" 
+    <input type="checkbox" value="1" name="is_paye" 
+    checked
+    data-toggle="toggle" data-on="Paye" data-off="Non paye" data-onstyle="success" data-offstyle="danger">
     @else
-      type="checkbox"
-    @endif
-   value="0" name="is_paye"  data-toggle="toggle" data-on="Paye" data-off="Non paye" data-onstyle="success" data-offstyle="danger">
- 
-   <input
-    @if ($user->is_paye == 1)
-    type="checkbox" 
-  @else
-    type="hidden"
-  @endif
-  value="1" name="is_paye" checked data-toggle="toggle" data-on="Paye" data-off="Non paye" data-onstyle="success" data-offstyle="danger">
+    <input type="checkbox" value="0" name="is_paye" unchecked data-toggle="toggle" data-on="Paye" data-off="Non paye" data-onstyle="success" data-offstyle="danger">
+   @endif
 
 </div>
 
@@ -110,5 +103,8 @@
         $("#passmatch").html("Mots de passe identiques !").css("color","green");
    });
 });
+
     </script>
+
+    
 @endpush

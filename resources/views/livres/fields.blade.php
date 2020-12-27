@@ -60,16 +60,16 @@
 <div class="form-group col-sm-6">
     <label>Statut*</label>
     <select class="form-control" name="statut" id="statut" required>
-            <option value="0" @isset($livre->statut)
-                @if ($livre->statut==0)
-                    selected
-                @endif
-            @endisset>Non disponible</option>
             <option value="1" @isset($livre->statut)
                 @if ($livre->statut==1)
                     selected
                 @endif
             @endisset>Disponible</option>
+            <option value="0" @isset($livre->statut)
+                @if ($livre->statut==0)
+                    selected
+                @endif
+            @endisset>Non disponible</option>
     </select>
 </div>
 

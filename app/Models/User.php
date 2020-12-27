@@ -98,7 +98,6 @@ class User extends Authenticatable
         'nom' => 'required|string|max:45',
         'prenom' => 'required|string|max:45',
         'email' => 'nullable|string|max:45',
-        'is_paye' => 'required|boolean',
         'remember_token' => 'nullable|string|max:45',
         'role' => 'required|integer',
         'statut_matrimonial' => 'nullable|string|max:45',
