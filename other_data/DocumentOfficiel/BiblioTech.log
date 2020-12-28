@@ -1,0 +1,770 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.12.1)  28 DEC 2020 18:22
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/BiblioTech.tex"
+(/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/BiblioTech.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@chapter=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+) (/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen137
+\captionmargin@=\dimen138
+\captionwidth=\dimen139
+\caption@tempdima=\dimen140
+\caption@indent=\dimen141
+\caption@parindent=\dimen142
+\caption@hangindent=\dimen143
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count176
+\c@continuedfloat=\count177
+)
+\c@KVtest=\count178
+\sf@farskip=\skip49
+\sf@captopadj=\dimen144
+\sf@capskip=\skip50
+\sf@nearskip=\skip51
+\c@subfigure=\count179
+\c@subfigure@save=\count180
+\c@lofdepth=\count181
+\c@subtable=\count182
+\c@subtable@save=\count183
+\c@lotdepth=\count184
+\sf@top=\skip52
+\sf@bottom=\skip53
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+ (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+) (/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen145
+\Hy@linkcounter=\count185
+\Hy@pagecounter=\count186
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count187
+\pdfmajorversion=\count188
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count189
+ (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen146
+ (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count190
+\Field@Width=\dimen147
+\Fld@charsize=\dimen148
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+ (/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count191
+\c@Item=\count192
+\c@Hfootnote=\count193
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+)
+\Fld@listcount=\count194
+\c@bookmark@seq@number=\count195
+ (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+)
+\Hy@SectionHShift=\skip54
+) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count196
+\l__pdf_internal_box=\box45
+) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/BiblioTech.aux (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Resume/resume.aux) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Glossaire/glossaire.aux) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Contexte/contexte.aux) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Organisation/organisation.aux) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Implementation/implementation.aux) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Diagrammes/diagrammes.aux) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Realisation/realisation.aux) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Conclusion/conclusion.aux))
+\openout1 = `BiblioTech.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count197
+\scratchdimen=\dimen149
+\scratchbox=\box46
+\nofMPsegments=\count198
+\nofMParguments=\count199
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count266
+\MPscratchDim=\dimen150
+\MPnumerator=\count267
+\makeMPintoPDFobject=\count268
+\everyMPtoPDFconversion=\toks16
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box47
+Package hyperref Info: Link coloring OFF on input line 7.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+ (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count269
+)
+LaTeX Info: Redefining \ref on input line 7.
+LaTeX Info: Redefining \pageref on input line 7.
+LaTeX Info: Redefining \nameref on input line 7.
+ (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/BiblioTech.out) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/BiblioTech.out)
+\@outlinefile=\write3
+\openout3 = `BiblioTech.out'.
+
+<logo_ueh.jpg, id=84, 447.8331pt x 219.219pt>
+File: logo_ueh.jpg Graphic file (type jpg)
+<use logo_ueh.jpg>
+Package pdftex.def Info: logo_ueh.jpg  used on input line 11.
+(pdftex.def)             Requested size: 195.0pt x 95.45314pt.
+<logoFDS.jpg, id=85, 642.4pt x 642.4pt>
+File: logoFDS.jpg Graphic file (type jpg)
+<use logoFDS.jpg>
+Package pdftex.def Info: logoFDS.jpg  used on input line 13.
+(pdftex.def)             Requested size: 155.99762pt x 155.99255pt.
+<lib.png, id=86, 513.92pt x 385.44pt>
+File: lib.png Graphic file (type png)
+<use lib.png>
+Package pdftex.def Info: lib.png  used on input line 18.
+(pdftex.def)             Requested size: 390.0pt x 292.50223pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 27.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 27.
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/logo_ueh.jpg> </home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/logoFDS.jpg>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 29.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 29.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 29.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.40 \tableofcontents
+                      [1 </home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/lib.png>] (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/BiblioTech.toc
+Overfull \hbox (1.9043pt too wide) in paragraph at lines 55--55
+ [][] [][]\OT1/cmr/m/n/12 Diagramme d'activit^^Se du pro-ces-sus de Ges-tion des pr^ets 
+ []
+
+)
+\tf@toc=\write4
+\openout4 = `BiblioTech.toc'.
+
+ [2
+
+]
+\openout2 = `Resume/resume.aux'.
+
+ (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Resume/resume.tex [3
+
+]) [4]
+\openout2 = `Glossaire/glossaire.aux'.
+
+ (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Glossaire/glossaire.tex) [5
+
+
+]
+\openout2 = `Contexte/contexte.aux'.
+
+ (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Contexte/contexte.tex
+Chapter 1.
+[6
+
+
+
+]) [7]
+\openout2 = `Organisation/organisation.aux'.
+
+ (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Organisation/organisation.tex
+Chapter 2.
+[8
+
+
+
+]) [9]
+\openout2 = `Implementation/implementation.aux'.
+
+ (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Implementation/implementation.tex
+Chapter 3.
+
+Overfull \hbox (1.38895pt too wide) in paragraph at lines 6--6
+[]$[]$| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+[]\OT1/cmr/m/n/12 Ubuntu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+\OT1/cmr/m/n/12 20.04.1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+[]\OT1/cmr/m/n/12 Les trois mem-bres
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+[]\OT1/cmr/m/n/12 Syst^^Reme de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+\OT1/cmr/m/n/12 contr^ole de
+ []
+
+
+Underfull \hbox (badness 2762) in paragraph at lines 11--12
+\OT1/cmr/m/n/12 trace des diff^^Serentes
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 13--14
+\OT1/cmr/m/n/12 im-pos^^Se par le client
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]\OT1/cmr/m/n/12 Mod^^Selisation
+ []
+
+
+Underfull \hbox (badness 7397) in paragraph at lines 17--18
+\OT1/cmr/m/n/12 sign Database sans
+ []
+
+
+Underfull \hbox (badness 5175) in paragraph at lines 19--19
+[]\OT1/cmr/m/n/12 Codage back-
+ []
+
+
+Overfull \hbox (3.62961pt too wide) in paragraph at lines 24--24
+[]\OT1/cmr/m/n/12 Programmation
+ []
+
+
+Underfull \hbox (badness 3884) in paragraph at lines 24--25
+[]\OT1/cmr/m/n/12 Prise en charge de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+\OT1/cmr/m/n/12 Fa-cilit^^Se d'utilisation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+\OT1/cmr/m/n/12 du Frame-work |
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+\OT1/cmr/m/n/12 S^^Securit^^Se et per-for-
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 24--25
+\OT1/cmr/m/n/12 mance | Doc-u-men-
+ []
+
+
+Overfull \hbox (3.62961pt too wide) in paragraph at lines 26--26
+[]\OT1/cmr/m/n/12 Programmation
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 26--27
+[]\OT1/cmr/m/n/12 Open source | Fa-
+ []
+
+
+Overfull \hbox (3.62961pt too wide) in paragraph at lines 28--28
+[]\OT1/cmr/m/n/12 Programmation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
+\OT1/cmr/m/n/12 de-sign fron-
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 28--29
+[]\OT1/cmr/m/n/12 Open source | Fa-
+ []
+
+
+Overfull \hbox (3.62961pt too wide) in paragraph at lines 30--30
+[]\OT1/cmr/m/n/12 Programmation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+\OT1/cmr/m/n/12 de-sign fron-
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 30--31
+[]\OT1/cmr/m/n/12 Open source | Fa-
+ []
+
+
+Overfull \hbox (3.62961pt too wide) in paragraph at lines 32--32
+[]\OT1/cmr/m/n/12 Programmation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+\OT1/cmr/m/n/12 ges-tion des
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+\OT1/cmr/m/n/12 ^^Sev^^Senements
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 32--33
+[]\OT1/cmr/m/n/12 Open source | Fa-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+[]\OT1/cmr/m/n/12 Server mail pour
+ []
+
+
+Overfull \hbox (4.72105pt too wide) in paragraph at lines 4--37
+ [][] []
+ []
+
+[10
+
+
+
+]
+Overfull \hbox (19.57909pt too wide) in paragraph at lines 46--48
+[]\OT1/cmr/m/n/12 De leur c^ot^^Se, les bib-lioth^^Secaires d^^Setiennent des droits de ressources mat^^Serielles.
+ []
+
+[11]
+<generalUseCase.jpg, id=198, 692.5875pt x 499.8675pt>
+File: generalUseCase.jpg Graphic file (type jpg)
+<use generalUseCase.jpg>
+Package pdftex.def Info: generalUseCase.jpg  used on input line 67.
+(pdftex.def)             Requested size: 390.0pt x 281.48749pt.
+ [12 </home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/generalUseCase.jpg>]
+<consultationDuCatalogueUseCase.jpg, id=208, 700.6175pt x 451.6875pt>
+File: consultationDuCatalogueUseCase.jpg Graphic file (type jpg)
+<use consultationDuCatalogueUseCase.jpg>
+Package pdftex.def Info: consultationDuCatalogueUseCase.jpg  used on input line 86.
+(pdftex.def)             Requested size: 390.0pt x 251.43388pt.
+ [13 </home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/consultationDuCatalogueUseCase.jpg>]
+<acquisitionDesOuvragesUseCase.jpg, id=217, 692.5875pt x 379.4175pt>
+File: acquisitionDesOuvragesUseCase.jpg Graphic file (type jpg)
+<use acquisitionDesOuvragesUseCase.jpg>
+Package pdftex.def Info: acquisitionDesOuvragesUseCase.jpg  used on input line 129.
+(pdftex.def)             Requested size: 390.0pt x 213.65918pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14] [15 </home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/acquisitionDesOuvragesUseCase.jpg>]
+<gestionDesEmpruntsUseCase.jpg, id=229, 765.86125pt x 411.5375pt>
+File: gestionDesEmpruntsUseCase.jpg Graphic file (type jpg)
+<use gestionDesEmpruntsUseCase.jpg>
+Package pdftex.def Info: gestionDesEmpruntsUseCase.jpg  used on input line 180.
+(pdftex.def)             Requested size: 390.0pt x 209.56737pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[16]
+Underfull \hbox (badness 1067) in paragraph at lines 223--225
+\OT1/cmr/m/n/12 la base de donn^^Sees - Le bib-
+ []
+
+[17 </home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/gestionDesEmpruntsUseCase.jpg>]
+<restitutionDesOuvragesUseCase.jpg, id=241, 676.5275pt x 564.1075pt>
+File: restitutionDesOuvragesUseCase.jpg Graphic file (type jpg)
+<use restitutionDesOuvragesUseCase.jpg>
+Package pdftex.def Info: restitutionDesOuvragesUseCase.jpg  used on input line 234.
+(pdftex.def)             Requested size: 390.0pt x 325.20282pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (3.3598pt too wide) in paragraph at lines 239--241
+\OT1/cmr/m/n/12 per-met de sauve-g-arder la date ^^Ra laque-lle un livre a ^^Set^^Se rendu afin de d^^Seterminer
+ []
+
+[18]
+Underfull \hbox (badness 4467) in paragraph at lines 265--266
+[]\OT1/cmr/m/n/12 L'abonn^^Se se rend ^^Ra la bib-
+ []
+
+[19 </home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/restitutionDesOuvragesUseCase.jpg>]
+<gestionDesUtilisateursUseCase.jpg, id=254, 853.1875pt x 515.9275pt>
+File: gestionDesUtilisateursUseCase.jpg Graphic file (type jpg)
+<use gestionDesUtilisateursUseCase.jpg>
+Package pdftex.def Info: gestionDesUtilisateursUseCase.jpg  used on input line 280.
+(pdftex.def)             Requested size: 390.0pt x 235.84164pt.
+ [20 </home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/gestionDesUtilisateursUseCase.jpg>]
+Underfull \hbox (badness 2865) in paragraph at lines 293--295
+[]\OT1/cmr/m/n/12 Permettre au ges-tion-naire de faire
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
+[]\OT1/cmr/m/n/12 Une in-for-ma-tion unique est
+ []
+
+[21]
+<acquisitionDesOuvragesSequence.jpg, id=266, 751.80875pt x 1193.45876pt>
+File: acquisitionDesOuvragesSequence.jpg Graphic file (type jpg)
+<use acquisitionDesOuvragesSequence.jpg>
+Package pdftex.def Info: acquisitionDesOuvragesSequence.jpg  used on input line 333.
+(pdftex.def)             Requested size: 234.00238pt x 371.46167pt.
+ [22 </home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/acquisitionDesOuvragesSequence.jpg>]
+<consultationDuCatalogueSequence.jpg, id=276, 746.79pt x 403.5075pt>
+File: consultationDuCatalogueSequence.jpg Graphic file (type jpg)
+<use consultationDuCatalogueSequence.jpg>
+Package pdftex.def Info: consultationDuCatalogueSequence.jpg  used on input line 358.
+(pdftex.def)             Requested size: 390.0pt x 210.72403pt.
+<gestionDesUtilisateursSequence.jpg, id=277, 872.25874pt x 1386.17876pt>
+File: gestionDesUtilisateursSequence.jpg Graphic file (type jpg)
+<use gestionDesUtilisateursSequence.jpg>
+Package pdftex.def Info: gestionDesUtilisateursSequence.jpg  used on input line 371.
+(pdftex.def)             Requested size: 195.0pt x 309.88853pt.
+ [23 </home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/consultationDuCatalogueSequence.jpg>]
+<restitutionDesOuvragesSequence.jpg, id=285, 751.80875pt x 646.415pt>
+File: restitutionDesOuvragesSequence.jpg Graphic file (type jpg)
+<use restitutionDesOuvragesSequence.jpg>
+Package pdftex.def Info: restitutionDesOuvragesSequence.jpg  used on input line 389.
+(pdftex.def)             Requested size: 390.0pt x 335.32893pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[24 </home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/gestionDesUtilisateursSequence.jpg>]
+<gestionDesEmpruntsSequence.jpg, id=296, 746.79pt x 722.7pt>
+File: gestionDesEmpruntsSequence.jpg Graphic file (type jpg)
+<use gestionDesEmpruntsSequence.jpg>
+Package pdftex.def Info: gestionDesEmpruntsSequence.jpg  used on input line 404.
+(pdftex.def)             Requested size: 390.0pt x 377.41617pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [25 </home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/restitutionDesOuvragesSequence.jpg>] [26 </home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/gestionDesEmpruntsSequence.jpg>]
+\openout2 = `Diagrammes/diagrammes.aux'.
+
+ (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Diagrammes/diagrammes.tex
+<ActivityDiagram1.jpg, id=309, 1431.3475pt x 925.4575pt>
+File: ActivityDiagram1.jpg Graphic file (type jpg)
+<use ActivityDiagram1.jpg>
+Package pdftex.def Info: ActivityDiagram1.jpg  used on input line 6.
+(pdftex.def)             Requested size: 390.0pt x 252.15039pt.
+ [27
+
+
+ </home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/ActivityDiagram1.jpg>]
+<ClassDiagram1.jpg, id=316, 943.525pt x 713.66624pt>
+File: ClassDiagram1.jpg Graphic file (type jpg)
+<use ClassDiagram1.jpg>
+Package pdftex.def Info: ClassDiagram1.jpg  used on input line 42.
+(pdftex.def)             Requested size: 390.0pt x 294.98988pt.
+) [28 </home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/ClassDiagram1.jpg>]
+\openout2 = `Realisation/realisation.aux'.
+
+ (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Realisation/realisation.tex
+<accueil.png, id=323, 1371.1225pt x 770.88pt>
+File: accueil.png Graphic file (type png)
+<use accueil.png>
+Package pdftex.def Info: accueil.png  used on input line 7.
+(pdftex.def)             Requested size: 390.0pt x 219.26787pt.
+<a_propos.png, id=325, 1371.1225pt x 770.88pt>
+File: a_propos.png Graphic file (type png)
+<use a_propos.png>
+Package pdftex.def Info: a_propos.png  used on input line 14.
+(pdftex.def)             Requested size: 390.0pt x 219.26787pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<categories.png, id=326, 1371.1225pt x 770.88pt>
+File: categories.png Graphic file (type png)
+<use categories.png>
+Package pdftex.def Info: categories.png  used on input line 21.
+(pdftex.def)             Requested size: 390.0pt x 219.26787pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<contact.png, id=327, 1371.1225pt x 770.88pt>
+File: contact.png Graphic file (type png)
+<use contact.png>
+Package pdftex.def Info: contact.png  used on input line 28.
+(pdftex.def)             Requested size: 390.0pt x 219.26787pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<login.png, id=328, 1371.1225pt x 770.88pt>
+File: login.png Graphic file (type png)
+<use login.png>
+Package pdftex.def Info: login.png  used on input line 35.
+(pdftex.def)             Requested size: 390.0pt x 219.26787pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<interface_gestionnaire.png, id=329, 1371.1225pt x 770.88pt>
+File: interface_gestionnaire.png Graphic file (type png)
+<use interface_gestionnaire.png>
+Package pdftex.def Info: interface_gestionnaire.png  used on input line 42.
+(pdftex.def)             Requested size: 390.0pt x 219.26787pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<interface_bibliothecaire.png, id=330, 1371.1225pt x 770.88pt>
+File: interface_bibliothecaire.png Graphic file (type png)
+<use interface_bibliothecaire.png>
+Package pdftex.def Info: interface_bibliothecaire.png  used on input line 49.
+(pdftex.def)             Requested size: 390.0pt x 219.26787pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<interface_abonne.png, id=331, 1371.1225pt x 770.88pt>
+File: interface_abonne.png Graphic file (type png)
+<use interface_abonne.png>
+Package pdftex.def Info: interface_abonne.png  used on input line 56.
+(pdftex.def)             Requested size: 390.0pt x 219.26787pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<emprunt_personnel.png, id=332, 1371.1225pt x 770.88pt>
+File: emprunt_personnel.png Graphic file (type png)
+<use emprunt_personnel.png>
+Package pdftex.def Info: emprunt_personnel.png  used on input line 63.
+(pdftex.def)             Requested size: 390.0pt x 219.26787pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<liste_utilisateur.png, id=333, 1371.1225pt x 770.88pt>
+File: liste_utilisateur.png Graphic file (type png)
+<use liste_utilisateur.png>
+Package pdftex.def Info: liste_utilisateur.png  used on input line 70.
+(pdftex.def)             Requested size: 390.0pt x 219.26787pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<liste_livres.png, id=334, 1371.1225pt x 770.88pt>
+File: liste_livres.png Graphic file (type png)
+<use liste_livres.png>
+Package pdftex.def Info: liste_livres.png  used on input line 77.
+(pdftex.def)             Requested size: 390.0pt x 219.26787pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<liste_emprunt.png, id=335, 1371.1225pt x 770.88pt>
+File: liste_emprunt.png Graphic file (type png)
+<use liste_emprunt.png>
+Package pdftex.def Info: liste_emprunt.png  used on input line 84.
+(pdftex.def)             Requested size: 390.0pt x 219.26787pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<ajout_utilisateur.png, id=336, 1371.1225pt x 770.88pt>
+File: ajout_utilisateur.png Graphic file (type png)
+<use ajout_utilisateur.png>
+Package pdftex.def Info: ajout_utilisateur.png  used on input line 91.
+(pdftex.def)             Requested size: 390.0pt x 219.26787pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<ajout_livre.png, id=337, 1371.1225pt x 770.88pt>
+File: ajout_livre.png Graphic file (type png)
+<use ajout_livre.png>
+Package pdftex.def Info: ajout_livre.png  used on input line 98.
+(pdftex.def)             Requested size: 390.0pt x 219.26787pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<ajout_emprunt.png, id=338, 1371.1225pt x 770.88pt>
+File: ajout_emprunt.png Graphic file (type png)
+<use ajout_emprunt.png>
+Package pdftex.def Info: ajout_emprunt.png  used on input line 105.
+(pdftex.def)             Requested size: 390.0pt x 219.26787pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [29
+
+
+ </home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/accueil.png>] [30 </home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/a_propos.png> </home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/categories.png>] [31 </home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/contact.png> </home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/login.png>] [32 </home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/interface_gestionnaire.png> </home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/interface_bibliothecaire.png>] [33 </home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/interface_abonne.png> </home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/emprunt_personnel.png>] [34 </home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/liste_utilisateur.png> </home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/liste_livres.png>] [35 </home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/liste_emprunt.png> </home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/ajout_utilisateur.png>] [36 </home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/ajout_livre.png> </home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/ajout_emprunt.png>]
+\openout2 = `Conclusion/conclusion.aux'.
+
+ (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Conclusion/conclusion.tex
+Chapter 4.
+) [37
+
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
+ (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/BiblioTech.aux (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Resume/resume.aux) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Glossaire/glossaire.aux) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Contexte/contexte.aux) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Organisation/organisation.aux) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Implementation/implementation.aux) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Diagrammes/diagrammes.aux) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Realisation/realisation.aux) (/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/Conclusion/conclusion.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
+Package rerunfilecheck Info: File `BiblioTech.out' has not changed.
+(rerunfilecheck)             Checksum: C8E27E5CB6A3657D6FA9F215C0267889;1459.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
+ ) 
+Here is how much of TeX's memory you used:
+ 6971 strings out of 481239
+ 119679 string characters out of 5920377
+ 371583 words of memory out of 5000000
+ 21932 multiletter control sequences out of 15000+600000
+ 539619 words of font info for 48 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 50i,12n,48p,379b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on "/home/bgt/Documents/EN3/Genie Logiciel/libraryManagementProject/other_data/DocumentOfficiel/BiblioTech.pdf" (38 pages, 5098174 bytes).
+PDF statistics:
+ 467 PDF objects out of 1000 (max. 8388607)
+ 370 compressed objects within 4 object streams
+ 147 named destinations out of 1000 (max. 500000)
+ 316 words of extra memory for PDF output out of 10000 (max. 10000000)
+
