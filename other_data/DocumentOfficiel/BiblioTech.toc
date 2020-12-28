@@ -56,7 +56,7 @@
 \contentsline {paragraph}{}{27}{figure.caption.56}%
 \contentsline {subsection}{\numberline {3.5.2}Diagramme de classe de gestion des prêts}{28}{subsection.3.5.2}%
 \contentsline {paragraph}{}{28}{section*.57}%
-\contentsline {section}{\numberline {3.6}Réalisation de l'application}{29}{section.3.6}%
+\contentsline {chapter}{\numberline {4}Réalisation de l'application}{29}{chapter.4}%
 \contentsline {paragraph}{}{29}{section*.59}%
-\contentsline {chapter}{\numberline {4}Conclusion}{37}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Conclusion}{37}{chapter.5}%
 \contentsline {paragraph}{}{37}{section*.75}%
