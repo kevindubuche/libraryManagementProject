@@ -1,12 +1,12 @@
 <!-- Id Utilisateur Field -->
 <div class="form-group">
-    {!! Form::label('id_utilisateur', 'Id Utilisateur:') !!}
+    {!! Form::label('id_utilisateur', 'Utilisateur:') !!}
     <p>{{ $emprunt->idUtilisateur->nom }} {{ $emprunt->idUtilisateur->prenom  }}</p>
 </div>
 
 <!-- Id Livre Field -->
 <div class="form-group">
-    {!! Form::label('id_livre', 'Id Livre:') !!}
+    {!! Form::label('id_livre', 'Livre:') !!}
     <p>{{ $emprunt->idLivre->titre }}</p>
 </div>
 

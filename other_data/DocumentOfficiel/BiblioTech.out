@@ -1,0 +1,20 @@
+\BOOKMARK [0][-]{chapter.1}{Contexte}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Fonctionnenment d'une biblioth\350que}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Affluence r\351sultante}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Avantages port\351es par la num\351risation}{chapter.1}% 4
+\BOOKMARK [0][-]{chapter.2}{Organisation}{}% 5
+\BOOKMARK [1][-]{section.2.1}{Approche de travail}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.2}{M\351thodologie}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.3}{R\351partition des t\342ches}{chapter.2}% 8
+\BOOKMARK [0][-]{chapter.3}{Impl\351mentation}{}% 9
+\BOOKMARK [1][-]{section.3.1}{Choix des technologies}{chapter.3}% 10
+\BOOKMARK [1][-]{section.3.2}{La hi\351rarchie dans l'application}{chapter.3}% 11
+\BOOKMARK [1][-]{section.3.3}{Interface utilisateur}{chapter.3}% 12
+\BOOKMARK [1][-]{section.3.4}{Diagrammes}{chapter.3}% 13
+\BOOKMARK [2][-]{subsection.3.4.1}{Diagrammes des cas d'utilisation}{section.3.4}% 14
+\BOOKMARK [2][-]{subsection.3.4.2}{Diagrammes de s\351quence}{section.3.4}% 15
+\BOOKMARK [1][-]{section.3.5}{Diagrammes incontournables}{chapter.3}% 16
+\BOOKMARK [2][-]{subsection.3.5.1}{Diagramme d\220activit\351 du processus de Gestion des pr\352ts dans la biblioth\350que}{section.3.5}% 17
+\BOOKMARK [2][-]{subsection.3.5.2}{Diagramme de classe de gestion des pr\352ts}{section.3.5}% 18
+\BOOKMARK [0][-]{chapter.4}{R\351alisation de l'application}{}% 19
+\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 20

@@ -16,7 +16,7 @@
 							   <div class="right">
 								<p class="small_tag">Contact</p>
 								<h2><span class="theme_color">Contactez-nous !</span> </h2>
-								<p class="large">Nous serons toujours prets à vus aider</p>
+								<p class="large">Nous serons toujours prêts à vous aider</p>
 							  </div>	
 							</div>
 						</div>
