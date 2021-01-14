@@ -18,6 +18,7 @@
         <div class="clearfix"></div>
 
         <div class="clearfix"></div>
+        @include('flash::message')
         <div class="box box-primary">
             <div class="box-body">
                     @include('livres.table')
