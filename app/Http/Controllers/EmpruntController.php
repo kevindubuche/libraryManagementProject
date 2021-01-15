@@ -119,7 +119,7 @@ class EmpruntController extends AppBaseController
             Flash::error('Echec ! Cet utilisateur n\'a pas payé !');
             return redirect()->back()->withInput();
         }
-        if ($this->verifier_si_abonne_a_atteint_limite_de_pret($request->id_utilisateur) >= 35)
+        if ($this->verifier_si_abonne_a_atteint_limite_de_pret($request->id_utilisateur) >= 3)
         {
             Flash::error('Echec ! Cet utilisateur a déjà atteint son quota !');
             return redirect()->back()->withInput();

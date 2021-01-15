@@ -19,7 +19,7 @@
 <!-- Password Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('password', 'Mot de passe*:') !!}
-    {!! Form::password('password', ['class' => 'form-control', 'id' => 'password','maxlength' => 255,'maxlength' => 255, 'required']) !!}
+    {!! Form::password('password', ['class' => 'form-control', 'id' => 'password','maxlength' => 255,'maxlength' => 255, 'required', "pattern"=>"(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" ]) !!}
 </div>
 
 <!-- Confirmation password Field -->
