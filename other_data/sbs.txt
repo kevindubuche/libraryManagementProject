@@ -72,3 +72,25 @@ After Coding :
 --------------
 to seed:
 php artisan db:seed
+
+
+Api gmail
+----------
+- https://console.developers.google.com/projectselector2/apis/credentials?pli=1&supportedpurview=project
+- search for gmail api 
+- enable 
+- My first project
+- credentials 
+- oauth consent
+- user type: external
+- create 
+- create credentials
+- oauth id. web app. authorized direction, uri, http://localhost:8000
+- pour connaitre l api key
+  - manage google account
+  - security
+  - 2 step verification to turn on 
+  - app permission
+  - gmail / windows computer
+  - copier le password
+- add in .env 
